@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06264F71-36F3-42E0-80AF-857ED7B2CB86}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>LillTek.Messaging</AssemblyName>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LillTek.Messaging</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>WINFULL</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>WINFULL</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Messages\ReliableMessengerMsgs.cs" />
+    <Compile Include="Messenger\AppLogMessenger.cs" />
+    <Compile Include="Messenger\DeliveryConfirmation.cs" />
+    <Compile Include="Messenger\IReliableMessenger.cs" />
+    <Compile Include="Messenger\LazyMessenger.cs" />
+    <Compile Include="Messenger\ReliableMessenger.cs" />
+    <Compile Include="MsgHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\ScopeMunger.cs" />
+    <Compile Include="Routing\SimpleEPMunger.cs" />
+    <Compile Include="Session\AsyncParallelQueryResult.cs" />
+    <Compile Include="Session\AsyncQueryResult.cs" />
+    <Compile Include="Session\ParallelOperation.cs" />
+    <Compile Include="Session\ParallelQuery.cs" />
+    <Compile Include="Session\ParallelWait.cs" />
+    <Compile Include="Session\ParallelQuerySession.cs" />
+    <Compile Include="Topology\BasicTopology.cs" />
+    <Compile Include="Cluster\ClusterMember.cs" />
+    <Compile Include="Cluster\ClusterMemberEventHandler.cs" />
+    <Compile Include="Cluster\ClusterMemberMode.cs" />
+    <Compile Include="Cluster\ClusterMemberMsgFlag.cs" />
+    <Compile Include="Cluster\ClusterMemberProtocolCaps.cs" />
+    <Compile Include="Cluster\ClusterMemberSettings.cs" />
+    <Compile Include="Cluster\ClusterMemberState.cs" />
+    <Compile Include="Cluster\ClusterMemberStatus.cs" />
+    <Compile Include="Cluster\ClusterStatus.cs" />
+    <Compile Include="Topology\Dynamic2DTopology.cs" />
+    <Compile Include="Topology\DynamicHashedTopology.cs" />
+    <Compile Include="Topology\HashedTopologyKey.cs" />
+    <Compile Include="Topology\Static2DTopology.cs" />
+    <Compile Include="Topology\StaticHashedTopology.cs" />
+    <Compile Include="Topology\TopologyCapability.cs" />
+    <Compile Include="Transport\DiscoveryMode.cs" />
+    <Compile Include="Session\DuplexSession.cs" />
+    <Compile Include="Session\DuplexSessionHeader.cs" />
+    <Compile Include="Routing\IDynamicEPMunger.cs" />
+    <Compile Include="Session\IServiceHandler.cs" />
+    <Compile Include="Session\ISessionHandler.cs" />
+    <Compile Include="Topology\ITopologyProvider.cs" />
+    <Compile Include="Routing\LocalEPMap.cs" />
+    <Compile Include="Messages\BlobPropertyMsg.cs" />
+    <Compile Include="Messages\ClusterMemberMsg.cs" />
+    <Compile Include="Messages\DuplexSessionMsg.cs" />
+    <Compile Include="Messages\MsgQueueAck.cs" />
+    <Compile Include="Messages\MsgQueueCmd.cs" />
+    <Compile Include="Messages\ObjectGraphAck.cs" />
+    <Compile Include="Messages\ObjectGraphMsg.cs" />
+    <Compile Include="Messages\ReceiptMsg.cs" />
+    <Compile Include="Messages\ReliableTransferMsg.cs" />
+    <Compile Include="MessageBase\MsgFlag.cs" />
+    <Compile Include="MessageBase\MsgHandler.cs" />
+    <Compile Include="MessageBase\MsgHeader.cs" />
+    <Compile Include="MessageBase\MsgHeaderCollection.cs" />
+    <Compile Include="MessageBase\MsgHeaderID.cs" />
+    <Compile Include="MessageBase\MsgRequestContext.cs" />
+    <Compile Include="Queuing\IMsgQueueStore.cs" />
+    <Compile Include="Queuing\InternalQueue.cs" />
+    <Compile Include="Queuing\MsgQueueFileStore.cs" />
+    <Compile Include="MessageBase\MsgRouterMetrics.cs" />
+    <Compile Include="MessageBase\MsgTrack.cs" />
+    <Compile Include="MessageBase\MsgTracker.cs" />
+    <Compile Include="MessageBase\MsgRouterInfo.cs" />
+    <Compile Include="Queuing\DeliveryStatus.cs" />
+    <Compile Include="Queuing\MsgQueueMemoryStore.cs" />
+    <Compile Include="Queuing\QueuedMsgInfo.cs" />
+    <Compile Include="Queuing\MsgQueue.cs" />
+    <Compile Include="Queuing\MsgQueueEngine.cs" />
+    <Compile Include="Queuing\MsgQueueEngineSettings.cs" />
+    <Compile Include="Queuing\MsgQueueFlag.cs" />
+    <Compile Include="Queuing\DeliveryPriority.cs" />
+    <Compile Include="Queuing\MsgQueueSettings.cs" />
+    <Compile Include="Queuing\QueuedMsg.cs" />
+    <Compile Include="Session\ReliableTransferArgs.cs" />
+    <Compile Include="Session\ReliableTransferHandler.cs" />
+    <Compile Include="Session\ReliableTransferSession.cs" />
+    <Compile Include="Session\ReliableTransferSettings.cs" />
+    <Compile Include="Routing\RouteDistance.cs" />
+    <Compile Include="Routing\RouterSettings.cs" />
+    <Compile Include="Routing\RoutingScope.cs" />
+    <Compile Include="Session\SessionTypeID.cs" />
+    <Compile Include="Transport\SocketConfig.cs" />
+    <Compile Include="Session\ChannelEP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\HubRouter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\IMsgChannel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\IMsgDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\ISession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\ISessionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\LeafRouter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\LogicalRoute.cs" />
+    <Compile Include="Routing\LogicalRouteTable.cs" />
+    <Compile Include="Messages\Ack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\DeadRouterMsg.cs" />
+    <Compile Include="Messages\HubAdvertiseMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\HubSettingsMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\IAck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\HubKeepAliveMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\LogicalAdvertiseMsg.cs" />
+    <Compile Include="Messages\RouterAdvertiseMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\LeafSettingsMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\RouterStopMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\PropertyMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\EnvelopeMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Messages\SessionKeepAliveMsg.cs" />
+    <Compile Include="Messages\TcpInitMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\Msg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\MsgDispatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\MsgEP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\MsgException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\MsgHandlerAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\MsgRouter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\MsgSessionAttribute.cs" />
+    <Compile Include="NamespaceDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBase\MsgIgnoreAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\PhysicalRoute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\PhysicalRouteTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\QuerySession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Routing\RootRouter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\StreamTransferSession.cs" />
+    <Compile Include="Transport\TcpChannel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\SessionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\SessionException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session\SessionHandlerInfo.cs" />
+    <Compile Include="Session\SessionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Topology\TopologyHelper.cs" />
+    <Compile Include="Session\TransferDirection.cs" />
+    <Compile Include="Transport\Transport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transport\UdpChannel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc.LillTek.Messaging.xml" />
+    <None Include="PlatformKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Advanced\LillTek.Advanced.csproj">
+      <Project>{287b533d-814d-4dca-87eb-fcf2af711e07}</Project>
+      <Name>LillTek.Advanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cryptography\Cryptography\LillTek.Cryptography.csproj">
+      <Project>{845744e0-268e-482b-adcd-1c334e1f2d37}</Project>
+      <Name>LillTek.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Net\Broadcast\LillTek.Net.Broadcast.csproj">
+      <Project>{19e8e5a5-d161-4179-a1b2-6fd2cf8b1100}</Project>
+      <Name>LillTek.Net.Broadcast</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{10503a0b-576c-4d6a-a7b7-326d4bc2e0dd}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

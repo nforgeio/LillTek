@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.InstallHelper</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.InstallHelper">
+			<summary>
+			The InstallHelper tool performs installation related activities
+			after queued by <see cref="T:LillTek.Install.InstallTools"/> once
+			setup has completed.  See <see cref="T:LillTek.Tools.InstallHelper.OverviewDoc" /> for more
+			information.
+			</summary>
+		</member>
+	</members>
+</doc>

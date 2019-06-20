@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Net.Broadcast</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Net.Broadcast">
+			<summary>
+			Implements UDP packet broadcasting client and server classes that can be
+      used to simulate multicast when deploying applications on networks
+      such as Windows Azure and Amazon AWS that don't support UDP multicast
+      or broadcast.
+			</summary>
+		</member>
+	</members>
+</doc>

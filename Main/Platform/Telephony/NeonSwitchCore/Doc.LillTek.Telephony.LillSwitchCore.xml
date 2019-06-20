@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.Telephony.NeonSwitchCore</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.Telephony.NeonSwitchCore">
+            <summary>
+                The NeonSwitch Core application is configured to be loaded by the underlying FreeSWITCH
+                engine for every NeonSwitch server instance.  This application provides global functions
+                such as managing Windows Performance Counters and setup utilities and also extends FreeSWITCH
+                with custom commands.  See <see cref="T:LillTek.Telephony.NeonSwitchCore.OverviewDoc" />
+                for more information.
+            </summary>
+        </member>
+    </members>
+</doc>

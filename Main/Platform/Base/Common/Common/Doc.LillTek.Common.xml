@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Common</name>
+	</assembly>	
+	<members>
+		<member name="N:LillTek.Common">
+			<summary>
+			Common utility classes and definitions.
+			</summary>		  
+		</member>
+	</members>
+</doc>

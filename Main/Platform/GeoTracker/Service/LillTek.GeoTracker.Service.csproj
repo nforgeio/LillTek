@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9DD92AEE-606E-4C3C-B9BF-B2A433B3288B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.GeoTracker.Service</RootNamespace>
+    <AssemblyName>LillTek.GeoTracker.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>WINFULL</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>WINFULL</DefineConstants>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.5.5.10112, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppService.cs" />
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LillTek.GeoTracker.Service.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PlatformKey.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Advanced\LillTek.Advanced.csproj">
+      <Project>{346CB3FC-348E-4B18-A50E-53DA79AA5813}</Project>
+      <Name>LillTek.Advanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{80F997B1-63BB-4C7B-AE60-E436DACC1917}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{ADA57F7D-23CE-4732-8A0C-EC9F14F4F848}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Install\LillTek.Install.csproj">
+      <Project>{4409A4EE-74D8-4AAA-A5B5-1DCDDA34B570}</Project>
+      <Name>LillTek.Install</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Messaging\Messaging\LillTek.Messaging.csproj">
+      <Project>{06264F71-36F3-42E0-80AF-857ED7B2CB86}</Project>
+      <Name>LillTek.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{6EA7AB38-3852-41B9-ADD1-583B90D27870}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Service\LillTek.Service.csproj">
+      <Project>{4444EE0D-4534-409C-98B8-D0F16CA0BCC7}</Project>
+      <Name>LillTek.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Win32\LillTek.Win32.csproj">
+      <Project>{61C529D8-5178-4B75-8B96-6C7642440DB4}</Project>
+      <Name>LillTek.Win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datacenter\Server\LillTek.Datacenter.Server.csproj">
+      <Project>{793f27fc-b5f6-461d-b4c2-7d86539b3558}</Project>
+      <Name>LillTek.Datacenter.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Client\LillTek.GeoTracker.csproj">
+      <Project>{C3F40EC5-1B14-4B62-A3B4-99FA5804B3A8}</Project>
+      <Name>LillTek.GeoTracker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server\LillTek.GeoTracker.Server.csproj">
+      <Project>{C1FFDBC9-51C4-4C65-81B1-D1F3F5E8998B}</Project>
+      <Name>LillTek.GeoTracker.Server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <None Include="Doc.LillTek.GeoTracker.Service.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist $(LT_BUILD) mkdir $(LT_BUILD)
+copy $(TargetPath) $(LT_BUILD)
+if exist $(TargetName).pdb copy $(TargetName).pdb $(LT_BUILD)
+if exist $(TargetName).xml copy $(TargetName).xml $(LT_BUILD)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

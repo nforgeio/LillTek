@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Service</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Service">
+			<summary>
+			Provides cross platform (Windows, Windows/CE, and eventually Linux)
+			service functionality.  This also provides for multi-mode applications
+			that can be started as native Windows services as well as Windows Form
+			and console applications.
+			</summary>
+		</member>
+	</members>
+</doc>

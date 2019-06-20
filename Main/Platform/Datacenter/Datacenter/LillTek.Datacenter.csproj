@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DD2754A-D7B2-4CFE-8B72-CE3C819ACE27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Datacenter</RootNamespace>
+    <AssemblyName>LillTek.Datacenter</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\LillTek.Datacenter.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\LillTek.Datacenter.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Debug\LillTek.Datacenter.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Release\LillTek.Datacenter.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppStore\AppPackage.cs" />
+    <Compile Include="AppStore\AppPackageException.cs" />
+    <Compile Include="AppStore\AppPackageFolder.cs" />
+    <Compile Include="AppStore\AppPackageInfo.cs" />
+    <Compile Include="AppStore\AppRef.cs" />
+    <Compile Include="AppStore\AppStoreClient.cs" />
+    <Compile Include="AppStore\AppStoreClientSettings.cs" />
+    <Compile Include="Authentication\AuthenticationException.cs" />
+    <Compile Include="Authentication\AuthenticationResult.cs" />
+    <Compile Include="Authentication\AuthenticationStatus.cs" />
+    <Compile Include="Authentication\Authenticator.cs" />
+    <Compile Include="Authentication\AuthenticatorSettings.cs" />
+    <Compile Include="ConfigServiceProvider.cs" />
+    <Compile Include="DBDefs.cs" />
+    <Compile Include="DynamicDNS\DynDnsClient.cs" />
+    <Compile Include="DynamicDNS\DynDnsClientSettings.cs" />
+    <Compile Include="DynamicDNS\DynDnsHostEntry.cs" />
+    <Compile Include="DynamicDNS\DynDnsHostMode.cs" />
+    <Compile Include="DynamicDNS\DynDnsMessage.cs" />
+    <Compile Include="DynamicDNS\DynDnsMessageFlag.cs" />
+    <Compile Include="DynamicDNS\DynDnsMode.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Msg\AppStoreMsgs.cs" />
+    <Compile Include="Msg\AuthServiceMsgs.cs" />
+    <Compile Include="Msg\GetConfigAck.cs" />
+    <Compile Include="Msg\GetConfigMsg.cs" />
+    <Compile Include="Msg\SentinelServiceMsgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sentinel.cs" />
+    <Compile Include="ServerManagement\IServerManager.cs" />
+    <Compile Include="ServerManagement\RemoteDrive.cs" />
+    <Compile Include="ServerManagement\RemoteDriveType.cs" />
+    <Compile Include="ServerManagement\RemoteFile.cs" />
+    <Compile Include="ServerManagement\RemoteProcess.cs" />
+    <Compile Include="ServerManagement\RemoteRegInfo.cs" />
+    <Compile Include="ServerManagement\RemoteServiceInfo.cs" />
+    <Compile Include="ServerManagement\RemoteServiceStartMode.cs" />
+    <Compile Include="ServerManagement\RemoteSpecialFolder.cs" />
+    <Compile Include="ServerManagement\ServerManager.cs" />
+    <Compile Include="ServerManagement\ServerManagerException.cs" />
+    <Compile Include="ServerManagement\WmiObject.cs" />
+    <Compile Include="ServerManagement\WmiProperty.cs" />
+    <Compile Include="ServerManagement\WmiQuery.cs" />
+    <Compile Include="ServerManagement\WmiResult.cs" />
+    <Compile Include="ServerManagement\WmiResultSet.cs" />
+    <Compile Include="TimeBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PlatformKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Advanced\LillTek.Advanced.csproj">
+      <Project>{287b533d-814d-4dca-87eb-fcf2af711e07}</Project>
+      <Name>LillTek.Advanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Compression\Zip\LillTek.Compression.Zip.csproj">
+      <Project>{3fb5bcde-5e77-4c19-b47e-9e01a1f24d22}</Project>
+      <Name>LillTek.Compression.Zip</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Cryptography\Cryptography\LillTek.Cryptography.csproj">
+      <Project>{845744e0-268e-482b-adcd-1c334e1f2d37}</Project>
+      <Name>LillTek.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Messaging\Messaging\LillTek.Messaging.csproj">
+      <Project>{06264f71-36f3-42e0-80af-857ed7b2cb86}</Project>
+      <Name>LillTek.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{10503a0b-576c-4d6a-a7b7-326d4bc2e0dd}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Wcf\LillTek.Net.Wcf.csproj">
+      <Project>{d75774e0-344d-4ebc-9408-7c0210a63d7d}</Project>
+      <Name>LillTek.Net.Wcf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Service\LillTek.Service.csproj">
+      <Project>{5b73a206-279b-4ea6-b9b4-a04fa7b85ccd}</Project>
+      <Name>LillTek.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Win32\LillTek.Win32.csproj">
+      <Project>{3a2dd65a-8521-46a3-874f-e8fa5c2bc763}</Project>
+      <Name>LillTek.Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc.LillTek.Datacenter.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

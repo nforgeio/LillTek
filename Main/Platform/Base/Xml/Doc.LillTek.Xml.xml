@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Xml</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Xml">
+			<summary>
+			Obsolete: Implements a simple, lightweight and standalone XML Document Object Model.
+			</summary>
+		</member>
+	</members>
+</doc>

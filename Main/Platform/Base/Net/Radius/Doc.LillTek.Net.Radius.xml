@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Net.Radius</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Net.Radius">
+			<summary>
+				Implements the RADIUS authentication and accounting protocol as described in
+				RFCs 2865 and 2866.
+			</summary>
+		</member>
+	</members>
+</doc>

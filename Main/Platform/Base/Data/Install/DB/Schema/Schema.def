@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+-- File:        Schema.sql
+-- Owner:       JEFFL
+-- Copyright:   Copyright (c) 2005-2014 by LillTek, LLC. All rights reserved.
+
+-------------------------------------------------------------------------------
+-- Global constants
+
+SetupTitle      = Property Store Database Setup
+ProductName     = LillTek Property Store
+ProductID       = {E88D3E54-9557-4bb8-89C1-162E7C6C600F}
+ProductVersion  = 0.9.0000.0
+DatabaseType    = LillTek.PropertyStore
+SchemaVersion   = 0.0.0001.0
+
+Success         = 0
+Error           = -100
+
+-------------------------------------------------------------------------------
+-- Global SQL types.
+
+UID             = bigint
+SUID            = integer
+Bool            = bit
+Version         = varchar(16)
+Enum            = tinyint
+GUID            = uniqueidentifier
+ObjectName      = varchar(128)
+UserName        = nvarchar(64)
+ShortValue      = varbinary(4096)
+LongValue       = image
+
+Description     = varchar(2048)
+ErrorMsg        = varchar(1024)
+
+

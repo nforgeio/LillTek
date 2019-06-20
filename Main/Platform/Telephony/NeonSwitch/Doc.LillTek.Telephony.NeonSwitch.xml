@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.Telephony.NeonSwitch</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.Telephony.NeonSwitch">
+            <summary>
+                The LillTek Telephony NeonSwitch class library provides for low-level LillTek application
+                integration into FreeSWITCH.  See <see cref="T:LillTek.Telephony.NeonSwitch.OverviewDoc" />
+                for more information.
+            </summary>
+        </member>
+    </members>
+</doc>

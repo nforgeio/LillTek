@@ -1,0 +1,48 @@
+#dictionary.huawei
+#
+#version: 2.0 
+# 
+
+#
+#huawei Vendor-ID
+#
+VENDOR		huawei		2011
+
+#
+#Input Peak Rate£¬integer£¬bps
+#
+ATTRIBUTE	hw-Input-Peak-Rate	1	integer		huawei
+#
+#Input Average Rate£¬integer£¬bps
+#
+ATTRIBUTE	hw-Input-Average-Rate	2	integer		huawei
+#
+#Input Basic Rate£¬integer£¬bps£¬for future extensions
+#
+ATTRIBUTE       hw-Input-Basic-Rate     3	integer		huawei
+#
+#Output Peak Rate£¬integer£¬bps
+#
+ATTRIBUTE       hw-Output-Peak-Rate     4	integer		huawei
+#
+#Output Average Rate£¬integer£¬bps
+#
+ATTRIBUTE	hw-Output-Average-Rate  5	integer		huawei
+#
+#Output Basic Rate£¬integer£¬bps£¬for future extensions
+#
+ATTRIBUTE	hw-Output-Basic-Rate    6	integer		huawei
+
+#
+#Remanent Volume£¬integer, portal£ºK(2^10)£¬huawei: M(2^20)
+#
+ATTRIBUTE	hw-Remanent-Volume      15	integer		huawei
+#
+#Version
+#
+ATTRIBUTE	hw-Version      	254	string  	huawei	
+#
+#Product ID  "MA5200"
+#
+ATTRIBUTE	hw-Product-ID		255	string		huawei
+	

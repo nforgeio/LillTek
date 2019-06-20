@@ -1,0 +1,936 @@
+  <page>
+    <title>Seattle</title>
+    <id>11388236</id>
+    <revision>
+      <id>422281426</id>
+      <timestamp>2011-04-04T08:11:54Z</timestamp>
+      <contributor>
+        <username>MarmadukePercy</username>
+        <id>6395338</id>
+      </contributor>
+      <comment>Undid revision 422278121 by [[Special:Contributions/24.16.17.154|24.16.17.154]] ([[User talk:24.16.17.154|talk]]) rvt good faith edit; wikipedia is not a collection of external links; can't see where this adds much; take to talk page if you wish</comment>
+      <text xml:space="preserve">{{About|the city}}
+{{pp-move-indef}}
+{{Infobox settlement
+| name                     = Seattle
+| settlement_type          = [[City]]
+|official_name             = City of Seattle
+| image_skyline            = SeattleMontage.png
+| nickname                 = The Emerald City, Seatown, Rain City, Jet City, Gateway to Alaska, Gateway to The Pacific, Queen City
+| imagesize                = 250px
+| image_caption            = Clockwise: [[Downtown Seattle]] from the north, [[Seattle City Hall|City Hall]], [[Seattle Central Library|Central Library]], [[Mount Rainier]], the [[Space Needle]], [[Qwest Field]], and [[Starbucks]] company headquarters
+| image_flag               = Flag of Seattle.svg
+| image_seal               = Seattle seal.png
+| image_map = King_County_Washington_Incorporated_and_Unincorporated_areas_Seattle_Highlighted.svg
+| mapsize                  = 250x200px
+| map_caption              = Location of Seattle in &lt;br /&gt;[[King County, Washington|King County]] and [[Washington (U.S. state)|Washington]]
+| image_map1               =
+| mapsize1                 =
+| map_caption1             =
+| pushpin_map              = USA2
+| pushpin_map_caption      = Location in the United States
+| coordinates_region       = US-WA
+| subdivision_type         = [[List of countries|Country]]
+| subdivision_type1        = [[Political divisions of the United States|State]]
+| subdivision_type2        = [[List of counties in Washington|County]]
+| subdivision_name         = {{USA}}
+| subdivision_name1        = [[Washington (U.S. state)|Washington]]
+| subdivision_name2        = [[King County, Washington|King]]
+| established_title        = [[Municipal corporation|Incorporated]]
+| established_date         = December 2, 1869
+| leader_title             = [[List of mayors of Seattle|Mayor]]
+| leader_name              = [[Michael McGinn]]
+|leader_title1             = [[Seattle City Council|City Council]]
+|leader_name1              = '''List of Councilors'''
+| area_magnitude           = 1 E9
+| area_total_km2           = 369.2
+| area_total_sq_mi         = 142.5
+| area_land_sq_mi          = 83.87
+| area_water_sq_mi         = 58.67
+| area_land_km2            = 217.2
+| area_metro_km2           = 21,202
+| area_metro_sq_mi         = 8,186
+| area_water_km2           = 152|.0
+| population_as_of         = April 1, 2010
+| population_footnotes     =
+&lt;ref name=city_population&gt;{{cite news|url=http://www.bizjournals.com/seattle/stories/2010/06/21/daily9.html?ana=e_du_pap|title=Latest estimate: Seattle has 608,660 people|accessdate=2010-06-22|publisher=Puget Sound Business Journal|date=June 22, 2010}}&lt;/ref&gt;&lt;ref name=urban_population&gt;{{cite web |url=http://www.census.gov/geo/www/ua/ua2k.txt |title=Alphabetically sorted list of Census 2000 Urbanized Areas |accessdate=2009-07-12 |publisher=United States Census Bureau, Geography Division |format=TXT}}&lt;/ref&gt;&lt;ref name=metro_population&gt;{{cite web |url=http://www.census.gov/popest/metro/tables/2008/CBSA-EST2008-01.csv |title=Annual Estimates of the Population of Metropolitan and Micropolitan Statistical Areas: April 1, 2000 to July 1, 2008 (CBSA-EST2008-01) |accessdate=2009-07-12 |publisher=United States Census Bureau, Population Division |format=CSV}}&lt;/ref&gt;&lt;ref name=&quot;Population World Rank&quot;&gt;{{cite web | title=Demographia World Urban Areas &amp; Population Projections | url=http://www.demographia.com/db-worldua.pdf|pages= 35, 91 | work= | publisher= Demographia| format= PDF| date= April 2009 | accessdate=2009-04-18}}&lt;/ref&gt;
+| population_total         = 608,660 (US: [[List of United States cities by population|23rd]])
+| population_urban         = 2,712,205
+| population_metro         = 3,407,848 (US: [[Table of United States Metropolitan Statistical Areas|15th]])
+| combined_statistical_area = 4,087,033 (US: [[Table of United States Combined Statistical Areas|12th]])
+| population_density_sq_mi = 7361
+| population_blank1_title  = [[Demonym]]
+| population_blank1        = Seattleite
+| timezone                 = [[Pacific Time Zone|PST]]
+| utc_offset               = -8
+| timezone_DST             = [[Pacific Time Zone|PDT]]
+| utc_offset_DST           = -7
+| postal_code_type         = [[ZIP code]]s
+| postal_code              = {{Collapsible list
+  |title = Zip codes&lt;ref&gt;{{cite web | url=http://zip4.usps.com/zip4/citytown.jsp |publisher=USPS  | title=Zip Code Lookup | accessdate=December 11, 2008}}&lt;/ref&gt;
+  |frame_style = border:none; padding: 0;
+  |list_style  = text-align:center;display:none
+| 98101, 98102 98103, 98104, 98105, 98106, 98107, 98108, 98109, 98110, 98111, 98112, 98113, 98114, 98115, 98116, 98117, 98118, 98119, 98121, 98122, 98124, 98125, 98126, 98127, 98129, 98131, 98132, 98133, 98134, 98136, 98138, 98139, 98141, 98144, 98145, 98146, 98148, 98151, 98154, 98155, 98158, 98160, 98161, 98164, 98165, 98166, 98168, 98170, 98171, 98174, 98175, 98177, 98178, 98181, 98184, 98185, 98188, 98190, 98191, 98194, 98195, 98198, 98199 }}
+| area_code                = [[Area code 206|206]]
+| latd = 47 |latm = 36 |lats = 35 |latNS = N
+| longd = 122 |longm = 19 |longs = 59 |longEW = W|coordinates_display=x
+| elevation_m              = 0–158
+| elevation_ft             = 0–520
+| website                  = [http://www.seattle.gov/ www.seattle.gov]
+| blank_name               = [[Federal Information Processing Standard|FIPS code]]
+| blank_info               = 53-63000{{GR|2}}
+| blank1_name              = [[Geographic Names Information System|GNIS]] feature ID
+| blank1_info              = 1512650{{GR|3}}
+| footnotes                =
+}}
+
+'''Seattle''' ({{pron-en|siːˈætəl|En-us-Seattle.ogg}} {{respell|see|AT|əl}}) is the northernmost [[List of United States cities by population|major city]] in the [[contiguous United States]], and the largest city in the [[Pacific Northwest]] and the state of [[Washington (U.S. state)|Washington]]. It is a major [[seaport]] situated  on a narrow [[isthmus]] between [[Puget Sound]] (an arm of the [[Pacific Ocean]]) and [[Lake Washington]], about {{convert|114|mi}} south of the [[Canada – United States border]], and it is named after [[Chief Seattle|Chief Sealth &quot;Seattle&quot;]], of the [[Duwamish tribe|Duwamish]] and [[Suquamish]] [[Native Americans in the United States|native tribes]]. Seattle is the center of the [[Seattle metropolitan area|Seattle–Tacoma–Bellevue metropolitan statistical area]]--the [[Table of United States Metropolitan Statistical Areas|15th largest metropolitan area in the United States]], and the largest in the [[northwestern United States]].&lt;ref name=metro_population_ranking&gt;{{cite web |url=http://www.census.gov/popest/metro/tables/2008/CBSA-EST2008-05.csv |title=Estimates of Population Change for Metropolitan Statistical Areas and Rankings: July 1, 2007 to July 1, 2008 (CBSA-EST2008-05) |accessdate=2009-07-12 |publisher=United States Census Bureau, Population Division |format=CSV}}&lt;/ref&gt; Seattle is the [[county seat]] of [[King County, Washington|King County]] and is the major economic, cultural and educational center in the region. The 2010 census found that Seattle is home to 608,660 residents within a [[metropolitan area]] of some 3.4 million inhabitants.&lt;ref name=&quot;City of Seattle Department of Planning and Development&quot;&gt;{{cite web| url=http://www.seattle.gov/dpd/Research/Population_Demographics/Overview/default.asp | title=Seattle's Population and Demographics | publisher=City of Seattle | date=23 February 2011 | author=City of Seattle | accessdate=5 March 2011}}&lt;/ref&gt; The [[Port of Seattle]], which also operates [[Seattle–Tacoma International Airport]], is a major gateway for trade with Asia and cruises to Alaska, and is the 8th largest port in the United States in terms of container capacity.&lt;ref&gt;{{cite web|url=http://www.portseattle.org/seaport/statistics/| title=Seaport Statistics |publisher=portseattle.org|accessdate=23 February 2011}}&lt;/ref&gt;
+
+Seattle is the western terminus of [[Interstate 90|I-90]] and resides on the [[Interstate 5|I-5 corridor]], about {{convert|140|mi}} south of [[Vancouver, British Columbia]], and {{convert|170|mi}} north of [[Portland, Oregon]]. The city of [[Victoria, British Columbia|Victoria]], British Columbia's capital, is about {{convert|110|mi}} to the northwest (about {{convert|90|mi}} by passenger ferry) while the [[eastern Washington]] hub city of [[Spokane, Washington|Spokane]] lies {{convert|280|mi}} to the east.
+
+The Seattle area has been inhabited for at least 4,000 years,&lt;ref name=Discovery_Park&gt;{{cite news | url=http://seattlepi.com/lifestyle/334284_fam05.html | title=Feel the beat of history in the park and concert hall at two family-friendly events | publisher=Seattle Post-Intelligencer | date=October 4, 2007 | author=Doree Armstrong | accessdate=November 1, 2007}}&lt;/ref&gt; but European settlement began only in the mid-19th century. The first permanent European-descended settlers, [[Arthur A. Denny]] and those subsequently known as the [[Denny Party]], arrived November 13, 1851. Early settlements in the area were called &quot;New York-Alki&quot; (&quot;Alki&quot; meaning &quot;by and by&quot; in [[Chinook Jargon]]) and &quot;Duwamps&quot;. In 1853, [[David Swinson Maynard|Doc Maynard]] suggested that the main settlement be renamed &quot;Seattle&quot;, an [[English language|anglicized]] rendition of the name of Sealth, the chief of the two local tribes. From 1869 until 1982, Seattle was known as the &quot;Queen City&quot;.&lt;ref&gt;{{cite web| url=http://www.historylink.org/essays/output.cfm?file_id=181 | title= Seattle receives epithet Queen City in 1869 | publisher=HistoryLink | author=Greg Lange |date=November 4, 1998 | accessdate=October 26, 2007}}&lt;/ref&gt; Seattle's current official nickname is the &quot;Emerald City&quot;, the result of a contest held in 1981;&lt;ref name=&quot;emeraldcitynickname&quot;&gt;{{cite web | url=http://www.seattlest.com/archives/2005/10/27/were_not_in_washington_anymore.php | title=We're not in Washington Anymore | publisher=Seattlest | date=October 27, 2005 | accessdate=September 27, 2007}}&lt;/ref&gt;&lt;ref&gt;[http://www.historylink.org/index.cfm?DisplayPage=output.cfm&amp;file_id=3622 Seattle becomes The Emerald City in 1982]&lt;/ref&gt; the reference is to the lush evergreen forests of the area. Seattle is also referred to informally as the &quot;Gateway to Alaska&quot;, &quot;Rain City&quot;,&lt;ref&gt;{{cite web|url=http://www.google.com/search?hl=en&amp;q=Rain+City+Seattle|title=Google search for Rain City Seattle|publisher=Google|accessdate=May 29, 2008}}&lt;/ref&gt; and &quot;Jet City&quot;, the last from the local influence of [[Boeing]]. Seattle residents are known as ''[[List of people from Seattle|Seattleites]]''.
+
+Seattle is the birthplace of [[rock music|rock]] legend [[Jimi Hendrix]] and the rock music style known as &quot;[[grunge]],&quot;&lt;ref name=Seattle_Sound&gt;{{cite book | last=Heylin | first=Clinton | title=Babylon's Burning: From Punk to Grunge | publisher=Conongate | year=2007 | isbn=1-84195-879-4 | page=606}}&lt;/ref&gt; which was made famous by local groups [[Nirvana (band)|Nirvana]], [[Soundgarden]], [[Alice in Chains]], [[Pearl Jam]], and [[Queensryche]], who reference Seattle in the title of their song [[Jet City Woman]]. In more recent years, Seattle has been known for indie rock and hip hop music.
+
+Seattle has a reputation for heavy [[coffee]] [[List of countries by coffee consumption per capita|consumption]];&lt;ref name=nyt-coffee&gt;{{cite news| url=http://query.nytimes.com/gst/fullpage.html?res=9B0DEEDD1230F93AA1575AC0A9649C8B63 | title= The List; Seattle: An Insider's Address Book| author= Catharine Reynolds |date=September 29, 2002 | publisher= New York Times |quote= …Seattle's coffee culture has become America's… |accessdate=October 21, 2001}}&lt;/ref&gt; coffee companies founded or based in Seattle include [[Starbucks]],&lt;ref&gt;{{cite web| url=http://www.starbucks.com/aboutus/Company_Profile.pdf| title= Starbucks Company Profile |format=PDF |publisher=Starbucks|accessdate=October 21, 2007}}&lt;/ref&gt; [[Seattle's Best Coffee]],&lt;ref&gt;(1) {{cite book| title=Pike Place Market Cookbook | author=Braiden Rex-Johnson | coauthors=Tom Douglas (contributor) | page=195 |publisher=Sasquatch Books |year=2003 |isbn=1570613192}}
+&lt;br /&gt;(2) {{cite news|url=http://findarticles.com/p/articles/mi_m0EIN/is_2003_July_14/ai_105403289| title=Starbucks Corporation Completes Acquisition of Seattle Coffee Company| publisher=Business Wire | date=July 14, 2003 | accessdate=December 11, 2008}}&lt;/ref&gt; and [[Tully's Coffee|Tully's]].&lt;ref&gt;{{cite news| url=http://seattlepi.com/business/327672_tullyipo16.html | title= Markets prompt Tully's to delay IPO | author=Craig Harris |date=August 15, 2007 | publisher=Seattle Post-Intelligencer | accessdate=October 21, 2007}}&lt;/ref&gt; There are also many successful independent artisanal espresso roasters and cafes.&lt;ref name=nyt-coffee /&gt;
+
+Researchers at [[Central Connecticut State University]] consistently rank Seattle and [[Minneapolis]] as the two most [[literacy in the United States|literate cities among America's largest cities]].&lt;ref name=&quot;Most Literate Cities&quot;&gt;{{cite news | url=http://seattletimes.nwsource.com/html/localnews/2004095919_literacy28m.html | title=Minneapolis ousts Seattle as most literate city | publisher=The Seattle Times | author=Sandi Doughton | date=December 28, 2007 | accessdate=December 28, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web | author=John W. Miller|url=http://www.ccsu.edu/amlc08/ | title=America's Most Literate Cities 2008 |publisher=Central Connecticut State University| accessdate=December 30, 2008}}&lt;/ref&gt; Additionally, survey data from the [[United States Census Bureau]] indicate that Seattle has a higher percentage of college graduates than any other major American city, with approximately 53.8% of residents aged 25 and older holding a bachelor degree or higher.&lt;ref name=&quot;S1501. Education Attainment: Seattle City, Washington&quot;&gt;{{cite web | url=http://factfinder.census.gov/servlet/STTable?_bm=y&amp;-qr_name=ACS_2008_3YR_G00_S1501&amp;-geo_id=16000US5363000&amp;-context=st&amp;-ds_name=ACS_2008_3YR_G00_&amp;-tree_id=3308&amp;-_lang=en&amp;-format=&amp;-CONTEXT=st | title=S1501. Education Attainment: Seattle City, Washington | author=US Census Bureau | year=2008}}&lt;/ref&gt;
+
+In terms of [[per capita income]], a study by the U.S. Bureau of Economic Analysis ranked the Seattle metropolitan area 17th out of 363&amp;nbsp;metropolitan areas in 2006.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/businesstechnology/2003826358_bizbriefs08.html | title=Personal income per capita grows | publisher=The Seattle Times | date=August 8, 2007 | accessdate=October 6, 2007}}&lt;/ref&gt; Seattle has particularly strong information technology, aviation, architecture and recreational industries. It is particularly known as a hotbed of &quot;green&quot; technologies,&lt;ref&gt;[http://school.eecs.wsu.edu/node/848 School.eecs.wsu.edu]&lt;/ref&gt; stemming in part from the strong and relatively non-controversial stances its public leaders have taken on policies regarding urban design, building standards, clean energy and climate change (Seattle in February 2010 committed itself to becoming North America's first &quot;climate neutral&quot; city, with a goal of reaching zero net per capita greenhouse gas emissions by 2030).&lt;ref&gt;[http://www.publicola.net/2010/02/22/council-wants-city-to-go-carbon-neutral-in-20-years/ Publicola.net]&lt;/ref&gt;
+
+Seattle is ranked as one of the most car-congested cities in the United States, and efforts to promote compact development and transportation choices are perennial policy issues.&lt;ref&gt;{{cite news | last=Pryne | first=Eric | date=June 21, 2002 | url=http://community.seattletimes.nwsource.com/archive/?date=20020621&amp;slug=tti21m | title=Seattle drops to fifth in traffic congestion | publisher=The Seattle Times | accessdate=2009-04-29}}&lt;/ref&gt; The railways and streetcars that once dominated its transportation system were largely replaced with an extensive network of bus routes for those living near the city center, and the city's outward growth caused automobiles to become the main mode of transportation for much of the population in the middle to late twentieth century.  However, efforts to reverse this trend at the municipal and state levels have resulted in new
+[[Sounder commuter rail|commuter rail service]] that connects Seattle to [[Everett, Washington|Everett]] and [[Tacoma, Washington|Tacoma]],
+a regional [[Link Light Rail]] system that extends south from the [[Downtown Seattle|city core]] to SeaTac Airport,&lt;ref&gt;{{cite press release|publisher=Sound Transit|date=April 20, 2009|url=http://www.soundtransit.org/x11071.xml |title=Countdown to a new era: all aboard Link light rail starting July 18|accessdate=2009-04-20}}&lt;/ref&gt;
+and an inner-city [[South Lake Union Streetcar]] network in the [[South Lake Union, Seattle|South Lake Union]] area.&lt;ref&gt;{{cite web | url=http://www.seattle.gov/transportation/streetcarnetwork.htm | title=SDOT: Seattle's Streetcar Network | publisher=City of Seattle | author=City of Seattle | date=January 16, 2007 | accessdate=July 9, 2009}}&lt;/ref&gt;
+
+==History==
+{{Main|History of Seattle}}
+
+===Founding===
+[[File:General history, Alaska Yukon Pacific Exposition, fully illustrated - meet me in Seattle 1909 - Page 70.jpg|thumb|left|The [[Battle of Seattle (1856)]]]]
+Archaeological excavations confirm that the Seattle area has been inhabited by humans for at least 4,000 years.&lt;ref name=Discovery_Park/&gt; By the time the first European settlers arrived in the area, the people (now called the [[Duwamish tribe|Duwamish Tribe]]) occupied at least seventeen villages in the areas around [[Elliott Bay]].&lt;ref&gt;(1) {{cite web | author=Greg Lange | date=October 15, 2000 | publisher=HistoryLink | url=http://www.historylink.org/essays/output.cfm?file_id=1660 | title=Seattle and King County's First White Settlers | accessdate=October 14, 2007}}&lt;br /&gt;(2)
+{{cite web
+ | date =c. July 4, 2003 per [http://www.seattleartmuseum.org/exhibit/exhibitDetail.asp?WHEN=PAST&amp;eventID=2926 &quot;Native Art of the Northwest Coast: Collection Insight&quot;]
+ | url =http://www.seattleartmuseum.org/learn/CDROM/SongStorySpeech/Content/SalishArtCulture.htm
+ | title =The people and their land
+ | work =Puget Sound Native Art and Culture
+ | publisher =Seattle Art Museum
+ | accessdate =April 21, 2006
+}}&lt;br /&gt;(3) {{cite web
+ | last =Crowley
+ | first =Walt
+ | date=March 13, 2003
+ | url=http://www.historylink.org/essays/output.cfm?file_id=5402
+ | title =Native American tribes sign Point Elliott Treaty at Mukilteo on January 22, 1855.
+ | publisher = HistoryLink.org Essay 5402
+ | accessdate =October 14, 2007}}&lt;/ref&gt;
+
+[[George Vancouver]] was the first [[Europe]]an to visit the Seattle area in May 1792 during his [[Vancouver Expedition|1791-95 expedition]] to chart the [[Pacific Northwest]].&lt;ref name=Vancouver1801&gt;{{cite book
+  | last = Vancouver
+  | first = George, and John Vancouver
+  | title = A voyage of discovery to the North Pacific ocean, and round the world
+  | publisher = J. Stockdale
+  | year = 1801 
+  | location = London
+| url = http://books.google.com/?id=qwol8bPaYxsC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false
+  | isbn = 0665186428}}&lt;/ref&gt;
+
+In 1851, a large party led by Luther Collins made a location on land at the mouth of the Duwamish River; they formally claimed it on September 14, 1851.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=5390 | title=Luther Collins Party, first King County settlers, arrive at mouth of Duwamish River on September 14, 1851. | publisher=HistoryLink | author=Greg Lange | date=March 8, 2003 | accessdate=October 14, 2007}}&lt;/ref&gt;  Thirteen days later, members of the Collins Party on the way to their claim passed three scouts of the [[Denny Party]], the group who would eventually found Seattle.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=2765 | title=Collins party encounters Denny party scouts at Duwamish Head near future site of Seattle on September 27, 1851. | publisher=HistoryLink | author=Greg Lange | date=December 16, 2000 | accessdate=October 14, 2007}}&lt;/ref&gt; Members of the Denny Party claimed land on [[Alki Point, Seattle|Alki Point]] on September 28, 1851.&lt;ref name=founding&gt;{{cite web
+ | last =Crowley
+ | first =Walt
+ | authorlink = Walt Crowley
+ | date=August 31, 1998
+ | url =http://www.historylink.org/essays/output.cfm?file_id=303
+ | title =Seattle – a Snapshot History of Its Founding
+ | publisher =HistoryLink
+ | accessdate =October 14, 2007
+}}&lt;/ref&gt; The rest of the Denny Party set sail from [[Portland, Oregon|Portland]], Oregon and landed on Alki point during a rainstorm on November 13, 1851.&lt;ref name=founding/&gt;
+
+[[File:Seattle - First Ave at Columbia c. 1870.jpg|thumb|right|upright|First Ave at Columbia Street, c. 1870]]
+After a difficult winter, most of the Denny Party relocated across Elliott Bay and founded the village of &quot;Dewamps&quot; or &quot;Duwamps&quot; on the site of present day [[Pioneer Square, Seattle|Pioneer Square]].&lt;ref name=founding/&gt; Charles Terry and John Low remained at the original landing location and established a village they initially called &quot;New York&quot;, but renamed &quot;New York Alki&quot; in April 1853, from a [[Chinook Jargon|Chinook]] word meaning, roughly, ''by and by'' or ''someday''.&lt;ref&gt;{{cite news | url=http://seattlepi.com/local/43836_terry23.shtml | title=Seattle at 150: Charles Terry's unlimited energy influenced a city | publisher=Seattle Post-Intelligencer | author=James R. Warren | date=October 23, 2001 | accessdate=October 14, 2007}}&lt;/ref&gt; New York Alki and Duwamps competed for dominance for the next few years, but in time Alki was abandoned and its residents moved across the bay to join the rest of the settlers.&lt;ref&gt;{{cite web |url=http://www.historylink.org/essays/output.cfm?file_id=3142 | title=Charles Terry homesteads site of Alki business district on May 1, 1852. | publisher=HistoryLink | author=Greg Lange | date=March 28, 2001 | accessdate=October 14, 2007}}&lt;/ref&gt;
+
+[[David Swinson Maynard|David Swinson (&quot;Doc&quot;) Maynard]], one of Duwamps's founders, was the primary advocate to rename the village &quot;Seattle&quot; after [[Chief Seattle|Chief Sealth (&quot;Seattle&quot;)]] of the Duwamish and [[Suquamish]] tribes.&lt;ref name=nameorigin&gt;(1)
+{{cite web
+ | editor=Thomas R. Speer, editor
+ | date =July 22, 2004
+ | url =http://www.duwamishtribe.org/chiefsiahl.html
+ | title =Chief Si'ahl and His Family
+ | publisher =Duwamish Tribe
+ | accessdate =October 14, 2007
+}}&lt;br /&gt;Includes bibliography.&lt;br /&gt;(2)
+{{cite web
+ | author=Kenneth G. Watson
+ | date =January 18, 2003
+ | url =http://www.historylink.org/essays/output.cfm?file_id=5071
+ | title =Seattle, Chief Noah
+ | publisher =HistoryLink
+ | accessdate =October 14, 2007
+}}(3) Morgan (1951, 1982), p.20&lt;/ref&gt; The term, &quot;Seattle&quot;, appears on official [[Washington Territory]] papers dated May 23, 1853, when the first [[plat]]s for the village were filed. In 1855, nominal land settlements were established. On January 14, 1865, the Legislature of Territorial Washington incorporated the Town of Seattle with a [[trustee model of representation|board of trustees]] managing the city. Two years later, after a petition was filed by most of the leading citizens, the Legislature disincorporated the town. The town remained a precinct of King County until late 1869 when a new petition was filed and the city was re-incorporated with a [[Mayor-council government]].&lt;ref name=founding/&gt;&lt;ref&gt;{{cite web
+ | author=Greg Lange
+ | coauthors =Cassandra Tate
+ | date =November 4, 1998
+ | url=http://www.historylink.org/essays/output.cfm?file_id=168
+ | title =Legislature incorporates the Town of Seattle for the first time on January 14, 1865.
+ | publisher =HistoryLink
+ | accessdate =October 14, 2007}}&lt;/ref&gt;
+
+=== Timber town ===
+[[File:Seattle - Occidental and Yesler - 1884.jpg|thumb|left|Seattle's first [[streetcar]], at the corner of Occidental and Yesler, 1884. All of the buildings visible in this picture were destroyed by fire five years later.]]
+Seattle has a history of boom and bust cycles, as is common to cities near areas of extensive natural and mineral resources. Seattle has risen several times economically, then gone into precipitous decline, but it has typically used those periods to rebuild solid infrastructure.&lt;ref name=shear&gt;{{cite journal|author=Emmett Shear|title=Seattle: Booms and Busts | publisher=Yale University | date=Spring 2002}} Author has granted blanket permission for material from that paper to be reused in Wikipedia. Now at [[wikisource:Seattle: Booms and Busts]].&lt;/ref&gt;
+
+The first such boom, covering the early years of the city, was fueled by the lumber industry. (During this period the road now known as Yesler Way was nicknamed &quot;Skid Road&quot;,&lt;ref name=yesler&gt;{{cite web | author=Junius Rochester | url=http://www.historylink.org/essays/output.cfm?file_id=286 | title=Yesler, Henry L. |publisher=HistoryLink | date=October 7, 1998 | accessdate=October 1, 2007}}&lt;/ref&gt; after the timber skidding down the hill to [[Henry Yesler]]'s sawmill. This is considered a possible origin for the term which later entered the wider American lexicon as ''[[Skid Row]]''.)&lt;ref name=shear/&gt; Like much of the American West, Seattle saw numerous conflicts between labor and management, as well as ethnic tensions that culminated in the [[History of Seattle before 1900#Relations between whites and Chinese|anti-Chinese riots of 1885–1886]].&lt;ref&gt;{{cite web | author=George Kinnear | url=http://en.wikisource.org/w/index.php?title=Anti-Chinese_Riots_At_Seattle | title=Anti-Chinese Riots At Seattle, Wn.. February 8, 1876| publisher=''Seattle Post-Intelligencer'' |date=January 1, 1911 | accessdate=October 4, 2007}} Kinnear's article originally appeared in the ''Seattle Post-Intelligencer'' and was later privately published in a small volume.&lt;/ref&gt; This violence was caused by unemployed whites who determined to drive the Chinese from Seattle (anti-Chinese riots also occurred in Tacoma). Martial law was declared, and federal troops were brought in to put down the disorder. Nevertheless, the economic success in the Seattle area was so great that when the [[Great Seattle fire]] of 1889 destroyed the [[central business district]], a far grander city center rapidly emerged in its place.&lt;ref name=fire&gt;{{cite web | author= Walt Crowley | url=http://www.historylink.org/essays/output.cfm?file_id=5115 | title=Seattle burns down in the Great Fire on June 6, 1889. | publisher=HistoryLink | date=January 25, 2003 | accessdate=October 1, 2007}}&lt;/ref&gt; Finance company [[Washington Mutual]], for example, was founded in the immediate wake of the fire.&lt;ref name=Klondike-foundings&gt;{{cite web | url=http://www.nps.gov/klse/hrs/hrs0.htm | title=Hard Drive to the Klondike: Promoting Seattle During the Gold Rush | publisher=[[National Park Service]] | date=February 18, 2003 |accessdate=October 1, 2007|archiveurl = http://web.archive.org/web/20071103062325/http://www.nps.gov/klse/hrs/hrs0.htm |archivedate = November 3, 2007|deadurl=yes}}&lt;/ref&gt; This boom was followed by the construction of a park system, designed by the [[Frederick Law Olmsted|Olmsted brothers]]' landscape architecture firm.&lt;ref name=shear/&gt; However, the [[Panic of 1893]] hit Seattle hard.&lt;ref&gt;{{cite web | author= J. Kingston Pierce | url=http://www.historylink.org/index.cfm?DisplayPage=output.cfm&amp;File_Id=2030 | title=Panic of 1893: Seattle's First Great Depression. | publisher=HistoryLink | date=November 24, 1999 | accessdate=December 18, 2008}}&lt;/ref&gt;
+
+=== Gold Rush, World War I, and the Great Depression ===
+[[Image:Alaska Yukon Pacific Exposition - Rainier Vista.jpg|thumb|right|The [[Alaska-Yukon-Pacific Exposition]] had just over 3.7&amp;nbsp;million visitors during its 138-day run&lt;ref&gt;{{cite web |url=http://www.historylink.org/essays/output.cfm?file_id=696 | title=Alaska–Yukon–Pacific Exposition's final day is on October 16, 1909.|publisher=HistoryLink | author=Greg Lange |date=January 14, 1999 | accessdate=November 6, 2007}}&lt;/ref&gt;]]
+The second and most dramatic boom and bust resulted from the [[Klondike Gold Rush]], which ended the depression that had begun with the [[Panic of 1893]]; in a short time, Seattle became a major transportation center. On July 14, 1897, the ''S.S. Portland'' docked with its famed &quot;ton of gold&quot;, and Seattle became the main transport and supply point for the miners in Alaska and the Yukon. Few of those working men found lasting wealth, however; it was Seattle's business of clothing the miners and feeding them salmon that panned out in the long run. Along with Seattle, other cities like [[Everett, Washington|Everett]], [[Tacoma, Washington|Tacoma]], [[Port Townsend, Washington|Port Townsend]], [[Bremerton, Washington|Bremerton]], and [[Olympia, Washington|Olympia]], all in the Puget Sound region, became competitors for exchange, rather than mother-lodes for extraction, of precious metals.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=687 | title=Klondike Gold Rush | publisher=HistoryLink.org | date=January 14, 1999 | author=Greg Lange | accessdate=October 1, 2007}}&lt;/ref&gt; The boom lasted well into the early part of the 20th century and funded many new Seattle companies and products. In 1907, 19-year-old [[James E. Casey]] borrowed $100 from a friend and founded the American Messenger Company (later [[United Parcel Service|UPS]]). Other Seattle companies founded during this period include [[Nordstrom]] and [[Eddie Bauer]].&lt;ref name=Klondike-foundings /&gt; The Gold Rush era culminated in the [[Alaska-Yukon-Pacific Exposition]] of 1909, which is largely responsible for the layout of today's [[University of Washington]] campus.&lt;ref name=aypexpo&gt;{{cite web | author=Greg Lange | url=http://www.historylink.org/essays/output.cfm?file_id=5371 | title=Alaska–Yukon–Pacific Exposition opens for a 138-day run on June 1, 1909.| publisher=HistoryLink |date=May 5, 2003 | accessdate=October 1, 2007}}&lt;/ref&gt;
+
+[[Image:Pioneer square.jpg|thumb|left|upright|[[Pioneer Square, Seattle|Pioneer Square]] in 1917 featuring the [[Smith Tower]], the [[Seattle Hotel]] and to the left the [[Pioneer Building (Seattle, Washington)|Pioneer Building]]]]
+
+A shipbuilding boom in the early part of the 20th century became massive during World War I, making Seattle somewhat of a company town; the subsequent retrenchment led to the [[Seattle General Strike|Seattle General Strike of 1919]], the first [[general strike]] in the country.&lt;ref name=generalstrike&gt;{{cite web | author=Patrick McRoberts | url=http://www.historylink.org/essays/output.cfm?file_id=861 | title=Seattle General Strike, 1919, Part I | publisher=HistoryLink | date=February 4, 1999 | accessdate=October 1, 2007}}&lt;/ref&gt; A 1912 city development plan by [[Virgil Bogue]] went largely unused. Seattle was mildly prosperous in the 1920s but was particularly hard hit in the [[Great Depression]], experiencing some of the country's harshest labor strife in that era. Violence during the [[Maritime Strike of 1934]] cost Seattle much of its maritime traffic, which was rerouted to the [[Port of Los Angeles]].&lt;ref&gt;BOLA Architecture + Planning &amp; Northwest Archaeological Associates, Inc., [http://www.portseattle.org/downloads/business/realestate/development/northbay/Appendix_I_Historic_Cultural.pdf Port of Seattle North Bay Project DEIS: Historic and Cultural Resources], Port of Seattle, April 5, 2005, p. 12-13 (which is p. 14-15 of the PDF). Retrieved July 25, 2008.&lt;/ref&gt;
+
+Seattle was also the home base of impresario [[Alexander Pantages]] who, starting in 1902, opened a number of theaters in the city exhibiting [[vaudeville]] acts and silent movies. His activities soon expanded, and the thrifty Greek went on and became one of America's greatest theater and movie tycoons. Between Pantages and his rival [[John Considine (Seattle)|John Considine]], Seattle was for a while the western United States' vaudeville mecca. The several theaters [[Scotland|Scottish]]-born, Seattle-based architect [[B. Marcus Priteca]] built for Pantages in Seattle have all been either demolished or converted to other uses, but many of their theaters survive in other cities of the USA, often retaining the ''Pantages'' name.
+
+=== Post-war years: aircraft and software ===
+War work again brought local prosperity during World War II, this time centered on Boeing aircraft. The local economy dipped after war, which had also led to the dispersion of the city's numerous Japanese-American businessmen as a consequence of [[Japanese American internment]]. The local economy rose again with Boeing's growing dominance in the commercial [[airliner]] market.&lt;ref&gt;{{cite web | url=http://www.seeseattle.org/media/presskits/PKHistory.asp | title=History of Seattle: The &quot;Jet City&quot; Takes Off | publisher=Seattle's Convention and Visitors Bureau | archiveurl=http://web.archive.org/web/20061002171554/http://www.seeseattle.org/media/presskits/PKHistory.asp | archivedate=October 2, 2006| accessdate=October 1, 2007}}&lt;/ref&gt; Seattle celebrated its restored prosperity and made a bid for world recognition with the [[Century 21 Exposition]], the [[1962 World's Fair]].&lt;ref name=worldsfair&gt;{{cite web | author=Alan J. Stein | url=http://www.historylink.org/essays/output.cfm?file_id=2290 | title=Century 21 – The 1962 Seattle World's Fair, Part I | publisher=HistoryLink | date=April 18, 2000 | accessdate=October 1, 2007}}&lt;/ref&gt; The local economy went into another major downturn in the late 1960s and early 1970s. Many left the area to look for work elsewhere, and two local real estate agents put up a billboard reading &quot;Will the last person leaving Seattle – Turn out the lights.&quot;&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=1287 | title=Billboard appears on April 16, 1971, near Sea–Tac, reading: Will the Last Person Leaving Seattle—Turn Out the Lights. | publisher=HistoryLink | author=Greg Lange | date= June 8, 1999 | accessdate=October 1, 2007}}
+The real estate agents were Bob McDonald and Jim Youngren, as cited at Don Duncan, ''Washington: the First One Hundred Years'', 1889–1989 (Seattle: The Seattle Times, 1989), 108, 109–110; ''The Seattle Times'', February 25, 1986, p. A3; Ronald R. Boyce, ''Seattle–Tacoma and the Southern Sound'' (Bozeman, Montana: Northwest Panorama Publishing, 1986), 99; Walt Crowley, ''Rites of Passage: A Memoir of the Sixties in Seattle'' (Seattle: [[University of Washington Press]], 1995), 297.&lt;/ref&gt;
+
+[[File:Seattle Monorail under construction - 1961.jpg|thumb|upright|Building the [[Seattle Center Monorail]], 1961. Looking up Fifth Avenue from Virginia Street.]]
+Still, Seattle remained the corporate headquarters of Boeing until 2001, when the company separated its headquarters from its major production facilities. Boeing finally chose to move its corporate headquarters to Chicago.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/businesstechnology/2002876673_boeingimage20.html | title=Chicago's got the headquarters, but Seattle's still Jet City, USA | publisher=The Seattle Times | author=Kristi Heim | date=March 21, 2006 | accessdate=October 1, 2007}}&lt;/ref&gt; The Seattle area is still home to Boeing's [[Boeing Renton Factory|Renton narrow-body plant]] (where the [[Boeing 707|707]], 720, [[Boeing 727|727]], and [[Boeing 757|757]] were assembled, and the [[Boeing 737|737]] is assembled today) and [[Boeing Everett Factory|Everett wide-body plant]] (assembly plant for the [[Boeing 747|747]], [[Boeing 767|767]], [[Boeing 777|777]], and [[Boeing 787|787]]); the company's credit union for employees, [[BECU]], remains based in the Seattle area, though it is now open to all residents of Washington.
+
+As prosperity began to return in the 1980s, the city was stunned by the [[Wah Mee massacre]] in 1983, when thirteen people were killed in an illegal gambling club in the [[International District, Seattle]]'s [[Chinatown]].&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/localnews/2003247239_wahmee07m.html | title= 23 years haven't erased grief caused by Wah Mee Massacre | publisher=Seattle Times | author= Natalie Singer | date=September 7, 2006 | accessdate=December 18, 2008}}&lt;/ref&gt; Beginning with [[Microsoft]]'s 1979 move from [[Albuquerque, New Mexico|Albuquerque]], New Mexico to nearby [[Bellevue, Washington|Bellevue]], Washington,&lt;ref&gt;{{cite web |title=Information for Students: Key Events In Microsoft History |url=http://www.microsoft.com/about/companyinformation/visitorcenter/student.mspx |publisher=Microsoft Visitor Center Student Information |accessdate=October 1, 2005 |format=doc}}&lt;/ref&gt; Seattle and its suburbs became home to a number of technology companies including [[Amazon.com]], [[RealNetworks]], McCaw Cellular (now part of [[AT&amp;T Mobility]]), VoiceStream (now [[T-Mobile|T-Mobile USA]]), and [[biomedical]] corporations such as HeartStream (later purchased by [[Philips]]), Heart Technologies (later purchased by [[Boston Scientific]]), Physio-Control (later purchased by [[Medtronic]]), [[ZymoGenetics]], ICOS (later purchased by [[Eli Lilly and Company]]) and Immunex (later purchased by [[Amgen]]). This success brought an influx of new citizens with a population increase within city limits of almost 50,000 between 1990 and 2000,&lt;ref name=pophistory&gt;{{cite web | url=http://www.seattle.gov/dpd/stellent/groups/pan/@pan/documents/web_informational/dpds_006755.pdf | format=PDF| title=Decennial Population | publisher=City of Seattle | author=Strategic Planning Office | date=April 12, 2001 | accessdate=September 28, 2007 }}&lt;/ref&gt; and saw Seattle's real estate become some of the most expensive in the country.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/realestate/2002446059_homeprices21.html?syndication=rss&amp;source=realestate.xml&amp;items=7 | title=Seattle area &quot;sticker shock&quot; is a matter of perception | publisher=The Seattle Times | date=August 20, 2005 | author=Jane Hodges | accessdate=September 29, 2007}}&lt;/ref&gt; Many of the Seattle area's tech companies remain relatively strong, but the frenzied [[dot-com bubble|dot-com boom]] years ended in early 2001.&lt;ref&gt;{{cite news | url=http://online.wsj.com/public/article/SB116294042194116133-tQxnyU5mE6PaQdO9xT1_uaFusQs_20061208.html | title=The Dot-Com Bubble Is Reconsidered – And Maybe Relived | publisher=Wall Street Journal | author=Lee Gomes | date=November 8, 2006 | accessdate=October 4, 2007}} Gomes considers the bubble to have ended with the peak of the March 2000 peak of [[NASDAQ]].&lt;/ref&gt;&lt;ref&gt;{{cite news | url=http://www.forbes.com/2005/01/27/cx_de_0127bubblebowl.html | title= The Bubble Bowl | publisher=Forbes | author= David M. Ewalt | date=January 27, 2005 | accessdate=October 4, 2007}} Ewalt refers to the advertising on [[Super Bowl XXXIV]] (January 2000) as &quot;the dot-com bubble's Waterloo&quot;.&lt;/ref&gt;
+
+[[Image:Seattle Ferry.jpg|thumb|left|Downtown Seattle and a ferry at the Central Waterfront.]]
+Seattle in this period attracted widespread attention as home to these many companies, but also by hosting the 1990 [[Goodwill Games]]&lt;ref name=goodwillgames&gt;{{cite web | author=David Wilma | url=http://www.historylink.org/essays/output.cfm?file_id=5658 | title=Ted Turner's Goodwill Games open in Seattle on July 20, 1990. | publisher=HistoryLink | date=February 25, 2004 | accessdate=October 1, 2007}}&lt;/ref&gt; and the [[APEC]] leaders conference in 1993, as well as through the worldwide popularity of [[grunge]], a sound that had developed in Seattle's independent music scene.&lt;ref&gt;{{cite video| people=Pray, D., Helvey-Pray Productions |date=1996 | title=[[Hype!]] | publisher=Republic Pictures}}&lt;/ref&gt; Another bid for worldwide attention—hosting the [[World Trade Organization Ministerial Conference of 1999]]—garnered visibility, but not in the manner its sponsors desired, as [[World Trade Organization Ministerial Conference of 1999 protest activity|related protest activity]] and police reactions to those protests overshadowed the conference itself.&lt;ref name=wto&gt;{{cite web | author=David Wilma | url=http://www.historylink.org/essays/output.cfm?file_id=2141 | title=Protests against the World Trade Organization (WTO) continue on December 1, 1999. | publisher=HistoryLink| date=March 1, 2000 | accessdate=October 1, 2007}}&lt;/ref&gt; The city was further shaken by the [[Seattle Mardi Gras Riots|Mardi Gras Riots]] in 2001, and was literally shaken the following day by the [[2001 Nisqually earthquake|Nisqually Earthquake]].&lt;ref&gt;{{cite news | url=http://archives.cnn.com/2001/US/03/01/quake.pioneersq/index.html |publisher=CNN.com  | title=Double dose of woe strikes historic Seattle neighborhood | date=March 1, 2001 | accessdate=December 11, 2008}}&lt;/ref&gt;
+
+The [[Mercer (consulting firm)|UK consulting firm Mercer]], in a 2009 assessment &quot;conducted to help governments and major companies place employees on international assignments&quot;, ranked Seattle 50th [[World's Most Livable Cities|worldwide in quality of living]]; the survey factored in [[political system|political stability]], [[personal freedom]], sanitation, crime, housing, the natural environment, recreation, banking facilities, availability of [[consumer goods]], education, and public services including transportation.&lt;ref&gt;{{cite web| url=http://www.mercer.com/referencecontent.htm?idContent=1173105 | title = Quality of Living global city rankings 2009 – Mercer survey | publisher = [[Mercer (consulting firm)|Mercer]]| date=28 April 2009| accessdate=2009-05-08 }}&lt;/ref&gt;
+
+== Geography ==
+{{wide image|Space Needle 360 Panorama.jpg|1800px|Panoramic view of Seattle, as seen from the [[Space Needle]].}}
+
+=== Topography ===
+{{See also|List of Seattle parks|Bodies of water of Seattle|Regrading in Seattle}}
+[[Image:Seattle 07752.JPG| thumb|[[Downtown Seattle]] is bounded by Elliott Bay (lower left), lower Broadway (from upper left to lower right), Yesler Way (lower right), and Denny Way (obscured by clouds).]]
+
+Seattle is located between Puget Sound (an inlet of the Pacific Ocean) to the west and Lake Washington to the east. The city's chief harbor, Elliott Bay, is an inlet of Puget Sound. To the west, beyond Puget Sound, are the [[Kitsap Peninsula]] and [[Olympic Mountains]] on the Olympic Peninsula; to the east, beyond Lake Washington and the [[Eastside (King County, Washington)|eastside]] suburbs, are [[Lake Sammamish]] and the [[Cascade Range]]. Lake Washington's waters flow to Puget Sound through the [[Lake Washington Ship Canal]] (consisting of two man-made canals, [[Lake Union]], and the [[Hiram M. Chittenden Locks]] at [[Salmon Bay]], ending in [[Shilshole Bay]]).
+
+The sea, rivers, forests, lakes, and fields surrounding Seattle were once rich enough to support one of the world's few sedentary hunter-gatherer societies. The surrounding area lends itself well to sailing, skiing, bicycling, camping, and hiking year-round.&lt;ref&gt;{{cite web
+| url= http://www.fourdir.com/chapter_3_native_american_cultures.htm
+| title= Chapter Three – Native American Cultures
+| work = [http://www.fourdir.com/first_americans_toc.htm The First Americans]
+| publisher = Four Directions
+| accessdate= October 20, 2007}}&lt;/ref&gt;
+&lt;ref&gt;{{cite book
+| title=The Cambridge Encyclopedia of Hunters and Gatherers|editor= Richard B. Lee
+| publisher=Cambridge University Press
+|year=1999
+|isbn=052157109X
+| author= Howard Morphy
+| chapter = Traditional and modern visual art of hunting and gathering peoples
+| page= 443}}&lt;/ref&gt;
+
+The city itself is hilly, though not uniformly so.&lt;ref&gt;{{cite web
+| url=http://www.seattle.gov/transportation/steepest.htm
+| title=Highest Elevations in Seattle and The Twenty Steepest Streets in Seattle
+| publisher=City of Seattle
+| author=Department of Transportation
+| accessdate=October 4, 2007}}&lt;/ref&gt; Like Rome, the city is said to lie on [[Seven hills of Seattle|seven hills]];&lt;ref&gt;{{cite web
+  |url=http://www.historylink.org/index.cfm?DisplayPage=output.cfm&amp;File_Id=4131
+  |title=Seattle's Seven Hills
+  |publisher=[[HistoryLink]]
+  |author=Crowley, Walt
+  |date=2003-01-14
+  |accessdate=2010-04-12}}&lt;/ref&gt; the lists vary, but typically include Capitol Hill, First Hill, West Seattle, Beacon Hill, Queen Anne, Magnolia, and the former Denny Hill. The Wallingford and Mount Baker neighborhoods are technically located on hills as well. Many of the hilliest areas are near the city center, with Capitol Hill, First Hill, and Beacon Hill collectively constituting something of a ridge along an [[isthmus]] between Elliott Bay and Lake Washington.&lt;ref&gt;{{cite web
+| url=http://landslides.usgs.gov/docs/schulz/lidar_enggeo.pdf
+| title=Landslide susceptibility revealed by LIDAR imagery and historical records, Seattle, Washington
+| author=Schulz, William H.
+| publisher=United States Geological Survey
+| format=PDF
+| date=November 15, 2006
+| accessdate=March 5, 2009}}&lt;/ref&gt; The break in the ridge between First Hill and Beacon Hill is man-made, the result of two of the many [[Regrading in Seattle|regrading projects]] that reshaped the topography of the city center.&lt;ref&gt;Peterson, Lorin &amp; Davenport, Noah C. (1950), ''Living in Seattle'', Seattle: Seattle Public Schools, p. 44.&lt;/ref&gt; The topography of the city center was also changed by the construction of a seawall and the artificial [[Harbor Island (Seattle)|Harbor Island]] (completed 1909) at the mouth of the city's industrial [[Duwamish Waterway]]. The highest point within city limits is at [[High Point, Seattle|High Point]] in West Seattle, roughly located near 35th Ave SW and SW Myrtle St. Other notable hills include Crown Hill, View Ridge/Wedgwood/Bryant, Maple Leaf, Phinney Ridge, Mt. Baker Ridge, Highlands/Carkeek/Bitterlake.
+
+North of the city center, [[Lake Washington Ship Canal]] connects Puget Sound to Lake Washington. It incorporates four natural bodies of water: [[Lake Union]], Salmon Bay, Portage Bay, and [[Union Bay (Seattle)|Union Bay]].
+
+Due to its location in the [[Pacific Ring of Fire]], Seattle is in a major earthquake zone. On February 28, 2001, the [[Richter magnitude scale|magnitude 6.8]] [[2001 Nisqually earthquake|Nisqually earthquake]] did significant architectural damage, especially in the Pioneer Square area (built on [[land reclamation|reclaimed land]], as are the Industrial District and part of the city center), but caused no fatalities.&lt;ref name=nisqually&gt;{{cite web
+| author=Walt Crowley
+| url=http://www.historylink.org/essays/output.cfm?file_id=3039
+| title=Earthquake registering 6.8 on Richter Scale jolts Seattle and Puget Sound on February 28, 2001
+| publisher=HistoryLink
+| date=March 2, 2001
+| accessdate=October 1, 2007}}&lt;/ref&gt;
+Other strong quakes occurred on [[1700 Cascadia earthquake|January 26, 1700]] (estimated at 9&amp;nbsp;magnitude), December 14, 1872 (7.3 or 7.4),&lt;ref name=nisqually&gt;{{cite web
+| author=Greg Lange
+| url=http://www.historylink.org/essays/output.cfm?file_id=852
+| title=Earthquake hits Washington Territory on December 14, 1872
+| publisher=HistoryLink
+| date=February 1, 1999
+| accessdate=October 5, 2007}}&lt;/ref&gt; April 13, 1949 (7.1),&lt;ref name=1949-quake&gt;{{cite web
+| author=Greg Lange
+| url=http://www.historylink.org/essays/output.cfm?file_id=2063
+| title=Earthquake hits Puget Sound area on April 13, 1949
+| publisher=HistoryLink
+| date=January 1, 2000
+| accessdate=October 5, 2007}}&lt;/ref&gt; and April 29, 1965 (6.5).&lt;ref name=1965-quake&gt;{{cite web
+| author=Greg Lange
+| url=http://www.historylink.org/essays/output.cfm?file_id=1986
+| title=Earthquake rattles Western Washington on April 29, 1965
+| publisher=HistoryLink
+| date=March 2, 2000
+| accessdate=October 4, 2007}}&lt;/ref&gt; The 1949 quake caused eight known deaths, all in Seattle;&lt;ref name=1949-quake /&gt; the 1965 quake caused three deaths in Seattle directly, and one more by heart failure.&lt;ref name=1965-quake /&gt; Although the [[Seattle Fault]] passes just south of the city center, neither it&lt;ref&gt;{{cite web
+| url = http://earthquake.usgs.gov/regional/pacnw/activefaults/sfz/sfzhaz.php
+| title=Seattle Fault Zone – implications for earthquake hazards
+| publisher=[[United States Geological Survey]]
+| date=June 15, 2007
+| accessdate=October 4, 2007}}&lt;/ref&gt; nor the [[Cascadia subduction zone]] has caused an earthquake since the city's founding. The Cascadia subduction zone poses the threat of an earthquake of magnitude 9.0 or greater, capable of seriously damaging the city and collapsing many buildings, especially in zones built on fill.&lt;ref&gt;{{cite web
+| url=http://www.ess.washington.edu/SEIS/PNSN/HAZARDS/CASCADIA/cascadia_zone.html
+| title=The Cascadia Subduction Zone – What is it? How big are the quakes? How Often?
+| publisher=University of Washington Department of Earth and Space Sciences
+| author=Ray Flynn
+| coauthors=Kyle Fletcher
+| date=July 2, 2002
+| accessdate=October 4, 2007}}&lt;/ref&gt;
+
+According to the United States Census Bureau, the city has a total area of {{convert|142.5|sqmi|km2}},{{GR|1}} {{convert|83.9|sqmi|km2}} of which is land and {{convert|58.7|sqmi|km2}} water (41.16&amp;nbsp;percent of the total area).
+
+=== Surrounding municipalities ===
+{{Geographic Location (8-way)
+|Northwest = [[Bainbridge Island, Washington|Bainbridge Island]]
+|North     = [[Shoreline, Washington|Shoreline]]
+|Northeast = [[Lake Forest Park, Washington|Lake Forest Park]]
+|West      = [[Puget Sound]]
+|Center    = Seattle
+|South     = [[Tukwila, Washington|Tukwila]]
+|Southwest = [[Vashon, Washington|Vashon Island]]
+|Southeast = [[Renton, Washington|Renton]]
+|East      = [[Mercer Island]]
+|}}
+
+=== Climate ===
+[[Image:Downtown Seattle 2.JPG|thumb|Downtown Seattle averages 71 clear (sunny) days a year, with most of those days occurring between May and September&lt;ref name=cloudy&gt;{{cite web
+| url=http://lwf.ncdc.noaa.gov/oa/climate/online/ccd/cldy.html
+| title=Cloudiness – Mean Number of Days
+| author=National Climatic Data Center
+| publisher=National Oceanic and Atmospheric Administration
+| accessdate=November 7, 2010}}&lt;/ref&gt;]]
+
+Seattle's climate is usually described as [[Oceanic climate|Oceanic or Marine west coast]], with fairly mild, wet winters and mild, relatively dry summers. Like much of the [[Pacific Northwest]], according to the [[Köppen climate classification]] it falls within a cool, dry-summer subtropical zone (''Csb''), with cool-summer [[Mediterranean climate|Mediterranean]] characteristics such as its usually dry summers.&lt;ref&gt;{{cite journal
+| last = Kottek | first = M.
+| coauthors =J. Grieser, C. Beck, B. Rudolf, and F. Rubel
+| title =World Map of the Köppen-Geiger climate classification updated
+| journal =Meteorol. Z.
+| volume =15
+| issue = 3
+| pages =259–263
+| url =http://koeppen-geiger.vu-wien.ac.at/pics/kottek_et_al_2006.gif
+| doi =10.1127/0941-2948/2006/0130
+| accessdate = 2007-02-15
+| year =2006 }}&lt;/ref&gt;  Other climate classification systems, such as [[Köppen climate classification#Trewartha climate classification scheme|Trewartha]], place it firmly in the Oceanic zone (''Do'').&lt;ref&gt;[http://www.fao.org/docrep/006/ad652e/ad652e07.htm FAO.org]&lt;/ref&gt;
+
+Temperature extremes are moderated by adjacent Puget Sound, the greater Pacific Ocean, and Lake Washington. The region is partially protected from Pacific storms by the [[Olympic Mountains]] and from Arctic air by the [[Cascade Range]]. Despite being on the margin of the [[rain shadow]] of the Olympic Mountains, the city has a reputation for frequent rain.&lt;ref name=rainshadow&gt;{{cite web
+| url=http://www.komotv.com/weather/faq/rain_shadow.asp
+| title=What Is The Olympic Rain Shadow?
+| publisher=KOMOTV.com
+| accessdate=September 28, 2007}}&lt;/ref&gt; This reputation derives from the frequency of precipitation in the city (150 days of precipitation &gt; 0.01 in/0.3&amp;nbsp;mm) as well as the fact that it is cloudy an average of 201 days per year, and partly cloudy an average of 93 days per year.&lt;ref name=cloudy/&gt; At {{convert|37.1|in|mm|0}},&lt;ref name=weather.com/&gt; the city receives less precipitation than [[New York City|New York]], [[Atlanta]], [[Houston]], and most cities of the [[Eastern Seaboard]] of the United States. Seattle was also not listed in a study that revealed the 10 rainiest cities in the continental United States.&lt;ref&gt;{{cite web
+|url=http://www.livescience.com/environment/070518_rainy_cities.html
+|title=Study Reveals Top 10 Wettest U.S. Cities &amp;#124; LiveScience
+|publisher=LiveScience&lt;!
+|date=2007-05-18
+|accessdate=2009-12-13}}&lt;/ref&gt; Most of the precipitation falls as drizzle or light rain. Thunderstorms occur only occasionally. Seattle reports thunder on just seven days per year (according to 'Cities Ranked and Rated' - Bert Sperling and Peter Sander.2007). For comparison [[Fort Myers, Florida]] reports thunder on 93&amp;nbsp;days per year. [[Kansas City]] reports 52&amp;nbsp;'thunder days' and New York City reports 25. There are occasional downpours. One of these downpours occurred in early December 2007 when sustained hurricane-force winds and widespread heavy rainfall associated with a strong &quot;[[Pineapple Express]]&quot; event hit the greater Puget Sound area.&lt;ref name=mass&gt;{{cite book |last= Mass |first= Cliff |title= The Weather of the Pacific Northwest |year= 2008 |publisher= [[University of Washington Press]] |isbn= 9780295988474 |pages= 41–42, 51–52}}&lt;/ref&gt; It became the second wettest event in Seattle history when a little over {{convert|5|in|mm}} of rain fell on Seattle in a 24&amp;nbsp;hour period. The rain also caused five deaths and widespread flooding and damage.&lt;ref&gt;{{cite web
+| title =5 Dead in Washington Storm
+| url = http://www.kirotv.com/weather/14758195/detail.html
+| publisher=Kiro TV News
+| accessdate = January 24, 2009 }}&lt;/ref&gt; Spring, late fall, and winter are filled with days when it does not rain but looks as if it might because of cloudy, overcast skies. Winters are cool and wet with average lows in the mid 30s °F (2-4 °C) on winter nights. Colder weather does sometimes occur. Summers are dry and warm, with average daytime highs around near {{convert|75|°F|0}}. Hotter weather usually occurs only during a few summer days. Seattle's hottest official recorded temperature was {{convert|103|°F|0}} on July 29, 2009;&lt;ref&gt;
+{{cite web
+  |url=http://www.mynorthwest.com/?nid=11&amp;sid=194392
+  |title=Seattle breaks record for hottest day ever - Seattle News
+  |publisher=MyNorthwest.com
+  |date= 2009-07-29
+  |accessdate=2009-12-13
+}}&lt;/ref&gt; the coldest recorded temperature was {{convert|0|°F|0}} on January 31, 1950.&lt;ref name=weather.com&gt;{{cite web
+| url=http://www.weather.com/weather/wxclimatology/monthly/USWA0395
+| title=Monthly Averages for Seattle, WA
+| publisher=The Weather Channel
+| accessdate=September 28, 2007}}&lt;/ref&gt;
+
+[[Image:Seattle-myst.jpg|thumb|left|Between October and May, Seattle is mostly or partly cloudy six out of every seven days&lt;ref name=cloudy/&gt;]]
+
+Eighty miles (130&amp;nbsp;km) to the west, the [[Hoh Rain Forest]] in [[Olympic National Park]] on the western flank of the Olympic Mountains receives an annual average rainfall of {{convert|142|in|mm|sigfig=3}}. Sixty miles to the south of Seattle, the state capital [[Olympia, Washington|Olympia]], which is out of the rain shadow, receives an annual average rainfall of {{convert|52|in|mm|sigfig=3}}. Seattle typically receives some snowfall on an annual basis but heavy snow storms are less frequent. A recent example happened from December 12–25, 2008, when over one foot of snow fell and stuck on much of the city's roads, causing widespread difficulties in a city not prepared for sudden heavy bursts of snow. Average annual snowfall, as measured at Sea-Tac Airport, is {{convert|13|in|cm|0}}.&lt;ref name=bestplaces.net&gt;{{cite web
+| url=http://www.bestplaces.net/climate/details.aspx?cat=Precipitation&amp;wmo=727930
+| title=Precipitation Averages for Seattle, WA
+| publisher=Sperling's Best Places
+| accessdate=September 28, 2007 }}&lt;/ref&gt; Seattle's daily record snowfall was {{convert|20|in|cm}} on January 13, 1950.&lt;ref name=weatherrecord&gt;{{cite news
+| url=http://www.komotv.com/weather/faq/4310942.html
+| title=Seattle Weather Records
+| publisher=KOMOTV.com
+|accessdate=September 28, 2007}}&lt;/ref&gt; The largest [[Winter storm#Snow|snowstorm]] on record occurred from January 31 to February 2, 1916, with {{convert|29|in|mm}} on snow on the ground by the time the storm was over.&lt;ref name=mass/&gt; A sunnier and drier climate typically dominates from mid-July to mid-September. An average of {{convert|0.8|in|mm|0}} of rain falls in July and {{convert|1.0|in|mm|0}} in August. Although the summer climate is considerably drier and less humid than in areas with humid continental climates, dampness can be felt, usually when temperatures reach above {{convert|80|°F|1}}. This dampness is typically more noticeable during the evening when the temperatures have dropped. Because of this, Seattle experiences summer thunderstorms every now and then.&lt;ref&gt;{{cite web
+| url=http://www.cityofseattle.net/html/visitor/weather.htm
+|title=Seattle Weather and Climate
+| work=Seattle 101 – A Guide for Travelers and Tourists
+| publisher=City of Seattle
+| accessdate=September 28, 2007}}&lt;/ref&gt;
+
+The [[Puget Sound Convergence Zone]] is an important feature of Seattle's weather. In the convergence zone, air arriving from the north meets air flowing in from the south. Both streams of air originate over the Pacific Ocean; airflow is split by the Olympic Mountains to Seattle's west, then reunited by the Cascade Mountains to the east. When the air currents meet, they are forced upward, resulting in convection.&lt;ref name=convergencezone&gt;{{cite news
+  | url=http://www.komotv.com/weather/faq/convergence_zone.asp
+  | title=What is the Puget Sound Convergence Zone?
+  | publisher=KOMOTV.com
+  | accessdate=September 28, 2007}}&lt;/ref&gt; Thunderstorms caused by this activity can occur north and south of town, but Seattle itself rarely receives more weather than occasional thunder and ice-pellet showers. The [[Hanukkah Eve Wind Storm of 2006|Hanukkah Eve Wind Storm]] in December 2006 is an exception that brought heavy rain and winds gusting up to {{convert|69|mph|km/h|abbr=on|0}}.
+
+Another exception to Seattle's dampness may occur in [[El Niño]] years, when the marine weather systems track as far south as California and little precipitation falls in the Puget Sound area.&lt;ref&gt;{{cite news
+| url=http://seattletimes.nwsource.com/html/localnews/2003297665_webnino10.html
+| title=El Niño could cause Northwest drought, mild winter elsewhere, forecasters say
+| publisher=The Seattle Times
+| date=October 10, 2006
+| author=Randolph E. Schmid
+| accessdate=November 1, 2007}}&lt;/ref&gt; Since the region's water comes from mountain snowpacks during the drier summer months, El Niño winters can not only produce substandard skiing but can result in water rationing and a shortage of hydroelectric power the following summer.&lt;ref&gt;{{cite news
+| url=http://seattletimes.nwsource.com/html/localnews/2002162116_snowpack27m.html
+| title=Lack of snow may take toll
+| publisher=The Seattle Times
+| author=Nick Perry
+| date=February 23, 2005
+| accessdate=November 1, 2007}}&lt;/ref&gt;
+
+{{Seattle weatherbox}}
+
+=== Neighborhoods ===
+{{Main|Neighborhoods in Seattle}}
+
+[[File:Seattle skyline seen from waterfront evening June 2010.JPG|thumb|right|275px|Downtown Seattle includes a tightly packed financial district along with residential areas and a panoramic waterfront.]]
+
+Seattle has grown through a series of annexations of smaller neighboring communities. On May 3, 1891, [[Magnolia, Seattle|Magnolia]], [[Wallingford, Seattle|Wallingford]], [[Green Lake, Seattle|Green Lake]], and the [[University District, Seattle|University District]] (then known as Brooklyn) were annexed.&lt;ref&gt;{{cite web
+  |url=http://www.historylink.org/essays/output.cfm?file_id=2214
+  | publisher=HistoryLink
+  | title=Seattle doubles in size by annexing north-of-downtown communities on May 3, 1891.
+  | author=Greg Lange
+  | date=January 1, 1999
+  | accessdate=October 4, 2007}}&lt;/ref&gt; The town of South Seattle was annexed on October 20, 1905.&lt;ref&gt;{{cite web
+
+  |url=http://www.historylink.org/essays/output.cfm?file_id=731
+  |title=Seattle annexes South Seattle on October 20, 1905.
+  |publisher=HistoryLink.org
+  |author=Greg Lange
+  |date=January 17, 1999
+  |accessdate=October 4, 2007}}&lt;/ref&gt; Between January 7 and September 12, 1907, Seattle nearly doubled its land area by annexing six incorporated towns and areas of unincorporated King County, including Southeast Seattle, [[Ravenna, Seattle|Ravenna]], [[South Park, Seattle|South Park]], [[Columbia City, Seattle|Columbia City]], [[Ballard, Seattle|Ballard]], and [[West Seattle, Seattle|West Seattle]].&lt;ref&gt;{{cite web
+  |url=http://www.historylink.org/essays/output.cfm?file_id=1954
+  |title=City of Seattle annexes six towns including Ballard and West Seattle in 1907.
+  | date=January 1, 2000
+  | author=Greg Lange
+  |publisher=HistoryLink
+  | accessdate=October 4, 2007}}&lt;/ref&gt; Three years later, after having difficulties paying a $10,000&amp;nbsp;bill from the county, the city of [[Georgetown, Seattle|Georgetown]] merged with Seattle.&lt;ref&gt;{{cite web
+  |url=http://www.historylink.org/essays/output.cfm?file_id=2978
+  |title=Georgetown (later a Seattle neighborhood) incorporates as a city on January 8, 1904.
+  |publisher=HistoryLink
+  | author=David Wilma
+  | date=February 10, 2001
+  | accessdate=October 4, 2007}}&lt;/ref&gt; Finally, on January 4, 1954, the area between N. 85th Street and N. 145th Street was annexed, including the neighborhoods of [[Pinehurst, Seattle|Pinehurst]], [[Maple Leaf, Seattle|Maple Leaf]], [[Lake City, Seattle|Lake City]], [[View Ridge, Seattle|View Ridge]] and [[Northgate, Seattle|Northgate]].&lt;ref&gt;{{cite web
+  | url=http://www.historylink.org/essays/output.cfm?file_id=7514
+  | title=Seattle annexes the area north of N 85th Street to N 145th Street on January 4, 1954.
+  | publisher=HistoryLink
+  | author=David Wilma
+  | date=October 12, 2005
+  | accessdate=October 4, 2007}}&lt;/ref&gt;
+
+Former Seattle mayor [[Greg Nickels]] is among those who have called Seattle &quot;a city of neighborhoods&quot;,&lt;ref&gt;{{cite web
+  | url= http://www.seattle.gov/mayor/about/nicnewsJul05.htm
+  | author= Greg Nickels
+  | title= Nickels Newsletter – July 2005
+  |month=July | year=2005
+  | accessdate=October 11, 2007 |archiveurl = http://web.archive.org/web/20061025225457/http://seattle.gov/mayor/about/nicnewsJul05.htm |archivedate = October 25, 2006}}&lt;/ref&gt;&lt;ref name=there-goes&gt;{{cite news
+
+  | url= http://archives.seattletimes.nwsource.com/cgi-bin/texis.cgi/web/vortex/display?slug=map051&amp;date=20021005
+  | title= New Seattle map: There goes the neighborhood
+  | author= Jack Broom
+  | publisher= Seattle Times
+  | date=October 5, 2002
+  | accessdate=October 11, 2007}}&lt;/ref&gt; although the boundaries (and even names) of those neighborhoods are often open to dispute. For example, a Department of Neighborhoods spokeswoman reported that her own neighborhood has gone from &quot;the 'CD' ([[Central District, Seattle|Central District]]) to 'Madrona' to 'Greater Madison Valley' and now 'Madrona Park'.&lt;ref name=there-goes /&gt;
+
+Over a dozen Seattle neighborhoods have Neighborhood Service Centers, originally known in 1972 as &quot;Little City Halls&quot;&lt;ref&gt;{{cite web
+  | url=http://www.historylink.org/index.cfm?DisplayPage=output.cfm&amp;File_Id=3270
+  | title=Seattle's Little City Halls
+  | publisher=HistoryLink.org
+  | author=Walt Crowley
+  |date=May 9, 2001
+  |accessdate=April 27, 2009}}&lt;/ref&gt; and even more have their own street fair and/or parade during the summer months.&lt;ref&gt;{{cite web
+
+  | url=http://www.seafair.com/events/community/
+  | archiveurl=http://web.archive.org/web/20070625125907/http://www.seafair.com/events/community/
+  | title=Community Events
+  | archivedate=June 25, 2007
+  | accessdate=October 20, 2007}}&lt;/ref&gt;
+The largest of the city's street fairs feature hundreds of craft and food booths and multiple stages with live entertainment, and draw more than 100,000&amp;nbsp;people over the course of a weekend.&lt;ref&gt;{{cite web
+  | url=http://www.historylink.org/essays/output.cfm?file_id=1126
+  | title=University District (Seattle) Street Fair is first held May 23 and 24, 1970
+  | publisher=HistoryLink.org
+  | author=Walt Crowley
+  |date=May 11, 1999
+  | accessdate=October 11, 2007}}&lt;/ref&gt; In addition, at least half a dozen neighborhoods have weekly farmers' markets, some with as many as fifty vendors.&lt;ref&gt;For an overview of Seattle's neighborhood farmers markets see: {{cite web
+  | url=http://www.seattlefarmersmarkets.org/markets
+  | publisher= Neighborhood Farmers Market Alliance
+  | title = Markets
+  | accessdate=October 11, 2007}} For the scale of one of the larger markets (in the University District, see: {{cite web
+
+  | url=http://www.seattlefarmersmarkets.org/markets/u_district
+  | publisher= Neighborhood Farmers Market Alliance
+  | title = University District Farmers Market
+  | accessdate=October 11, 2007}}&lt;/ref&gt;
+
+Additionally, [[Puget Sound Regional Council]] designates several areas of Seattle as urban centers, defined as &quot;designated planning districts intended to provide a mix of housing, employment and commercial and cultural amenities in a compact form that supports transit, walking and cycling.&quot;&lt;ref&gt;{{cite web
+  | url=http://www.psrc.org/growth/centers
+  | publisher=Puget Sound Regional Council
+  | title =  Regional Growth Centers
+  | accessdate=May 2, 2010}}&lt;/ref&gt; These urban centers may have the same name as a neighborhood but slightly different borders; for example, the [[Capitol Hill, Seattle, Washington|Capitol Hill]] Urban Center is much smaller than the entire neighborhood.
+
+== Cityscape ==
+
+{{wide image|Panorama_Kerry_Park_Seattle.jpg|2200px|&lt;div class=&quot;center&quot;&gt;Panoramic view from Kerry Park.&lt;/div&gt;}}
+{{wide image|Seattle 3.jpg|1100px|&lt;div class=&quot;center&quot;&gt;Seattle Skyline at Dusk.&lt;/div&gt;}}
+
+=== Landmarks ===
+[[File:SCL.jpg|thumb|upright|Image showing 5th Avenue entrance of the [[Seattle Central Library]], designed by [[Office for Metropolitan Architecture|OMA]]; located on 4th and Madison street in Downtown Seattle. [[Columbia Center]] can also be seen in the background.]]
+{{See also|List of tallest buildings and structures in Seattle}}
+The [[Space Needle]], dating from the Century 21 Exposition [[Century 21 Exposition|(1962)]], is Seattle's most recognizable landmark, having been featured in the logo of NBA sports team the ''[[Seattle SuperSonics]]'', the television show ''[[Frasier]]'' and the backgrounds of the television series ''[[Dark Angel (TV series)|Dark Angel]]'', ''[[Grey's Anatomy]]'' and ''[[iCarly]]'', and films such as ''[[It Happened at the World's Fair]]'', ''[[Sleepless in Seattle]]'', and ''[[The Twilight Saga: Eclipse]]''. The fairgrounds surrounding the Needle have been converted into [[Seattle Center]], which remains the site of many local civic and cultural events, such as [[Bumbershoot]], [[Northwest Folklife|Folklife]], and the [[Bite of Seattle]]. Seattle Center plays multiple roles in the city, ranging from a public fair ground to a civic center, though recent economic losses have called its viability and future into question.&lt;ref&gt;{{cite news | url=http://seattlepi.com/local/267794_seattlecenter24.asp | title=City looking to breathe new life into Seattle Center | publisher=The Seattle Times | author=Kathy Mulady | coauthors=Debera Carlton Harrell | date=April 24, 2006 | accessdate=October 22, 2007}}&lt;/ref&gt; The [[Seattle Center Monorail]] was also constructed for Century 21 and still runs from Seattle Center to [[Westlake Center]], a downtown shopping mall, a little over a mile to the southeast.
+[[Image:Pike Place Market Seattle.jpg|upright | thumb|Pike Place Market]]
+The [[Smith Tower]] was the tallest building on the West Coast from its completion in 1914 until the Space Needle overtook it in 1962.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=5370 | title=Seattle's Smith Tower, tallest building west of Ohio, is dedicated on July 4, 1914. | publisher=HistoryLink | author=Greg Lange | date=March 5, 2003 | accessdate=October 3, 2007}}&lt;/ref&gt; The late 1980s saw the construction of Seattle's two tallest skyscrapers: the 76&amp;nbsp;story [[Columbia Center]] (completed 1985) is the tallest building in the Pacific Northwest&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=2627 | title=Columbia Center, tallest building in Pacific Northwest, opens doors on March 2, 1985. | publisher=HistoryLink | author=David Wilma | date=August 25, 2005 | accessdate=October 3, 2007}}&lt;/ref&gt; and the fourth tallest building west of the Mississippi River;&lt;ref&gt;{{cite news | url=http://seattlepi.com/local/304900_climb23.html | title=Firefighters take 69 floors for leukemia | publisher=Seattle Post-Intelligencer | author=Casey McNerthney | date=February 23, 2007 | accessdate=October 22, 2007}}&lt;/ref&gt; the [[Washington Mutual Tower]] (completed 1988) is Seattle's second tallest building.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=3417 | title=Washington Mutual Tower opens in downtown Seattle in 1988. | publisher=HistoryLink | date=June 30, 2001 | accessdate=October 31, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite book | url=http://books.google.com/?id=5zYpZxUrUtAC&amp;pg=RA1-PA95&amp;lpg=RA1-PA95&amp;dq=%22washington+mutual+tower%22+second+tallest | title=Planning in the USA: Policies, Issues, and Processes | author=Barry Cullingworth | coauthors=Roger W. Caves | publisher=Routledge | location=New York, New York | year=1997 | page=95 | isbn=0-415-24788-8}}&lt;/ref&gt;  Other notable Seattle landmarks include [[Pike Place Market]], the [[Fremont Troll]], the [[Experience Music Project and Science Fiction Museum and Hall of Fame]] (at Seattle Center), and the [[Seattle Central Library]].
+
+Starbucks has been at Pike Place Market since the coffee company was founded there in 1971. The first store is still operating a block south of its original location.&lt;ref name=firststarbucks&gt;{{cite web | url=http://www.ci.seattle.wa.us/html/visitor/starbucks.htm | title=Original Starbucks | publisher=City of Seattle | accessdate=October 3, 2007}}&lt;/ref&gt;
+
+The [[National Register of Historic Places]] has over 150&amp;nbsp;Seattle listings.&lt;ref&gt;{{cite web | url=http://www.nr.nps.gov/iwisapi/explorer.dll?IWS_SCHEMA=NRIS1&amp;IWS_LOGIN=1&amp;IWS_REPORT=100000039 | title=Impromptu query for Seattle, Washington | publisher=National Register Information System | accessdate=November 1, 2007}}{{NRIS dead link}} {{Dead link|date=June 2010| bot=DASHBot}}&lt;/ref&gt; The city also [[List of landmarks in Seattle|designates its own landmarks]].&lt;ref&gt;{{cite web | url=https://www.seattle.gov/neighborhoods/preservation/designation_process.htm | title=Nomination and Designation Processes | work=Landmarks and Designation | publisher= Department of Neighborhoods, City of Seattle | accessdate=January 9, 2009}}&lt;/ref&gt;
+
+== Culture ==
+=== Performing arts ===
+{{Main|Arts in Seattle}}
+Seattle has been a regional center for the [[performing arts]] for many years. The century-old [[Seattle Symphony Orchestra]] is among the world's most recorded&lt;ref name=ssorch&gt;{{cite web | url=http://www.seattlesymphony.org/symphony/meet/recordings/ | title=Recordings and Broadcasts | publisher= Seattle Symphony | accessdate=October 19, 2007}}&lt;/ref&gt; and performs primarily at [[Benaroya Hall]].&lt;ref&gt;{{cite web| url=http://www.seattlesymphony.org/symphony/meet/history/ |publisher=Seattle Symphony Orchestra |title=History |accessdate=October 21, 2007}}&lt;/ref&gt; The [[Seattle Opera]] and [[Pacific Northwest Ballet]], which perform at [[McCaw Hall]] (opened 2003 on the site of the former Seattle Opera House at Seattle Center), are comparably distinguished,&lt;ref name=pnb&gt;{{cite web | url=http://www.pnb.org/pnbschool/philosophy.html | title=About the School | publisher=Pacific Northwest Ballet | accessdate=October 19, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web| url=http://www.metoperafamily.org/metopera/news/press/detail.aspx?id=274 |title=Met Opera and Seattle Opera to Co-Produce Gluck's Final Operatic Masterpiece &quot;Iphigénie en Tauride&quot; |date=December 18, 2006 | work= Press release | publisher=[[Metropolitan Opera]] |accessdate=October 21, 2007}} This press release from New York's Metropolitan Opera describes the Seattle Opera as &quot;one of the leading opera companies in the United States… recognized internationally…&quot;&lt;/ref&gt; with the Opera being particularly known for its performances of the works of [[Richard Wagner]]&lt;ref&gt;{{cite web|url=http://www.seattleopera.org/discover/wagner/index.aspx| title=Wagner |publisher= Seattle Opera | accessdate=October 21, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite news| url=http://www.playbillarts.com/news/article/5090.html | title=Seattle Opera's First International Wagner Competition Announces Winners| author=Matthew Westphal |date=August 21, 2006 | work=Playbill Arts | accessdate=October 21, 2007}}&lt;/ref&gt; and the PNB School (founded in 1974) ranking as one of the top three ballet training institutions in the United States.&lt;ref name=pnb /&gt; The [[Seattle Youth Symphony Orchestras]] (SYSO) is the largest symphonic youth organization in the United States.&lt;ref&gt;{{cite web|url=http://www.syso.org/ |title=Home page |publisher=SYSO| accessdate=October 21, 2007}}&lt;/ref&gt; The city also boasts lauded summer and winter [[chamber music]] festivals organized by the [[Seattle Chamber Music Society]].&lt;ref&gt;[http://seattletimes.nwsource.com/html/thearts/2008030884_chamber060.html The Seattle Times, July 6, 2008]&lt;/ref&gt;
+
+The [[5th Avenue Theatre]], built in 1926, stages Broadway-style musical shows&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=3750 | title=Fifth (5th) Avenue Theatre | publisher=HistoryLink | author=Eric L. Flom | date=April 21, 2002 | accessdate=October 19, 2007}}&lt;/ref&gt; featuring both local talent and international stars.&lt;ref&gt;Examples of local talent are [[Billy Joe Huels]] (lead singer of the [[Dusty 45s]] starring in ''[[Buddy – The Buddy Holly Story]]'' and [[Sarah Rudinoff]] in ''[[Wonderful Town]]''. National-level stars include [[Stephen Lynch (musician)|Stephen Lynch]] in ''[[The Wedding Singer (musical)|The Wedding Singer]]'', which went on to Broadway and [[Cathy Rigby]] in ''[[Peter Pan (1954 musical)|Peter Pan]]''
+&lt;br /&gt;(1) {{cite web |url= http://www.5thavenue.org/press/buddy-announced.aspx |title= Seattle World Premiere of Cry-Baby Delayed. Buddy: The Buddy Holly Story Added to Season |publisher=The 5th Avenue Theatre |date=October 11, 2006 |accessdate=February 19, 2007 }}
+&lt;br /&gt;(2) {{cite web | url=http://www.5thavenue.org/press/wt_cast.aspx | title=Wonderful Town: A Madcap Manhattan Romp |publisher=The 5th Avenue Theatre | year=2006 |accessdate=October 25, 2007 }}
+&lt;br /&gt;(3) {{cite news | author=Misha Berson| url= http://seattletimes.nwsource.com/html/theaterarts/2002797878_wedding11.html | title=Eager-to-please new musical raids the '80s | publisher=Seattle Times | date=February 11, 2006| accessdate=October 25, 2007 }}
+&lt;br /&gt;(4) {{cite web | url=http://www.5thavenue.org/about/showarchives.aspx | title=Show Archives | publisher=The 5th Avenue Theatre | accessdate=October 25, 2007 }}
+&lt;/ref&gt; Seattle has &quot;around 100&quot; theatrical production companies&lt;ref name=Kiley-new-theater&gt;{{cite news| author=Brendan Kiley| title=Old Timers, New Theater | publisher=The Stranger | date=January 31, 2008 |page=27 |url=http://www.thestranger.com/seattle/Content?oid=496361|accessdate=January 9, 2009}} &quot;around 100 theater companies ... Twenty-eight have some sort of [[Actors' Equity]] contract&amp;nbsp;...&quot;&lt;/ref&gt;&lt;ref&gt;{{cite web| url=http://seattleperforms.com/content/view/7/17/ | title=Theatre Producers and Presenters | publisher= Seattle Performs | accessdate=October 26, 2007}} Lists 145 theatrical production companies in the Seattle metropolitan area, the majority of them in the city. The list is certainly not complete.&lt;/ref&gt; and over two dozen live theatre venues, many of them associated with [[fringe theatre]];&lt;ref&gt;(1) {{cite news| title=Theater Calendar | publisher=The Stranger | date=October 18, 2007 |page=45}} This lists 23 distinct venues in Seattle hosting live theater (in the narrow sense) that week; it also lists 7 other venues hosting [[burlesque]] or [[cabaret]], and three hosting [[Improvisational theatre|improv]]. In any given week, some theaters are &quot;dark&quot;.
+&lt;br /&gt;(2) {{cite news|url=http://seattletimes.nwsource.com/html/entertainment/2002557462_fringe16.html | title=A new wave of fringe theater groups hits Seattle |author=Misha Berson | publisher=The Seattle Times | date=February 16, 2005 | accessdate=October 26, 2007}} This article mentions five fringe theater groups that were new at that time, each with a venue.&lt;/ref&gt; Seattle is probably second only to New York for number of [[Actors' Equity Association|equity]] theaters&lt;ref&gt;{{cite book| author=Daniel C. Schechter | title=Pacific Northwest | publisher= Lonely Planet | isbn=1864503777 | year=2002 |page=33}}&lt;/ref&gt; (28 Seattle theater companies have some sort of [[Actors' Equity]] contract).&lt;ref name=Kiley-new-theater /&gt;
+In addition, the 900-seat [[Romanesque Revival architecture|Romanesque Revival]] [[Town Hall Seattle|Town Hall]] on First Hill hosts numerous cultural events, especially lectures and recitals.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/localnews/2002193046_townhall01m.html | title=Where culture goes to town | publisher=The Seattle Times | author=Stuart Eskenazi | date=March 1, 2005 | accessdate=October 19, 2007}}&lt;/ref&gt;
+
+[[Image:Seattle - The Moore Theater entrance 01.jpg|thumb|upright|right|The [[Moore Theatre (Seattle, Washington)|Moore Theatre]] has been a performing arts venue in Downtown Seattle since its construction in 1907.]]
+Seattle is considered the home of [[grunge|grunge music]]&lt;ref name=Seattle_Sound/&gt; because it was home to artists such as [[Soundgarden]], [[Nirvana (band)|Nirvana]], [[Alice in Chains]], [[Pearl Jam]], and [[Mudhoney]], all of whom reached vast audiences in the early 1990s.&lt;ref name=Seattle_Music&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=2374 | title=Rock Music – Seattle | publisher=HistoryLink | author=Clark Humphrey | date=May 4, 2000 | accessdate=October 3, 2007}}&lt;/ref&gt;  The city is also home to such varied musicians as [[avant-garde]] [[jazz]] musicians [[Bill Frisell]] and [[Wayne Horvitz]], [[Hip hop music|rapper]] [[Sir Mix-a-Lot]], [[smooth jazz]] [[saxophonist]] [[Kenny G]], [[Heart (band)|Heart]], [[heavy metal music|heavy metal]] bands [[Queensrÿche]], [[Demon Hunter]], [[Nevermore]], [[Himsa]], and [[Sunn O)))]], as well as such [[pop music|poppier]] rock bands as [[Harvey Danger]], [[Goodness (band)|Goodness]], and [[The Presidents of the United States of America (band)|The Presidents of the United States of America]]. Such musicians as [[Jimi Hendrix]], [[Duff McKagan]], [[Nikki Sixx]], and [[Quincy Jones]] spent their formative years in Seattle.
+
+Since the grunge era, the area has hosted a diverse and influential alternative music scene. The Seattle record label [[Sub Pop]]—the first to sign Nirvana and Soundgarden—has signed such non-grunge bands as [[Band of Horses]], [[Modest Mouse]], [[Murder City Devils]], [[Sunny Day Real Estate]], [[Death Cab for Cutie]], [[The Postal Service]], [[Iron and Wine]], [[Flight of the Conchords]], and [[Fleet Foxes]]. Seattle has also put out a number of hiphop artists such as [[Blue Scholars]], [[Macklemore]], and [[Espresso|Fresh Espresso]].&lt;ref name=Seattle_Music/&gt;
+
+Earlier Seattle-based popular music acts include the collegiate folk group [[The Brothers Four]]; [[The Wailers (rock band)|The Wailers]], a 1960s garage band; [[The Ventures]], an instrumental rock band; pop [[Young Fresh Fellows]] and [[The Posies]]; pop-punk [[The Fastbacks]]; the well-traveled avant-rock of [[Sun City Girls]]; and the outright punk of [[The Fartz]] (later [[10 Minute Warning]]), [[The Gits]].&lt;ref&gt;Seattle_Music, the best nightclub Seattle ever had was named Pier 70 Chowder House with the best disk jocky named David Prince&lt;/ref&gt;
+
+Over the years, [[List of songs about Seattle|a number of songs have been written about Seattle]].
+
+Seattle annually sends a team of [[spoken word]] slammers to the National Poetry Slam and considers itself home to such performance poets as [[Buddy Wakefield]], two-time Individual World Poetry Slam Champ;&lt;ref&gt;{{cite web | url=http://www.seattle.gov/arts/news/press_releases.asp?prID=7593&amp;deptID=1 | title=Skip your commute for a &quot;Traffic Jam&quot; with a twist, a Hip Hop &amp; Spoken Word Mashup at City Hall, Aug. 16 | publisher=City of Seattle | author=Lori Patrick | date=August 2, 2007 | accessdate= October 6, 2007}}&lt;/ref&gt; [[Anis Mojgani]], two-time National Poetry Slam Champ;&lt;ref&gt;{{cite web | url=http://www.austinslam.com/nps06/ | title=Indie and Team Semis results | publisher=National Poetry Slam 2006 | date=August 12, 2006 |archiveurl=http://web.archive.org/web/20060830062934/http://www.austinslam.com/nps06/ | archivedate=August 30, 2006| accessdate=October 6, 2007}}&lt;/ref&gt; and [[Danny Sherrard]], 2007 National Poetry Slam Champ and 2008 Individual World Poetry Slam Champ.&lt;ref&gt;{{cite web | url=http://www.seattlepoetryslam.org/ | title=Home | publisher=Seattle Poetry Slam | accessdate=October 6, 2007}}&lt;/ref&gt; Seattle also hosted the 2001 national Poetry Slam Tournament. The Seattle Poetry Festival is a biennial poetry festival that (launched first as the Poetry Circus in 1997) has featured local, regional, national, and international names in poetry.&lt;ref&gt;{{cite news | url=http://seattlepi.com/books/312352_poetry20.html | title=Eleventh Hour's volunteers deserve credit for a strong poetry fest revival | publisher=Seattle Post-Intelligencer | author=John Marshall | date=August 19, 2007 | accessdate=October 6, 2007}}&lt;/ref&gt;
+
+The city also has movie houses showing both [[Hollywood, Los Angeles, California|Hollywood]] productions and works by [[independent film]]makers.&lt;ref&gt;{{cite news | url=http://www.seattlepi.com/movies/177098_littletheaters10.html | title=Now showing in Seattle: an explosion of indie theaters | work=Seattle Post-Intelligencer | date=June 10, 2004 | author=Kristin Dizon| accessdate=January 9, 2009}}&lt;/ref&gt; Among these, the [[Seattle Cinerama]] stands out as one of only three movie theaters in the world still capable of showing three-panel [[Cinerama]] films.&lt;ref&gt;{{cite web | url=http://www.cinerama.com/TemplateMain.aspx?contentId=9 | title=The Theater | publisher=Seattle Cinerama | accessdate=January 9, 2009}} {{Dead link|date=September 2010|bot=H3llBot}}&lt;/ref&gt;&lt;ref&gt;{{cite news | url=http://community.seattletimes.nwsource.com/archive/?date=20030228&amp;slug=cinerama28 | title=Looking back at Cinerama format | work=The Seattle Times | author=Moira Macdonald | date=February 23, 2003 | accessdate=January 9, 2009}}&lt;/ref&gt;
+
+Additionally, the city is also home to the [[Seattle Polish Film Festival]], (&quot;SPFF&quot;) an annual film festival showcasing current and past films of [[Polish cinema]].&lt;ref&gt;WILLIAM ARNOLD, [http://www.seattlepi.com/movies/337777_polishfilmfest02.html  &quot;Film buff sinks teeth into second Polish film festival&quot;] ''[[Seattle Post-Intelligencer]]''&lt;/ref&gt;&lt;ref&gt;WILLIAM ARNOLD, [http://www.seattlepi.com/movies/337717_polishfest02.html  Polish film festival honors a living legend, in person and on-screen] November 1, 2007&lt;/ref&gt;  The festival is produced by the Seattle-Gdynia Sister City Association and awards the Seattle Spirit of Polish Cinema awards as well as the Viewers Choice of Best Film.
+
+=== Media ===
+{{Main|Media in Seattle}}
+
+As of 2010, Seattle has one major daily newspaper, ''[[The Seattle Times]]''. The ''[[Seattle Post-Intelligencer]]'', known as the ''P-I'', published a daily newspaper from 1863 to March 17, 2009 before switching to a strictly on-line publication. There is also the ''[[Seattle Daily Journal of Commerce]]'',&lt;ref&gt;{{cite web | url=http://www.djc.com/ | title=Seattle Daily Journal of Commerce | accessdate=November 3, 2007}}&lt;/ref&gt; and the University of Washington publishes ''[[The Daily of the University of Washington|The Daily]]'', a student-run publication, when school is in session. The most prominent weeklies are the ''[[Seattle Weekly]]'' and ''[[The Stranger (newspaper)|The Stranger]]''; both consider themselves [[alternative newspaper|&quot;alternative&quot; papers]].&lt;ref&gt;(1) {{cite news| url=http://seattlepi.com/lifestyle/57274_newswar07.shtml | title=Rumble in the weekly-newspaper jungle | publisher=Seattle Post-Intelligencer | author=John Marshall | date=February 7, 2002 | accessdate=October 28, 2007 }}&lt;br /&gt;(2) {{cite news| url=http://seattlepi.com/local/281567_seaweekly17.html | title=A new history at Seattle Weekly | publisher=Seattle Post-Intelligencer | author=Mike Lewis | date=August 17, 2006 | accessdate=October 28, 2007 }}&lt;/ref&gt; ''[[Real Change]]'' is a weekly [[street newspaper]] that is sold mainly by [[homeless]] persons as an alternative to [[panhandling]]. There are also several ethnic newspapers, including the ''[[Northwest Asian Weekly]]'', and numerous neighborhood newspapers, including the ''[[North Seattle Journal]]''.
+
+Seattle is also well served by television and radio, with all major U.S. networks represented, along with at least five other English-language stations and two Spanish-language stations.&lt;ref name=stations&gt;{{cite news | url=http://seattlepi.com/tv/radiolistings.shtml | title=Seattle-Area TV &amp; Radio Stations and Their Formats | publisher=Seattle Post-Intelligencer | accessdate=October 3, 2007}}&lt;/ref&gt;  Seattle cable viewers also receive [[CBUT]] 2 ([[CBC Television|CBC]]) from [[Vancouver]], [[British Columbia]].
+
+Non-commercial radio stations include [[National Public Radio|NPR]] affiliates [[KUOW-FM]] 94.9 and [[KPLU-FM]] 88.5 (Tacoma). Other stations include [[KEXP-FM]] 90.3 (affiliated with EMP), [[KBCS-FM]] 91.3 (affiliated with [[Bellevue College]]), and [[KNHC-FM]] 89.5, which broadcasts an [[electronic music]] format and is owned by the public school system and operated by students of Nathan Hale High School. Many Seattle radio stations are also available through [[Internet radio]], with KEXP in particular being a pioneer of Internet radio.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/businesstechnology/2003686534_brier30.html | title=At KEXP, technology and music embrace | publisher=The Seattle Times | author= Brier Dudley | date=April 30, 2007 | accessdate=October 21, 2007}}&lt;/ref&gt; Seattle also has numerous commercial radio stations, including [[KING-FM]], one of the last commercial classical music stations in the United States.&lt;ref name=stations/&gt;
+
+Seattle-based online magazines [[Worldchanging]] and Grist.org were two of the &quot;Top Green Websites&quot; in 2007 according to [[Time (magazine)|Time]].&lt;ref&gt;{{cite news | url=http://www.time.com/time/specials/2007/article/0,28804,1730759_1731034,00.html | title=Top Green Websites | work=Time | year=2007 | accessdate=December 11, 2008 | date=April 17, 2008}}&lt;/ref&gt;
+
+Seattle also has many online newspapers. The two largest are ''The Seattle Times'' and ''Seattle Post-Intelligencer'' (the latter online only).
+
+=== Tourism ===
+{{See also|Museums and galleries of Seattle}}
+[[Image:Seattle Cruise Ship.jpg|thumb|210 cruise ship visits brought 886,039&amp;nbsp;passengers to Seattle in 2008.&lt;ref&gt;{{cite web | url=http://www.portseattle.org/seaport/cruise/ | title=Cruise Seattle | publisher=Port of Seattle | accessdate=October 16, 2009}}&lt;/ref&gt;]]
+[[File:Seattle Sheraton from Two Union Square.jpg|thumb|Seattle Sheraton from Two Union Square]]
+
+Among Seattle's prominent annual fairs and festivals are the 24-day [[Seattle International Film Festival]],&lt;ref&gt;{{cite news | author=Annie Wagner | url=http://www.thestranger.com/seattle/Content?oid=34784 | title=Everything SIFF |publisher=The Stranger | date=May 25–31, 2006 | accessdate=September 28, 2007}}&lt;/ref&gt; [[Northwest Folklife]] over the [[Memorial Day]] weekend, numerous [[Seafair]] events throughout July and August (ranging from a [[Bon Odori]] celebration to the [[Seafair Cup]] [[Hydroplane (boat)|hydroplane]] races), the [[Bite of Seattle]], one of the largest [[Gay Pride]] festivals in the United States, and the art and music festival [[Bumbershoot]], which programs music as well as other art and entertainment over the [[Labor Day]] weekend. All are typically attended by 100,000&amp;nbsp;people annually, as are the [[Seattle Hempfest]] and two separate [[Independence Day (United States)|Independence Day]] celebrations.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/localnews/2003801605_rain23m.html | title=Rains wash records away | publisher=The Seattle Times | author=Judy Chia Hui Hsu | date=July 23, 2007 | accessdate=October 9, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite news | url=http://seattlepi.com/local/328174_hempfest18.html | title=Where there's smoke, there's Hempfest | publisher=Seattle Post-Intelligencer | author=Casey McNerthney | date=August 14, 2007 | accessdate=October 9, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/entertainment/2003866959_webbumbermon.html | title=Strong attendance, but not a record: 8:30 p.m. | author=Misha Berson | work=Report from Bumbershoot: Monday | publisher=The Seattle Times | date=September 3, 2007 | accessdate=October 9, 2007}}&lt;/ref&gt; In the past, the Gay Pride parade and festival have been centered on Capitol Hill, but since 2006, festivities have been held city-wide, and the parade has followed a route downtown along 4th Avenue from the central shopping district to Seattle Center.&lt;ref name=&quot;gayprideparade&quot;&gt;{{cite news | url=http://seattlepi.com/local/275075_pride23.html | last=Murakami | first=Kery | publisher=Seattle Post-Intelligencer | date=June 23, 2006 | title=Gay pride events multiply | accessdate=October 19, 2007}}&lt;/ref&gt;
+
+Other significant events include numerous [[Native Americans in the United States|Native American]] [[pow-wow]]s, a Greek Festival hosted by [[St. Demetrios Greek Orthodox Church (Seattle)|St. Demetrios Greek Orthodox Church]] in [[Montlake, Seattle|Montlake]], and numerous ethnic festivals (many associated with [[Festál at Seattle Center]]).&lt;ref&gt;{{cite web | url=http://www.seattlecenter.com/events/festivals/festal/default.asp | title=Create Your Seattle Center Experience | publisher=Seattle Center | accessdate=October 21, 2007}}&lt;/ref&gt;
+[[File:Lake Union Plane.jpg|thumb|left|The Seattle skyline viewed from [[Gas Works Park]].]]
+There are other annual events, ranging from the Seattle Antiquarian Book Fair &amp; Book Arts Show;&lt;ref&gt;{{cite web | url=http://www.seattlebookfair.com/ |title=Home page | publisher=The Seattle Antiquarian Book Fair &amp; Book Arts Show | accessdate=October 26, 2007}}&lt;/ref&gt; an [[anime]] convention, [[Sakura-Con]];&lt;ref&gt;{{cite web| url=http://www.sakuracon.org/index.php?langset=e | title= Sakura-Con English-language site | publisher=Asia Northwest Cultural Education Association | accessdate=October 25, 2007}} Relevant information is on &quot;Location&quot; and &quot;History&quot; pages.&lt;/ref&gt; [[Penny Arcade Expo]], a gaming convention;&lt;ref&gt;{{cite news| url=http://seattlepi.com/videogames/329002_penny25.html | title= Video games rule at Penny Arcade Expo | author=Regina Hackett |publisher=Seattle Post Intelligencer | date=August 24, 2007 | accessdate=October 26, 2007}}&lt;/ref&gt; a two-day, 9,000-rider [[Seattle to Portland Bicycle Classic]],&lt;ref&gt;{{cite news | url=http://seattlepi.com/local/323722_bikeride14.html | title=9,000 bicyclists ready to ride in annual event | publisher=Seattle Post-Intelligencer | author=Amy Rolph | date=July 13, 2007 | accessdate=October 9, 2007}}&lt;/ref&gt; and specialized [[film festival]]s, such as the [[Maelstrom International Fantastic Film Festival]], the Northwest Asian-American Film Festival, Children's Film Festival Seattle, Translation: the Seattle Transgender Film Festival, and the Seattle Gay and Lesbian Film Festival.&lt;ref&gt;{{cite web| url=http://seattlequeerfilm.org/ | title=Home page | publisher=Three Dollar Bill Cinema | accessdate=October 25, 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web | url=http://www.seattle.gov/filmoffice/festivals.htm| title=Seattle Film Office: Filming in Seattle: Film Events and Festivals | publisher=City of Seattle | accessdate=23 February 2011}}&lt;/ref&gt;
+
+The [[Henry Art Gallery]] opened in 1927, the first public art museum in Washington.&lt;ref&gt;{{cite web | url=http://www.henryart.org/info.htm | title=About the Henry | publisher=Henry Art Gallery | accessdate=October 9, 2007}}&lt;/ref&gt; The [[Seattle Art Museum]] (SAM) opened in 1933; SAM opened a museum downtown in 1991 (expanded and reopened 2007); since 1991, the 1933 building has been SAM's [[Seattle Asian Art Museum]] (SAAM).&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=2082 | title=Seattle Art Museum opens in Volunteer Park on June 23, 1933. | publisher=HistoryLink | author=Dave Wilma | accessdate=October 9, 2007}}&lt;/ref&gt; SAM also operates the [[Olympic Sculpture Park]] (opened 2007) on the waterfront north of the downtown piers. The [[Frye Art Museum]] is a free museum on [[First Hill, Seattle|First Hill]].
+Regional history collections are at the [[Loghouse Museum]] in Alki, [[Klondike Gold Rush National Historical Park]], the [[Museum of History and Industry]] and the [[Burke Museum of Natural History and Culture]]. Industry collections are at the [[Center for Wooden Boats]] and the adjacent [[Northwest Seaport]], the [[Seattle Metropolitan Police Museum]], and the [[Museum of Flight]]. Regional ethnic collections include the [[Nordic Heritage Museum]], the [[Wing Luke Asian Museum]] and the [[Northwest African American Museum]]. Seattle has artist-run galleries,&lt;ref&gt;{{cite web | url=http://www.visualcodec.com/content/articles/20060501cscott.html | title= And the Galleries Marched in Two by Two | publisher=Visual Codec | author=Carrie E.A. Scott | accessdate=October 21, 2007}} {{Dead link|date=June 2010| bot=DASHBot}}&lt;/ref&gt; including 10-year veteran [[Soil Art Gallery]],&lt;ref&gt;{{cite web| url=http://soilart.org/about/index.htm | title=About SOIL | publisher=SOIL Gallery | accessdate=October 27, 2007}}&lt;/ref&gt; and the newer Crawl Space Gallery.&lt;ref&gt;{{cite web| url=http://crawlspacegallery.com/aboutgallery.htm | title=About the gallery | publisher= Crawl Space Gallery | accessdate=October 27, 2007}}&lt;/ref&gt;
+
+[[Woodland Park Zoo]] opened as a private [[menagerie]] in 1889, but was sold to the city in 1899.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=1481 | title=Woodland Park Zoo – A Snapshot History | publisher=HistoryLink | author=Walt Crowley | date=July 8, 1999 | accessdate=October 9, 2007}}&lt;/ref&gt; The [[Seattle Aquarium]] has been open on the downtown waterfront since 1977 (undergoing a renovation 2006).&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=2178 | title=Seattle Aquarium opens to excited crowds on May 20, 1977. | publisher=HistoryLink | author=Patrick McRoberts | date=January 1, 1999 | accessdate=October 9, 2007}}&lt;/ref&gt; The [[Seattle Underground]] Tour is an exhibit of places that existed before the Great Fire.&lt;ref&gt;{{cite news | url=http://m.usatoday.com/Seattle_Attractions/611088/;jsessionid=9F4186C85721E38E7DB0842C8CDDCE95.wap2| title=Seattle Underground Tour | publisher=USA Today | date=October 24, 2006 | accessdate=December 13, 2009}}&lt;/ref&gt; There are also many [[community centers in Seattle|community centers]] for recreation, including Rainier Beach, Van Asselt, Rainier, and Jefferson south of the Ship Canal and Green Lake, Laurelhurst, Loyal Heights north of the Canal, and Meadowbrook.&lt;ref&gt;{{cite web | url=http://www.seattle.gov/parks/centers.asp | title=Community Centers | publisher=City of Seattle | accessdate=October 21, 2007}}&lt;/ref&gt;
+
+Since the middle 1990s, Seattle has experienced significant growth in the cruise industry, especially as a departure point for Alaska cruises. In 2008, a record total of 886,039 cruise passengers passed through the city, surpassing the number for Vancouver, BC, the other major departure point for Alaska cruises.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/travel/2009119899_cruiseterminal25.html | title=First cruise ship docks at Seattle's new $72 million terminal | publisher=Seattle Times | author=Kristin Jackson | date=April 26, 2009 | accessdate=June 1, 2009}}&lt;/ref&gt;
+
+=== Professional sports ===
+{{Main|Sports in Seattle}}
+[[Image:SafecoFld.JPG|thumb|[[Safeco Field]], home of the [[Seattle Mariners]]]]
+[[File:Qwest Field Nighttime.jpg|thumb|[[Qwest Field]], home of the [[Seattle Seahawks]] and [[Seattle Sounders FC]]]]
+{| class=&quot;wikitable&quot;
+|-
+!Club
+!Sport
+!League
+!Venue
+!Established
+!Championships
+|-
+| [[Seattle Sounders FC]]
+| [[Soccer]]
+| [[Major League Soccer|MLS]]
+| [[Qwest Field]]
+| 2007
+| 2
+|-
+| [[Seattle Seahawks]]
+| [[American football|Football]]
+| [[National Football League|NFL]]
+| Qwest Field
+| 1976
+| 0
+|-
+| [[Seattle Mariners]]
+| [[Baseball]]
+| [[Major League Baseball|MLB]]
+| [[Safeco Field]]
+| 1977
+| 0
+|-
+| [[Seattle Thunderbirds]]
+| [[Ice hockey]]
+| [[Western Hockey League|WHL]]
+| [[ShoWare Center]]
+| 1977
+| 0
+|-
+| [[Seattle Storm]]
+| [[Basketball]]
+| [[Women's National Basketball Association|WNBA]]
+| [[KeyArena]]
+| 2000
+| 2
+|-
+| [[Seattle Grizzlies]]
+| [[Australian Football]]
+| [[United States Australian Football League|USAFL]]
+| [[Mosier Park]]
+| 1998
+| 0
+|-
+| [[Seattle Mist]]
+| [[Football]]
+| [[Lingerie Football League|LFL]]
+| [[ShoWare Center]]
+| 2009
+| N/AQ
+|-
+| [[Seattle SuperSonics]]*
+| [[Basketball]]
+| [[National Basketball Association|NBA]]
+| [[KeyArena]]
+| 1967
+| 1
+|-
+| [[Seattle Totems (NORPAC)|Seattle Totems]]
+| [[Ice Hockey]]
+| [[Northern Pacific Hockey League|NPHL]]
+| [[Olympic View Ice Arena]]
+| 2005
+| 4
+|}
+
+Seattle's professional sports history began at the start of the 20th century with the [[Pacific Coast Hockey Association|PCHA's]] [[Seattle Metropolitans]], which in 1917 became the first American hockey team to win the [[Stanley Cup]].&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=5414 | title=Seattle Metropolitan hockey team wins the Stanley Cup on March 26, 1917. | publisher=HistoryLink | author=Greg Lange | date=March 14, 2003 | accessdate=September 29, 2007}}&lt;/ref&gt;  Today Seattle has three major professional sports teams: The [[National Football League]]'s [[Seattle Seahawks]], [[Major League Baseball]]'s [[Seattle Mariners]], and [[Major League Soccer]]'s [[Seattle Sounders FC]]. Other sports teams include the 2004 and 2010 [[Women's National Basketball Association]] champions, [[Seattle Storm]].&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=7330 | title=Seattle Storm wins WNBA championship on October 12, 2004. | publisher=HistoryLink | author=Cassandra Tate | date=May 25, 2005 | accessdate=September 29, 2007}}&lt;/ref&gt; From 1967 to 2008 Seattle was also home to an [[National Basketball Association|NBA]] franchise, the [[Seattle SuperSonics]], who were the 1978–79 [[1979 NBA Finals|NBA champions]]. The team [[Seattle SuperSonics relocation to Oklahoma City|relocated to Oklahoma City]] after the 2007–08 season.&lt;ref&gt;{{cite news | url=http://www.komotv.com/news/17916284.html |title=NBA approves Sonics' move to Oklahoma amid legal wrangling | publisher=KOMO-TV | date=April 18, 2008 | accessdate=April 18, 2008}}&lt;/ref&gt; The [[Seattle Thunderbirds]] are a major-junior hockey team that plays in one of the Canadian major-junior hockey leagues, the WHL (Western Hockey League). The Thunderbirds moved to nearby [[Kent, Washington|Kent]], Washington during the 2008–2009 season.&lt;ref&gt;{{cite web | url=http://www.ci.kent.wa.us/newsreleases/page.aspx?id=2660 | title=Preliminaries are Over; Kent to Become Home to Events Center | publisher=City of Kent | date=July 27, 2007 | accessdate=December 11, 2008}}&lt;/ref&gt; The [[Seattle Sounders FC]] began play in [[Major League Soccer]] in 2009.&lt;ref&gt;{{cite news | url=http://www.canada.com/theprovince/news/sports/story.html?id=32090787-84c9-4453-93ab-4b717fcb7a78 | title=Seattle Sounders to announce they're moving to up to MLS | publisher=Canada.com | work=The Province | date=November 6, 2007 | accessdate=November 8, 2007 }}&lt;/ref&gt;
+
+The Major League Baseball All-Star game was held in Seattle twice, first at the [[Kingdome]] in [[1979 Major League Baseball All-Star Game|1979]]  and again at [[Safeco Field]] in [[2001 Major League Baseball All-Star Game|2001]]. That same year, the Seattle Mariners tied the all-time single regular season wins record with 116 wins. The NBA All-Star game was also held in Seattle twice, the first in [[1974 NBA All-Star Game|1974]] at the Seattle Center Coliseum and the second in [[1987 NBA All-Star Game|1987]] at the Kingdome.&lt;ref&gt;{{cite news | url=http://seattlepi.com/allstar/ | title=2001 All-Star Game | publisher=''Seattle Post-Intelligencer'' | date=July 11, 2001 | accessdate=October 9, 2007}}&lt;/ref&gt;
+
+In 2006, [[Qwest Field]] hosted the [[2005–06 NFL playoffs]]. In 2008, Qwest Field hosted the first game of the [[2007–08 NFL playoffs]], in which the Seahawks defeated the [[Washington Redskins]], 35–14. Qwest also serves as the home field for the Seattle Sounders FC of Major League Soccer. Seattle also boasts a strong history in collegiate sports. The [[Washington Huskies|University of Washington]] and [[Seattle Redhawks|Seattle University]] are [[National Collegiate Athletic Association|NCAA]] [[Division I (NCAA)|Division I]] schools.
+
+Some notable athletes include Felix Hernandez, who won the 2010 AL Cy Young award, among others.
+
+=== Outdoor activities ===
+[[Image:Greenlaketrail.jpg|thumb|[[Green Lake (Seattle)|Green Lake Park]], popular among runners, contains a {{convert|2.7|mi|km|1|sing=on}} trail circling the lake.]]
+
+Seattle's mild, temperate marine climate allows year-round outdoor recreation, including walking, cycling, hiking, skiing, snowboarding, kayaking, rock climbing, motor boating, sailing, team sports, and swimming.&lt;ref&gt;{{cite book| author=Richard C. Berner | title=Seattle 1900-1920: From Boomtown, Urban Turbulence, to Restoration | publisher=Charles Press |location=Seattle | year=1991 | isbn=0962988901 |page=97}}&lt;/ref&gt; In town, many people walk around [[Green Lake (Seattle)|Green Lake]], through the forests and along the bluffs and beaches of {{convert|535|acre|km2|1|sing=on}} [[Discovery Park (Seattle)|Discovery Park]] (the largest park in the city) in [[Magnolia, Seattle, WA|Magnolia]], along the shores of [[Myrtle Edwards Park]] on the Downtown waterfront, along the shoreline of Lake Washington at [[Seward Park (Seattle)|Seward Park]], along Alki Beach in West Seattle, or along the [[Burke-Gilman Trail]]. Also popular are hikes and skiing in the nearby Cascade or [[Olympic Mountains]] and kayaking and sailing in the waters of Puget Sound, the [[Strait of Juan de Fuca]], and the [[Strait of Georgia]]. In 2005, ''[[Men's Fitness]]'' magazine named Seattle the [[physical fitness|fittest]] city in the United States.&lt;ref name=mensfitness&gt;{{cite news | url=http://www.msnbc.msn.com/id/6790560/ | title=Seattle named fittest city in America | publisher=MSNBC | date=January 6, 2005 | accessdate=September 28, 2007}}&lt;/ref&gt;
+
+== Economy ==
+{{See also|List of companies based in Seattle}}
+[[Image:Wamuseattle.jpg|thumb|right|Washington Mutual's last headquarters, the WaMu Center, (now the Chase Center and soon to be [[Russell Investments Center]]) (center left) and its headquarters prior, [[Washington Mutual Tower]] (center right).]]
+
+Seattle's economy is driven by a mix of older industrial companies, and &quot;new economy&quot; Internet and technology companies, service, design and clean technology companies. The Port of Seattle is a major economic engine. Though it has been affected by the recent recession, Seattle has retained a comparatively strong economy, and remains a hotbed for start-up businesses, especially in green building and clean technologies: it was ranked as America's #1 &quot;smarter city&quot; based on its government policies and green economy.&lt;ref&gt;[http://smartercities.nrdc.org/cities/seattle-wa Smartercities.nrdc.org]&lt;/ref&gt; The Seattle housing market, especially in center-city neighborhoods, has not seen the sort of drop in value most housing markets around the nation have seen in recent years.&lt;ref&gt;[http://www.businessweek.com/magazine/content/09_26/b4137033250949.htm Businessweek.com]&lt;/ref&gt; The Seattle region's economy is increasingly diverse and multi-sectoral.
+
+Still, very large companies dominate the business landscape. Three companies on the 2008 [[Fortune 500]] list of the United States' largest companies, based on total revenue are headquartered in Seattle: Internet retailer [[Amazon.com]] (#100), coffee chain [[Starbucks]] (#241), and department store [[Nordstrom]] (#270).&lt;ref name=Fortune500&gt;{{cite news |url=http://money.cnn.com/magazines/fortune/fortune500/2010/states/WA.html| title=Fortune 500 list for Washington |publisher=Fortune Magazine| date=May 3, 2010|accessdate=February 25, 2011}}&lt;/ref&gt; Other Fortune 500 companies popularly associated with Seattle are based in nearby Puget Sound cities. Warehouse club chain [[Costco]] (#29), the largest retail company in Washington, is based in [[Issaquah, Washington|Issaquah]]. [[Providence Health &amp; Services]], the largest health care system and the fifth largest employer, is based in Renton, Washington. [[Microsoft]] (#44) and [[Nintendo]] of America are located in [[Redmond, Washington|Redmond]]. [[Weyerhaeuser]], the forest products company (#147), is based in Federal Way. Finally, [[Bellevue, Washington|Bellevue]] is home to truck manufacturer [[PACCAR]] (#169), and to international mobile telephony giant T-Mobile's U.S. subsidiary, T-Mobile USA.&lt;ref name=Fortune500/&gt;
+
+Prior to moving its headquarters to [[Chicago]], aerospace manufacturer [[Boeing]] (#27) was the largest company based in Seattle. Its largest division is still headquartered in nearby Renton, and the company has large aircraft manufacturing plants in Everett and Renton, so it remains the largest private employer in the Seattle metropolitan area.&lt;ref&gt;{{cite news |url=http://www.komotv.com/news/archive/4095196.html | title=Locke Unveils Boeing 7E7 Tax Cut Wish List | publisher=KOMO News |date=June 9, 2003|accessdate=October 3, 2007}}&lt;/ref&gt; Seattle Mayor Greg Nickels announced a desire to spark a new economic boom driven by the [[biotechnology]] industry in 2006. Major redevelopment of the [[South Lake Union, Seattle|South Lake Union]] neighborhood is underway, in an effort to attract new and established biotech companies to the city, joining biotech companies [[Corixa]] (acquired by [[GlaxoSmithKline]]), Immunex (now part of Amgen), [[Trubion]], and ZymoGenetics. [[Vulcan Inc.]], the holding company of billionaire [[Paul Allen]], is behind most of the development projects in the region. While some see the new development as an economic boon, others have criticized Nickels and the [[Seattle City Council]] for pandering to Allen's interests at taxpayers' expense.&lt;ref&gt;{{cite news |author = George Howland Jr.|title=The Billion-Dollar Neighborhood|url=http://www.seattleweekly.com/June 23, 2004/news/the-billion-dollar-neighborhood.php | publisher=Seattle Weekly |date=May 23, 2004|accessdate = September 28, 2007}}&lt;/ref&gt; Also in 2006, ''Expansion Magazine'' ranked Seattle among the top 10 metropolitan areas in the nation for climates favorable to business expansion.&lt;ref&gt;{{cite news|work=Expansion Magazine|url=http://www.expansionmanagement.com/smo/newsviewer/default.asp?cmd=articledetail&amp;articleid=17713&amp;st=3 |date=August 15, 2006 | title=2006 Mayor's Challenge: Where Are the Best Metros for Future Business Locations? | author=Bill King |accessdate=September 28, 2007}}&lt;/ref&gt; In 2005, ''[[Forbes]]'' ranked Seattle as the most expensive American city for buying a house based on the local income levels.&lt;ref name=Clemence&gt;{{cite news | author=Sara Clemence |url=http://www.forbes.com/realestate/2005/07/14/overpriced-cities-lifestyle-cx_sc_0715home_ls.html | title=Most Overpriced Places In The U.S. 2005 | publisher=Forbes magazine|date=July 14, 2005|accessdate=September 28, 2007}}&lt;/ref&gt;
+
+[[Alaska Airlines]], operating a hub at [[Seattle–Tacoma International Airport]], maintains its headquarters in the city of [[SeaTac, Washington|SeaTac]], next to the airport.&lt;ref&gt;{{cite web | url=http://www.alaskasworld.com/Newsroom/ASnews/media.asp |title=Media Contacts: Alaska Airlines | publisher=Alaska Airlines |accessdate=December 11, 2008}}&lt;/ref&gt;&lt;!-- Even though the address says Seattle, a search using Google Earth or Yahoo Maps will reveal that the headquarters are in SeaTac --&gt;
+
+== Demographics ==
+{{Main|Demographics of Seattle}}
+
+{{USCensusPop
+| 1860 = 188
+| 1870 = 1151
+| 1880 = 3533
+| 1890 = 42837
+| 1900 = 80671
+| 1910 = 237194
+| 1920 = 315312
+| 1930 = 365583
+| 1940 = 368302
+| 1950 = 467591
+| 1960 = 557087
+| 1970 = 530831
+| 1980 = 493846
+| 1990 = 516259
+| 2000 = 563374
+| 2010 = 608660
+| estref=&lt;ref name=city_population&gt;{{cite web | url=http://www.ofm.wa.gov/pop/april1/finalpop2009.pdf | format=PDF | title=April 1 Population of Cities, Towns, and Counties Used for Allocation of Selected State Revenues, State of Washington | author=Washington State Office of Financial Management | publisher=Washington State Office of Financial Management | date=June 29, 2009 | accessdate=2009-10-21}}&lt;/ref&gt;
+| footnote=source:&lt;ref&gt;Moffatt, Riley.  ''Population History of Western U.S. Cities &amp; Towns, 1850-1990''.  [[Lanham, Maryland|Lanham]]: Scarecrow, 1996, 332.&lt;/ref&gt;&lt;ref&gt;{{cite web | url = http://www.census.gov/popest/cities/files/SUB-EST2007-53.csv | title = Subcounty population estimates: Washington 2000-2007| format = [[comma-separated values|CSV]] | publisher = [[United States Census Bureau]], Population Division | date = 2009-03-18 | accessdate = 2009-04-27}}&lt;/ref&gt;
+|}}
+
+According to the [[2010 United States Census|2010 census]], Seattle had a population of 608,660 and the racial composition was as follows:&lt;ref&gt;[http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=DEC_10_PL_QTPL&amp;prodType=table Factfinder2census.gov]&lt;/ref&gt;
+
+* [[White American|White]]: 69.5% ([[Non-Hispanic Whites]]: 66.3%)
+* [[African American|Black or African American]]: 7.9%
+* [[Native Americans in the United States|American Indian and Alaska Native]]: 0.8%
+* [[Asian American|Asian]]: 13.8%
+* [[Pacific Islander American|Native Hawaiian and Other Pacific Islander]]: 0.4%
+* Some other race: 2.4%
+* [[Multiracial American|Two or more races]]: 5.1%
+
+* [[Hispanic and Latino Americans|Hispanic or Latino]] (of any race): 6.6%
+
+According to the 2006-2008 American Community Survey, English was by far the most commonly spoken language at home; approximately 78.9% of residents over the age of five spoke only English at home. Spanish was spoken by 4.5% of the population; people who spoke other [[Indo-European languages]] made up 3.9% of the population. People who spoke [[Languages of Asia|Asian languages]] at home made up 10.2% of the population. People who spoke other languages made up 2.5% of Seattle's population.&lt;ref&gt;[http://factfinder.census.gov/servlet/ADPTable?_bm=y&amp;-geo_id=16000US5363000&amp;-qr_name=ACS_2008_3YR_G00_DP3YR2&amp;-ds_name=&amp;-_lang=en&amp;-redoLog=false Facfinder.census.gov]&lt;/ref&gt;
+
+Seattle has seen a major increase in immigration in recent decades; the foreign-born population increased 40% between the 1990 and 2000 censuses.&lt;ref name=brookings&gt;{{cite web | url=http://www.brookings.org/es/urban/livingcities/seattle.htm | title=Seattle in Focus: A Profile from Census 2000 | publisher=The Brookings Institute |month=November | year=2003 | accessdate=September 28, 2007}}&lt;/ref&gt; The [[Chinese American|Chinese]] population in the Seattle Area has origins in China, Hong Kong, Southeast Asia, and Taiwan. The earliest Chinese Americans that came in the late 19th and early 20th century were almost entirely from Guangdong province. The Seattle area is also home to a high [[Vietnamese American|Vietnamese]] population.&lt;ref&gt;{{cite news | url=http://www.vatv.org/VAP.html | title= Vietnamese American Population}}&lt;/ref&gt; In addition, the city is home to over 30,000 [[Somali people|Somali]] immigrants.&lt;ref&gt;[http://www.rainiervalleypost.com/?p=10847 More Than 250 Attend NewHolly Workshop to Learn About Somali Culture]&lt;/ref&gt;
+
+As of 1999, the median income of a city household was $45,736, and the median income for a family was $62,195. Males had a median income of $40,929 versus $35,134 for females. The per capita income for the city was $30,306&lt;ref name=SF3&gt;{{cite web | url=http://www.ofm.wa.gov/census2000/dp58/pl/63000.pdf | title=Census 2000, Summary File 3 | publisher=City of Seattle | date=September 17, 2002 | accessdate=September 28, 2007 | format=PDF | pages=32–33, 52–54|archiveurl = http://web.archive.org/web/20071025064413/http://www.ofm.wa.gov/census2000/dp58/pl/63000.pdf |archivedate = October 25, 2007|deadurl=yes}}&lt;/ref&gt; 11.8&amp;nbsp;percent of the population and 6.9&amp;nbsp;percent of families are below the poverty line. Of people living in poverty, 13.8&amp;nbsp;percent are under the age of 18 and 10.2&amp;nbsp;percent are 65 or older.&lt;ref name=SF3/&gt;
+
+It is estimated that King County has 8,000 homeless people on any given night, and many of those live in Seattle.&lt;ref&gt;{{cite web | url=http://www.cehkc.org/DOC_plan/10-YearPlanFinal.pdf| title=A Roof Over Every Bed in King County&quot; within ten years | publisher=The Committee to End Homelessness in King County | accessdate=September 28, 2007}}&lt;/ref&gt; In September 2005, King County adopted a &quot;Ten-Year Plan to End Homelessness&quot;, one of the near-term results of which is a shift of funding from [[homeless shelter]] beds to permanent housing.&lt;ref name=homelessness&gt;{{cite web | url=http://www.metrokc.gov/mkcc/news/2005/0905/Ten_Year_Plan.htm | title=Council Adopts Strategies to Implement &quot;Ten-Year Plan to End Homelessness&quot; | publisher=King County | date=September 19, 2005 | accessdate=September 28, 2007|archiveurl = http://web.archive.org/web/20070121232911/http://www.metrokc.gov/mkcc/news/2005/0905/Ten_Year_Plan.htm |archivedate = January 21, 2007|deadurl=yes}}&lt;/ref&gt;
+
+In 2006, after growing by 4,000&amp;nbsp;citizens per annum for the previous 16 years, regional planners expected the population of Seattle to grow by 200,000&amp;nbsp;people by 2040.&lt;ref name=2040growth&gt;{{cite news|url=http://seattletimes.nwsource.com/html/localnews/2003199361_population15m.html | title=Nickels backs 60 percent increase in city's population by 2040 | publisher=The Seattle Times | author=Bob Young|date=August 15, 2006 | accessdate=September 28, 2009}}&lt;/ref&gt; However, Mayor Nickels supported plans that would increase the population by 60&amp;nbsp;percent, or 350,000&amp;nbsp;people, by 2040 and is working on ways to accommodate this growth while keeping Seattle's single-family housing zoning laws.&lt;ref name=2040growth/&gt; The Seattle City Council later voted to relax height limits on buildings in the greater part of Downtown, partly with the aim of increasing residential density in the city center.&lt;ref&gt;{{cite news | url=http://archives.seattletimes.nwsource.com/cgi-bin/texis.cgi/web/vortex/display?slug=buildingheights04m&amp;date=20060404&amp;query=height+limits | title= High-rise boom coming to Seattle? | author=Bob Young | publisher=The Seattle Times | date=April 4, 2006 | accessdate=September 28, 2007}}&lt;/ref&gt;
+
+A 2006 study by [[University of California, Los Angeles|UCLA]] indicates that Seattle has one of the highest [[LGBT]] populations per capita. With 12.9&amp;nbsp;percent of citizens polled identifying as gay, lesbian, or bisexual, the city ranks second of all major US cities, behind [[San Francisco]] and slightly ahead of [[Atlanta]] and [[Minneapolis]].&lt;ref&gt;{{cite news|url=http://seattletimes.nwsource.com/html/localnews/2003432940_gays16m.html?syndication=rss | publisher=The Seattle Times | title=12.9% in Seattle are gay or bisexual, second only to S.F., study says | author=Lornet Turnbull  | date=November 16, 2006 | accessdate=September 28, 2007}}&lt;/ref&gt; Greater Seattle also ranks second among major US metropolitan areas, with 6.5&amp;nbsp;percent being LGBT.&lt;ref&gt;{{cite web| author=The Williams Institute on Sexual Orientation Law and Public Policy | url=http://www.law.ucla.edu/williamsinstitute/publications/SameSexCouplesandGLBpopACS.pdf | format=PDF| title=Same-sex Couples and the Gay, Lesbian, Bisexual Population: New Estimates from the American Community Survey | publisher= UCLA School of Law |month=October | year=2006 | accessdate=September 28, 2007}}&lt;/ref&gt;
+
+According to the 2000 U.S. census interim measurements of 2004, Seattle has the fifth highest proportion of single-person households nationwide among cities of 100,000 or more residents, at 40.8 percent.&lt;ref&gt;{{cite web | url=http://www.census.gov/statab/ccdb/cit3060r.txt | format=TXT | title=City and County Data Book 2000: Cities with 100,000 or More Population Ranked by Subject | author=US Census Bureau | publisher=US Census Bureau | date=March 16, 2004 | accessdate=December 17, 2007}}&lt;/ref&gt;
+
+== Government and politics ==
+[[File:Seattle City Hall 01.jpg|thumb|Seattle City Hall, 2007]]
+{{Main|Government and politics of Seattle}}
+Seattle is a charter city, with a [[Mayor-council government|Mayor–Council]] form of government. Since 1911, Seattle's nine [[Seattle City Council|city councillors]] have been elected at large, rather than by geographic subdivisions.&lt;ref name=archive-chrono&gt;{{cite web | url=http://www.seattle.gov/cityarchives/Facts/councilchron.htm |title=Seattle City Council Members, 1869-present Chronological Listing | publisher=Seattle City Archives | accessdate=July 19, 2008}}&lt;/ref&gt; The only other elected offices are the [[district attorney|city attorney]] and Municipal Court judges. All city, county, and state offices are technically [[Non-partisan democracy|non-partisan]].&lt;ref&gt;{{cite web | url=http://www2.ci.seattle.wa.us/ethics/votersguide.asp?e=20071106&amp;p=01_03 | title=Seattle Form of Government | publisher=City of Seattle | author=Ethics and Elections Commission | accessdate=October 3, 2007}}&lt;/ref&gt; Like most parts of the United States, government and laws are also run by a series of ballot initiatives (where people can pass or reject laws), referendums (where people can approve or reject already passed legislation), and Propositions (where specific government agencies can propose new laws/tax increases directly to the people)
+
+Seattle's politics are strongly liberal/progressive, although there is a small [[libertarianism|libertarian]] movement within the metro area.&lt;ref name=Liberal&gt;{{cite news | url=http://seattlepi.com/local/236320_liberal12.html | title=Where have Seattle's lefties gone? | publisher=The Seattle Times | author=Neil Modie | date=August 15, 2005 | accessdate=September 28, 2007}}&lt;/ref&gt; It is one of the most liberal cities in the United States, with approximately 80% voting for the [[Democratic Party (United States)|Democratic Party]]; only two precincts in Seattle—one in the [[Broadmoor, Seattle|Broadmoor]] community, and one encompassing neighboring [[Madison Park (Seattle)|Madison Park]]—had a majority of votes for [[Republican Party (United States)|Republican]] [[George W. Bush]] in the [[United States presidential election, 2004|2004 presidential election]]. In addition, all precincts in Seattle voted for [[Democratic Party (United States)|Democratic Party]] candidate [[Barack Obama]] in the [[United States presidential election, 2008|2008 presidential election]], including the two precincts who had previously voted Republican in 2004.&lt;ref name=Liberal/&gt; In partisan elections for the [[Washington State Legislature]] and United States Congress, nearly all elections are won by Democrats.
+
+Seattle is one of the most politically [[Progressivism|progressive]] cities in North America, with an overwhelming majority of voters supporting Democratic politicians; support for liberal issues such as same-sex marriage, reproductive rights and gun control is largely taken for granted in local politics. Like much of the [[Pacific Northwest]] (which has the lowest rate of church attendance in the United States and consistently reports the highest percentage of [[atheism]]&lt;ref&gt;[http://www.religionatlas.org/religion_region/COASTALNORTHWEST.htm Religion and Public Life in the Pacific Northwest&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;&lt;ref&gt;{{cite news| url=http://www.usatoday.com/life/2002/2002-03-07-no-religion.htm | work=USA Today | title=Charting the unchurched in America | date=March 7, 2002 | accessdate=May 23, 2010}}&lt;/ref&gt;), church attendance, religious belief and political influence of religious leaders is much lower than in other parts of America.&lt;ref&gt;[http://www.religioustolerance.org/chr_prac2.htm Religious identification in the U.S&lt;!-- Bot generated title --&gt;]&lt;/ref&gt; Seattle also has a thriving alternative press, with two well-established weekly newspapers, several online dailies (including the [[Seattle Post-Intelligencer|Seattle P.I.]], Publicola and Crosscut), and a number of issue-focused publications, including the nation's two largest online environmental magazines, [[Worldchanging]] and [[Grist.org]].
+
+Federally, Seattle is part of [[Washington's 7th congressional district]], representated by Democrat [[Jim McDermott]], elected in 1988 and one of Congress' most liberal members.&lt;ref&gt;{{cite news | url=http://nationaljournal.com/voteratings/house/lib.htm | title= Special Report: 2006 Vote Ratings House Liberal Scores | publisher=National Journal | accessdate=September 28, 2007}} {{Dead link|date=November 2010|bot=H3llBot}}&lt;/ref&gt;
+
+== Education ==
+{{Main|Education in Seattle}}
+
+Of the city's population over the age of 25, 53.8&amp;nbsp;percent (vs. a national average of 27.4&amp;nbsp;percent) hold a [[bachelor's degree]] or higher, and 91.9&amp;nbsp;percent (vs. 84.5&amp;nbsp;percent nationally) have a high school diploma or [[General Educational Development|equivalent]].&lt;ref name=&quot;S1501. Education Attainment: Seattle City, Washington&quot;/&gt; A United States Census Bureau survey showed that Seattle had the highest percentage of college and university graduates of any major U.S. city.&lt;ref name=&quot;Most Educated City in US&quot;&gt;{{cite web | url=http://www.census.gov/acs/www/Products/Ranking/2003/R02T160.htm | title=ACS: Ranking Table -- Percent of People 25 Years and Over Who Have Completed a Bachelor's Degree | publisher=United States Census Bureau | accessdate=August 27, 2008| archiveurl = http://web.archive.org/web/20080103154944/http://www.census.gov/acs/www/Products/Ranking/2003/R02T160.htm| archivedate = January 3, 2008}}&lt;/ref&gt; The city was listed as the most literate of the country's sixty-nine largest cities in 2005 and 2006, the second most literate in 2007, after Minneapolis, and tied with Minneapolis for most literate in 2008 in studies conducted by Central Connecticut State University.&lt;ref name=&quot;Most Literate Cities&quot;/&gt;
+
+[[Image:University of Washington Quad, Spring 2007.jpg|thumb|University of Washington quad in Spring]]
+
+[[Seattle Public Schools]] desegregated without a court order&lt;ref&gt;{{cite web | url=http://www.supremecourt.gov/opinions/06pdf/05-908.pdf | title=Parents involved in Community Schools v. Seattle School District No. 1 Et Al. | publisher=Supreme Court of the United States | date=June 28, 2007 | accessdate=October 3, 2007 | format=PDF}}&lt;/ref&gt; but continue to struggle to achieve racial balance in a somewhat ethnically divided city (the south part of town having more ethnic minorities than the north).&lt;ref&gt;{{cite web | url=http://historylink.org/index.cfm?DisplayPage=output.cfm&amp;file_id=3939 | title=Busing in Seattle: A Well-Intentioned Failure | publisher=HistoryLink | author=Cassandra Tate | date=September 7, 2002 | accessdate=October 3, 2007}}&lt;/ref&gt; In 2007, Seattle's racial tie-breaking system was struck down by the United States Supreme Court, but the ruling left the door open for desegregation formulae based on other indicators (e.g., income or socioeconomic class).&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/localnews/2003766015_webrace28m.html | title=High court rejects school integration plans | publisher=The Seattle Times | date=June 28, 2007 | accessdate=October 3, 2007}}&lt;/ref&gt;
+
+The public school system is supplemented by a moderate number of private schools: five of the private high schools are Catholic, one is Lutheran, and six are secular.&lt;ref&gt;{{cite news | url=http://community.seattletimes.nwsource.com/schoolguide/search.php?search=criteria&amp;grade_low=9&amp;grade_high=12&amp;school_city=Seattle&amp;district_id=&amp;school_zip=ZIP+code&amp;pl_code%5B%5D=P | title=School Guide | work=The Seattle Times | accessdate=October 3, 2007}}&lt;/ref&gt;
+
+Seattle is home to one of the United States' most respected public research universities, the [[University of Washington]], as well as its professional and continuing Education unit, [[University of Washington Educational Outreach]]. A study by ''Newsweek International'' in 2006 cited UW as the twenty-second best university in the world.&lt;ref&gt;{{cite news | url=http://www.msnbc.msn.com/id/14321230/ | title=The Complete List: The Top 100 Global Universities | publisher=Newsweek International Edition | date=August 13, 2006 | accessdate=November 2, 2007 | archiveurl=http://web.archive.org/web/20070315053646/http://www.msnbc.msn.com/id/14321230/ | archivedate=March 15, 2007}}&lt;/ref&gt; Seattle also has a number of smaller private universities including [[Seattle University]] and [[Seattle Pacific University]], both founded by religious groups; universities aimed at the working adult, like [[City University of Seattle|City University]] and [[Antioch University]]; colleges, such as North Seattle Community College, Seattle Central Community College, and South Seattle Community College; and a number of arts colleges, such as [[Cornish College of the Arts]] and [[The Art Institute of Seattle]]. In 2001, ''Time'' magazine selected [[Seattle Central Community College]] as community college of the year, stating the school &quot;pushes diverse students to work together in small teams&quot;.&lt;ref&gt;{{cite news | url=http://www.time.com/time/magazine/article/0,9171,1000725,00.html | publisher=Time magazine | title=Seattle Central | date=September 10, 2001 | accessdate=September 28, 2007 | author=Andrew Goldstein}}&lt;/ref&gt;
+
+== Infrastructure ==
+=== Health systems ===
+{{Main|Medical facilities of Seattle}}
+
+The University of Washington is consistently ranked among the country's top leading institutions in medical research, earning special merits for programs in neurology and neurosurgery. Seattle has seen local developments of modern paramedic services with the establishment of [[Medic One]] in 1970.&lt;ref name=cobb&gt;{{cite web | url=http://depts.washington.edu/mednews/vol6/no33/cobb.html |title=Cobb honored as one of &quot;Resuscitation Greats&quot; | publisher=UW School of Medicine Online News | date=August 16, 2002 | accessdate=September 29, 2007}}&lt;/ref&gt; In 1974, a ''[[60 Minutes]]'' story on the success of the then four-year-old Medic One paramedic system called Seattle &quot;the best place in the world to have a heart attack&quot;.&lt;ref&gt;{{cite web| url=http://www.metrokc.gov/health/medicone/history.htm | title=King County Medic One: A History of Excellence | publisher=King County | date=March 29, 2007 | accessdate=October 3, 2007|archiveurl = http://web.archive.org/web/20070707064715/http://www.metrokc.gov/health/medicone/history.htm |archivedate = July 7, 2007|deadurl=yes}}&lt;/ref&gt;
+
+Three of Seattle's largest medical centers are located on First Hill. [[Harborview Medical Center]], the public county hospital, is the only [[Trauma center|Level I]] [[trauma center|trauma hospital]] serving Washington, Alaska, Montana, and Idaho.&lt;ref&gt;{{cite web | url=http://www.uwmedicine.org/Facilities/Harborview/CentersOfEmphasis/Trauma/ | title=Trauma Center | publisher=UW Medicine | accessdate=October 3, 2007|archiveurl = http://web.archive.org/web/20071024055225/http://www.uwmedicine.org/Facilities/Harborview/CentersOfEmphasis/Trauma/ |archivedate = October 24, 2007|deadurl=yes}}&lt;/ref&gt; [[Virginia Mason Medical Center]] and [[Swedish Medical Center]]'s two largest campuses are also located in this part of Seattle, including the [[Virginia Mason Hospital]].  This concentration of hospitals resulted in the neighborhood's nickname &quot;Pill Hill&quot;.&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/html/businesstechnology/2002445189_virginiamason19.html | title=Pill Hill property sells for a bundle | publisher=The Seattle Times | author=Tom Boyer | date=August 19, 2005 | accessdate=October 3, 2007}}&lt;/ref&gt;
+
+Located in the [[Laurelhurst, Seattle|Laurelhurst]] neighborhood, [[Seattle Children's]], formerly Children's Hospital and Regional Medical Center, is the pediatric referral center for Washington, Alaska, Montana, and Idaho. The [[Fred Hutchinson Cancer Research Center]] has a campus in the Eastlake neighborhood and also shares facilities with the Seattle Cancer Care Alliance and University of Washington Medical Center. The University District is home to the [[University of Washington Medical Center]] which, along with Harborview, is operated by the University of Washington. Seattle is also served by a [[United States Department of Veterans Affairs|Veterans Affairs]] hospital on [[Beacon Hill, Seattle|Beacon Hill]], a third campus of Swedish in Ballard, and [[Northwest Hospital and Medical Center]] near [[Northgate Mall (Seattle)|Northgate Mall]].
+
+=== Transportation ===
+[[Image:SeattleI5Skyline.jpg|thumb|[[Interstate 5 in Washington]] as it passes through downtown Seattle]]
+{{Main|Transportation in Seattle}}
+{{further|[[Street layout of Seattle]]}}
+The first streetcars appeared in 1889 and were instrumental in the creation of a relatively well-defined downtown and strong neighborhoods at the end of their lines. The advent of the automobile sounded the death knell for rail in Seattle. Tacoma–Seattle railway service ended in 1929 and the Everett–Seattle service came to an end in 1939, replaced by inexpensive automobiles running on the recently developed highway system. Rails on city streets were paved over or removed, and the arrival of [[trolleybus]]es brought the end of streetcars in Seattle in 1941. This left an extensive network of privately owned buses (later public) as the only mass transit within the city and throughout the region.&lt;ref name=interurbanrail&gt;{{cite news | author=Walt Crowley | url=http://www.historylink.org/essays/output.cfm?file_id=2667 |title=Interurban Rail Transit in King County and the Puget Sound Region – A Snapshot History | publisher=HistoryLink.org | date=September 19, 2000 | accessdate=September 29, 2007}}&lt;/ref&gt;
+
+[[Image:Link Tunell Sound transit.jpg|thumb|left|[[Central Link]] light rail trains in the [[Downtown Seattle Transit Tunnel]] under the [[International District, Seattle|International District/Chinatown.]]]]
+[[King County Metro]] provides frequent stop bus service within the city and surrounding county,as well as a [[South Lake Union Streetcar|streetcar]] line between the [[South Lake Union, Seattle|South Lake Union]] neighborhood and Westlake Center in downtown.&lt;ref name=slustreetcar&gt;{{cite web | url=http://www.ci.seattle.wa.us/transportation/slustreetcar.htm |title=The South Lake Union Streetcar | publisher=Seattle Department of Transportation | accessdate=September 29, 2007}}&lt;/ref&gt; Seattle is one of the few cities in North America whose bus fleet includes electric trolleybuses. [[Sound Transit]] currently provides an express bus service within the metropolitan area; two [[Sounder commuter rail|Sounder]] [[commuter rail]] lines between the suburbs and downtown; and its [[Link Light Rail|Central Link]] [[light rail]] line, which opened in 2009, between downtown and Sea-Tac Airport gives the city its first rapid transit line that has intermediate stops within the city limits. [[Washington State Ferries]], which manages the largest network of ferries in the United States and third largest in the world,&lt;ref name=ferries&gt;{{cite web | url=http://www.wsdot.wa.gov/ferries/your_wsf/index.cfm?fuseaction=our_history | title=History | publisher=Washington State Department of Transit | accessdate=September 29, 2007}}&lt;/ref&gt; connects Seattle to [[Bainbridge Island, Washington|Bainbridge]] and [[Vashon, Washington|Vashon Islands]] in Puget Sound and to [[Bremerton, Washington|Bremerton]] and [[Southworth, Washington|Southworth]] on the [[Kitsap Peninsula]].&lt;ref name=ferries/&gt;
+
+According to the 2007 American Community Survey, 18.6&amp;nbsp;percent of Seattle residents used one of the three public transit systems that serve the city, giving it the highest transit ridership of all major cities without heavy or [[light rail]] prior to the completion of Sound Transit's Central Link line.&lt;ref&gt;{{cite web | title=2007 American Community Survey 1-Year Estimates | publisher=U.S. Census Bureau | url=http://factfinder.census.gov/servlet/ADPTable?_bm=y&amp;-context=adp&amp;-qr_name=ACS_2007_1YR_G00_DP3&amp;-ds_name=ACS_2007_1YR_G00_&amp;-tree_id=308&amp;-keyword=Seattle&amp;-redoLog=false&amp;-geo_id=16000US5363000&amp;-format=&amp;-_lang=en | accessdate=October 3, 2009}}&lt;/ref&gt;&lt;ref&gt;{{cite news | title=New Yorkers are Top Transit Users | publisher=CNNMoney.com | url=http://money.cnn.com/2007/06/13/real_estate/public_transit_commutes/index.htm | author=Les Christie | date=June 29, 2007 | accessdate=August 17, 2008}}&lt;/ref&gt;
+
+[[Seattle–Tacoma International Airport]], locally known as Sea-Tac Airport and located just south in the neighboring city of [[SeaTac, Washington|SeaTac]], is operated by the [[Port of Seattle]] and provides commercial air service to destinations throughout the world. Closer to downtown, [[Boeing Field]] is used for general aviation, cargo flights, and testing/delivery of Boeing airliners.
+
+The main mode of transportation, however, relies on Seattle's streets, which are laid out in a [[cardinal direction]]s [[grid plan|grid pattern]], except in the [[central business district]] where early city leaders Arthur Denny and [[Carson Boren]] insisted on orienting their plats relative to the shoreline rather than to true North.&lt;ref&gt;{{cite web | url=http://www.historylink.org/essays/output.cfm?file_id=315 | title=Maynard, Dr. David Swinson (1808-1873) | publisher=HistoryLink | author=Junius Rochester | date=November 10, 1998 | accessdate=October 3, 2007}}&lt;/ref&gt; Only two roads, [[Interstate 5 in Washington|Interstate 5]] and [[Washington State Route 99|State Route 99]] (both limited-access highways), run uninterrupted through the city from north to south. State Route 99 runs through downtown Seattle on the [[Alaskan Way Viaduct]], which was built in 1953. However, due to damage sustained during the [[2001 Nisqually earthquake]] the viaduct will be replaced by a tunnel in 2015 at a cost of US$4.25 billion.
+
+From 2006 to 2008, transit ridership in Seattle went up by 23%,&lt;ref&gt;[http://www.psrc.org/assets/2122/t6jun09.pdf PSRC.org]&lt;/ref&gt; and many bus routes in the central part of the city are routinely forced to leave passengers because they are full. Seattle now has the worst traffic congestion of all American cities.&lt;ref&gt;{{cite news| url=http://seattle.bizjournals.com/seattle/stories/2009/11/30/daily14.html | title=Seattle has nation's worst traffic congestion: Study | date=December 2, 2009 | first=Puget | last=Sound}}&lt;/ref&gt;
+
+The city has started moving away from the automobile and towards mass transit. In 2006, voters in King County passed proposition 2(Transit Now) which increased bus service hours on high ridership routes and paid for five Bus Rapid Transit lines called RapidRide.&lt;ref&gt;[http://www.kingcounty.gov/transportation/kcdot/metrotransit/transitnow.aspx Kingcounty.gov]&lt;/ref&gt; After rejecting a roads and transit measure in 2007, Seattle-area voters passed a transit only measure in 2008 that increases ST Express bus service and extends the Link Light Rail system (currently {{convert|15.7|mi|km}} with {{convert|3|mi|km}} under construction) by over thirty miles, and expands and improves Sounder commuter rail service.&lt;ref&gt;[http://future.soundtransit.org/ Future.soundtransit.org]&lt;/ref&gt; An extension of the light rail south to the [[Seattle–Tacoma International Airport]] began service on December 19, 2009; an extension north to the [[University of Washington]] is under construction as of 2010; and further extensions are planned to reach [[Lynnwood, Washington|Lynnwood]] to the north, [[Des Moines, Washington|Des Moines]] to the south, and [[Bellevue, Washington|Bellevue]] and [[Redmond, Washington|Redmond]] to the east by 2023.&lt;ref&gt;[http://www.soundtransit.org/Projects-and-Plans/Projects-By-Service/University-Link.xml Soundtransit.org]&lt;/ref&gt;&lt;ref&gt;{{cite news | url=http://seattletimes.nwsource.com/flatpages/local/2008proposition1guide.html | title=Sound Transit: What you'll pay, what you'll get | publisher=Seattle Times | date=2008-11-20 | accessdate=2009-07-09}}&lt;/ref&gt;&lt;ref&gt;[http://www.soundtransit.org/Documents/pdf/projects/MAP_ST2Sound%20Move.pdf Soundtransit.org]&lt;/ref&gt; Mayor [[Michael McGinn]] hopes to put another transit measure on the 2011 ballot to build light rail from Downtown Seattle to Ballard, Fremont, and West Seattle&lt;ref&gt;[http://slog.thestranger.com/slog/archives/2009/12/22/mcginn-may-for-push-light-rail-vote-in-2010 Slog.thestranger.com]&lt;/ref&gt; after seeing a surprisingly large amount of support for it from its campaign (and now city's) policy forum.&lt;ref&gt;[http://www.ideasforseattle.org/forums/27772-general Ideasforseattle.org]&lt;/ref&gt;
+
+=== Utilities ===
+{{Main|Utilities of Seattle}}
+[[Image:New Seattle Steam plant Western Avenue downtown Seattle Washington.JPG|right|thumb|Seattle Steam Company, one of Seattle's privately owned utility companies]]
+Water and electric power are municipal services, provided by [[Seattle Public Utilities]] and [[Seattle City Light]] respectively. Other utility companies serving Seattle include [[Puget Sound Energy]] (natural gas); [[Seattle Steam Company]] (steam); [[Waste Management, Inc]] and CleanScapes, Inc. (curbside recycling and solid waste removal); and [[Verizon Communications]], [[Qwest]] and [[Comcast]] (telephone, Internet, and cable television).
+{{-}}
+
+== See also ==
+{{Portal|Seattle}}
+* [[List of people from Seattle]]
+* [[List of Seattle sister cities]]
+* [[National Register of Historic Places listings in Seattle, Washington]]
+* [[Sustainable Seattle]]
+* [[Tillicum Village]]
+
+{{clear}}
+
+== References ==
+{{Reflist|colwidth=30em}}
+
+== Bibliography ==
+* {{cite book
+ | last =Jones
+ | first =Nard
+ | year =1972
+ | title =Seattle
+ | accessdate =August 3, 2006
+ | publisher =Doubleday
+ | location =New York City
+ | isbn =0-385-01875-4}}
+* {{cite book | last =Morgan | first =Murray | year =1982 (originally published 1951, 1982 revised and updated, first illustrated edition) | title =Skid Road: an Informal Portrait of Seattle | accessdate =July 21, 2006 | publisher =University of Washington Press | location =Seattle and London | isbn =0-295-95846-4}}
+* {{cite book | last =Ochsner | first =Jeffrey Karl, ed. | year =1998 (originally published 1994) | title =Shaping Seattle Architecture: A Historical Guide to the Architects | publisher =University of Washington Press | location =Seattle and London | isbn =0295973668 }}
+* {{cite book
+ | last =Sale
+ | first =Roger
+ | year =1976
+ | title =Seattle: Past To Present
+ | accessdate =August 3, 2006
+ | publisher =University of Washington Press
+ | location =Seattle and London
+ | isbn =0-295-95615-1}}
+* {{cite book | last=Speidel | first=William C. | authorlink= Bill Speidel| title=Doc Maynard: the man who invented Seattle | accessdate=April 21, 2006 | year=1978 | publisher=Nettle Creek Publishing Company | location=Seattle | isbn=0-914890-02-6 | pages=196–197, 200}}
+* {{cite book | last=Speidel | first=William C. | title=Sons of the profits; or, There's no business like grow business: the Seattle story, 1851–1901 | accessdate =April 21, 2006 | year=1967 | publisher=Nettle Creek Publishing Company | location=Seattle | isbn=0-914890-00-X, ISBN 0-914890-06-9 | pages=196–197, 200 }}
+
+== Further reading ==
+* {{cite book | last=Klingle | first=Matthew | title=Emerald City: An Environmental History of Seattle | location=New Haven | publisher=Yale University Press | year=2007 | isbn=0300116411}}
+* {{cite book|last=MacGibbon |first=Elma |title=Leaves of knowledge |publisher=Shaw &amp; Borden |year=1904 |oclc=61326250 |url=http://www.secstate.wa.gov/history/publications%5Fdetail.aspx?p=63 |format=DJVU |others= Washington State Library's Classics in Washington History collection |chapter=Seattle, the city of destiny}}
+* {{cite book | last=Pierce | first= J. Kingston | title=Eccentric Seattle: Pillars and Pariahs Who Made the City Not Such a Boring Place After All | location= Pullman, Washington | publisher= Washington State University Press | year= 2003 | isbn= 978-0-87422-269-2}}
+* Sanders, Jeffrey Craig. ''Seattle and the Roots of Urban Sustainabilty: Inventing Ectopia'' (University of Pittsburgh Press; 2010) 288 pages; the rise of environmental activism
+
+== External links ==
+{{Commons category|Seattle, Washington}}
+* {{Official website|http://www.seattle.gov}}
+* [http://www.historylink.org Historylink.org], history of Seattle and Washington.
+* [http://depts.washington.edu/civilr/index.htm Seattle Civil Rights and Labor History Project]
+* [http://depts.washington.edu/labhist/ Pacific Northwest Labor History Projects]
+* [http://www.nps.gov/history/nr/travel/seattle/ Seattle, a National Park Service ''Discover Our Shared Heritage'' Travel Itinerary]
+* {{Wikitravel|Seattle}}
+{{Template group
+| title = Articles relating to Seattle and [[King County, Washington|King County]]
+| list =
+{{SeattleWA}}
+{{Seattle neighborhoods|nocat=true}}
+{{King County, Washington}}
+{{Washington}}
+{{Seattle Metro}}
+{{USLargestCities}}
+{{USLargestMetros}}
+{{Washington cities and mayors of 100,000 population}}
+}}
+{{Featured article}}
+
+[[Category:Seattle, Washington| ]]
+[[Category:Geography of Seattle, Washington| ]]
+[[Category:Cities in Washington (state)]]
+[[Category:Cities in the Seattle metropolitan area]]
+[[Category:County seats in Washington (state)]]
+[[Category:Populated places in King County, Washington]]
+[[Category:Port settlements in Washington (state)]]
+[[Category:Populated places established in 1853]]
+[[Category:Isthmuses]]
+
+{{Link GA|fr}}
+&lt;!-- Interlanguage links --&gt;
+[[af:Seattle]]
+[[am:ስያትል]]
+[[ar:سياتل، واشنطن]]
+[[zh-min-nan:Seattle]]
+[[be:Горад Сіэтл]]
+[[be-x-old:Сіетл]]
+[[bs:Seattle]]
+[[bg:Сиатъл]]
+[[ca:Seattle]]
+[[cs:Seattle]]
+[[cy:Seattle]]
+[[da:Seattle]]
+[[de:Seattle]]
+[[et:Seattle]]
+[[el:Σιάτλ]]
+[[es:Seattle]]
+[[eo:Seattle (Vaŝingtonio)]]
+[[eu:Seattle]]
+[[fa:سیاتل]]
+[[fo:Seattle]]
+[[fr:Seattle]]
+[[ga:Seattle]]
+[[gd:Seattle]]
+[[gl:Seattle, Washington]]
+[[ko:시애틀]]
+[[hi:सीऐटल]]
+[[hr:Seattle, Washington]]
+[[io:Seattle]]
+[[ig:Seattle]]
+[[id:Seattle]]
+[[os:Сиэтл]]
+[[is:Seattle]]
+[[it:Seattle]]
+[[he:סיאטל]]
+[[pam:Seattle, Washington]]
+[[ka:სიეტლი]]
+[[km:ស៊ីតថល]]
+[[kw:Seattle]]
+[[sw:Seattle, Washington]]
+[[ht:Seattle, Washington]]
+[[la:Seattlum]]
+[[lv:Sietla]]
+[[lt:Sietlas]]
+[[hu:Seattle]]
+[[mk:Сиетл]]
+[[mi:Seattle]]
+[[mr:सिअ‍ॅटल, वॉशिंग्टन]]
+[[ms:Seattle]]
+[[nl:Seattle]]
+[[ja:シアトル]]
+[[no:Seattle]]
+[[nn:Seattle]]
+[[oc:Seattle]]
+[[uz:Sietl]]
+[[pap:Seattle]]
+[[pms:Seattle]]
+[[nds:Seattle]]
+[[pl:Seattle]]
+[[pt:Seattle]]
+[[ro:Seattle]]
+[[qu:Seattle (Washington)]]
+[[ru:Сиэтл]]
+[[sah:Сиэтл]]
+[[sco:Seattle]]
+[[scn:Seattle]]
+[[simple:Seattle, Washington]]
+[[sk:Seattle]]
+[[sl:Seattle, Washington]]
+[[szl:Seattle]]
+[[sr:Сијетл]]
+[[sh:Seattle]]
+[[fi:Seattle]]
+[[sv:Seattle]]
+[[tl:Seattle, Washington]]
+[[ta:சியாட்டில்]]
+[[tt:Сиэтл]]
+[[th:ซีแอตเทิล]]
+[[tg:Сиэтл, Вашингтон]]
+[[tr:Seattle]]
+[[uk:Сієтл]]
+[[ug:Séatl]]
+[[vec:Seattle]]
+[[vi:Seattle]]
+[[vo:Seattle]]
+[[war:Seattle]]
+[[yi:סיאטל]]
+[[zh-yue:西雅圖]]
+[[zh:西雅圖]]</text>
+    </revision>
+
+  </page>

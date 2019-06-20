@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2DB595AF-9BA8-4832-B75A-AF81C441535E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Telephony.NeonSwitchCore</RootNamespace>
+    <AssemblyName>LillTek.Telephony.NeonSwitchCore</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>WINFULL;NUNIT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>WINFULL;NUNIT</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeSWITCH.Managed">
+      <HintPath>..\..\..\External\FreeSWITCH\Lib\FreeSWITCH.Managed.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Speech, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Microsoft Speech Platform SDK\Assembly\Microsoft.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.9.10348, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\NUnit\bin\net-2.0\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\GetVoicesCommand.cs" />
+    <Compile Include="Commands\SpeakCommand.cs" />
+    <Compile Include="CoreAppInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CoreAppService.cs" />
+    <Compile Include="CorePerf.cs" />
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CoreApp.cs" />
+    <Compile Include="SwitchTest.cs" />
+    <Compile Include="Speech\PhraseCache.cs" />
+    <Compile Include="Speech\SpeechEngine.cs" />
+    <Compile Include="Speech\SpeechEngineSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Advanced\LillTek.Advanced.csproj">
+      <Project>{287b533d-814d-4dca-87eb-fcf2af711e07}</Project>
+      <Name>LillTek.Advanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Cryptography\Cryptography\LillTek.Cryptography.csproj">
+      <Project>{845744e0-268e-482b-adcd-1c334e1f2d37}</Project>
+      <Name>LillTek.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Data\Data\LillTek.Data.csproj">
+      <Project>{9339eb11-8c21-41e5-b744-05b445f81dff}</Project>
+      <Name>LillTek.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Install\LillTek.Install.csproj">
+      <Project>{6fa1b142-afdd-40d8-b559-d3ed98abd6f7}</Project>
+      <Name>LillTek.Install</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Messaging\Messaging\LillTek.Messaging.csproj">
+      <Project>{06264f71-36f3-42e0-80af-857ed7b2cb86}</Project>
+      <Name>LillTek.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{10503a0b-576c-4d6a-a7b7-326d4bc2e0dd}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Service\LillTek.Service.csproj">
+      <Project>{5b73a206-279b-4ea6-b9b4-a04fa7b85ccd}</Project>
+      <Name>LillTek.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datacenter\Datacenter\LillTek.Datacenter.csproj">
+      <Project>{0dd2754a-d7b2-4cfe-8b72-ce3c819ace27}</Project>
+      <Name>LillTek.Datacenter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datacenter\Server\LillTek.Datacenter.Server.csproj">
+      <Project>{793f27fc-b5f6-461d-b4c2-7d86539b3558}</Project>
+      <Name>LillTek.Datacenter.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NeonSwitch\LillTek.Telephony.NeonSwitch.csproj">
+      <Project>{8D554758-7340-4024-B072-F14304382ECC}</Project>
+      <Name>LillTek.Telephony.NeonSwitch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Telephony\LillTek.Telephony.csproj">
+      <Project>{01CB31AF-D833-4CD4-8053-8BC05FF0BE69}</Project>
+      <Name>LillTek.Telephony</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Audio\NoVoicesError.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Audio\SpeechSynthError.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Doc.LillTek.Telephony.LillSwitchCore.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PlatformKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LillTek.Telephony.LillSwitchCore.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>@echo on
+rem Make sure the FreeSwitch managed and NeonSwitch folders exist.
+
+if $(ConfigurationName)==Release goto setReleaseVars
+
+set NEONSWITCH_MOD=$(NEONSWITCH_DEBUGMOD)
+goto varsSet
+
+:setReleaseVars
+
+set NEONSWITCH_MOD=$(NEONSWITCH_RELEASEMOD)
+
+:varsSet
+
+vegomatic file createpath %25NEONSWITCH_MOD%25\managed\NeonSwitch
+
+rem Copy NeonAppLoader.dll to FreeSWITCH mod\managed, renaming it to NeonSwitch.dll
+
+copy $(ProjectDir)..\NeonAppLoader\$(OutDir)\LillTek.Telephony.NeonAppLoader.dll %25NEONSWITCH_MOD%25\managed\NeonSwitch.dll
+copy $(ProjectDir)..\NeonAppLoader\$(OutDir)LillTek.Telephony.NeonAppLoader.pdb %25NEONSWITCH_MOD%25\managed\NeonSwitch.pdb
+
+rem goto localDebug
+
+rem Copy the build output to the FreeSWITCH mod\managed\NeonSwitch folder.
+
+copy $(TargetDir)*.dll %25NEONSWITCH_MOD%25\managed\NeonSwitch
+copy $(TargetDir)*.pdb %25NEONSWITCH_MOD%25\managed\NeonSwitch
+
+rem Generate a NeonSwitch.ini file that references the CoreApp in the NeonSwitch subfolder.
+
+echo // NeonSwitch Core  &gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo // &gt;&gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo AppName = NeonSwitch &gt;&gt;%25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo AppPath = NeonSwitch &gt;&gt;%25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo AppClass = LillTek.Telephony.NeonSwitchCore.CoreApp &gt;&gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+
+rem Copy the audio files
+
+if not exist %25NEONSWITCH_MOD%25\managed\NeonSwitch\Audio mkdir %25NEONSWITCH_MOD%25\managed\NeonSwitch\Audio
+copy $(TargetDir)\Audio\*.* %25NEONSWITCH_MOD%25\managed\NeonSwitch\Audio
+
+goto done
+
+:localDebug
+
+rem Generate a NeonSwitch.ini file that points to the DEBUG build output folder.
+
+echo // NeonSwitch Core &gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo // &gt;&gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo AppName = NeonSwitch &gt;&gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo AppPath = $(TargetDir) &gt;&gt; %25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+echo AppClass = LillTek.Telephony.NeonSwitchCore.CoreApp &gt;&gt;%25NEONSWITCH_MOD%25\managed\NeonSwitch.ini
+
+:done
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

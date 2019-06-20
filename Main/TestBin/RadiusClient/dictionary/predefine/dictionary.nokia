@@ -1,0 +1,8 @@
+#	Nokia dictionary
+#	
+
+ATTRIBUTE	Nokia-IMSI			224	octets
+ATTRIBUTE	Nokia-Charging-Id		225	integer
+ATTRIBUTE	Nokia-Prepaid-Ind		226	integer
+ATTRIBUTE	Nokia-GGSN-IP-Address		227	ipaddr
+ATTRIBUTE	Nokia-SGSN-IP-Address		228	ipaddr

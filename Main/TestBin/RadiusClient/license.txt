@@ -1,0 +1,23 @@
+Radius Test License for use and distribution.
+Radius Test is shareware. 
+This means: 
+
+1. All copyrights to Radius Test are exclusively owned by the RadUtils, Inc. 
+
+2. Anyone may use this software during a test period of 15 days. Following this test period of 15 days or less, if you wish to continue to use Radius Test, you MUST register. 
+
+3. Once registered, the user is granted a non-exclusive license to use Radius Test on a personal computer(s), desktop and/or portable, or multiple users on a single computer, but not both.  Usage on a LAN or in a server/workstation environment requires that each workstation accessing the software must be licensed. In practical terms this means the software can be used by a single user *for personal use* on the work computer and the portable computer for that user only. Work usage and personal usage on different computers requires additional licensing. "You" means the company, entity or individual whose funds are used to pay the license fee. "Use" means storing, loading, installing, executing or displaying Radius Test. This license is not transferable to any other system, or to another organization or individual. You are expected to use Radius Test on your personal use system and to thoroughly evaluate its usefulness and functionality before making a purchase.
+
+4. Radius Test unregistered shareware version, may be freely distributed, provided the distribution package is not modified. No person or company may charge a fee for the distribution of Radius Test without written permission from the copyright holder. 
+
+5. To register see How to register. 
+
+6. Radius Test IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE. 
+
+7. You may not use, copy, emulate, clone, rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the licensed program, or any subset of the licensed program, except as provided for in this agreement. Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution. All rights not expressly granted here are reserved by RadUtils, Inc. 
+
+8. Installing and using Radius Test signifies acceptance of these terms and conditions of the license. 
+
+9. If you do not agree with the terms of this license you must remove Radius Test's files from your storage devices and cease to use the product. Thank you for using the original Radius Test. Enjoy! 
+
+RadUtils,Inc. 

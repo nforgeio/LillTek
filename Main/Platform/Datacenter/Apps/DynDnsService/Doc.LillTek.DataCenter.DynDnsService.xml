@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.DynDnsService</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.DynDnsService">
+			<summary>
+				Implements the dynamic DNS service.  See <see cref="T:LillTek.Datacenter.DynDnsService.OverviewDoc" /> 
+				for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

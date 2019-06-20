@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<p><b><font size="5">radeapclient</font> - A command line tool to send packets to a RADIUS server and show reply.</b><br>  
+<br>
+<b>Command line syntax:</b></p>
+<p>radeapclient&nbsp; [-c count] [-f file] [-i id] [-r num_retries] [-s] [-t timeout] [-qx] server {acct|auth|status|disconnect} secret</p>    
+<blockquote> 
+  <p><b>-c count</b><br>  
+              Send each packet count times.&nbsp;<br>    
+  <br> 
+  <b>       -f file</b><br>     
+              File to read the  attribute/value  pairs  from. If this  is  not  specified, they are read from stdin.</p>     
+  <p><b>       -i id</b><br>  
+  Use id as the RADIUS request Id.<br>    
+  <br> 
+  <b>       -r num_retries</b><br>   
+              Try to send each packet num_retries  times,  before giving up on it.  The default is 3.<br>     
+  <br> 
+  <b>       -s</b>   Print out debug information.<br>     
+  <br> 
+  <b>       -t timeout</b><br>  
+              Wait timeout seconds before deciding that  the  NAS has  not responded to a request, and re-sending the<br>     
+              packet.  The default timeout is 3.&nbsp;</p>    
+  <p><b>-q </b>     Go to quiet mode, and do not print out anything.<br>     
+  </p> 
+  <p><b>       -x</b>     Print out extra debugging information.<br>     
+  <br> 
+  <b>       server[:port]</b><br> 
+              The hostname or IP address of  the  remote  server. Optionally a  UDP port can be specified. If no UDP<br>     
+              port is specified, 1813 for accounting packets and              1812 for all other     
+  requests.<br> 
+  <br> 
+  <b>       acct | auth | status | disconnect</b><br>  
+              Use auth to send an authentication packet  (Access-Request),   acct   to  send  an  accounting  packet<br>     
+              (Accounting-Request),  status  to  send  an  status packet  (Status-Server),  or  disconnect  to send a<br>     
+              disconnection request. Instead of these values, you can also use a decimal code here.&nbsp;<br>    
+  &nbsp;&nbsp;&nbsp; code 1 is Access-Request.<br>     
+  &nbsp;&nbsp;&nbsp; code 4 is Accounting-Request.<br>     
+  &nbsp;&nbsp;&nbsp; code 12 is Status-Server<br>     
+  &nbsp;&nbsp;&nbsp; code 40 is Disconnection-Request.<br>     
+  <br> 
+  <b>       secret</b> The shared secret for this client.  It needs to  be defined  on  the radius server side too, for the IP     
+  address you are sending the radius packets from.</p>     
+</blockquote> 
+<p><b>Example:</b><br> 
+&nbsp;&nbsp;&nbsp; <b>1.A sample session that queries the remote server for a    
+EAP Access-Request</b><br>  
+<br> 
+&nbsp;&nbsp;&nbsp; &quot;C:\Program Files\RadUtils\RadiusTest\radeapclient.exe&quot; -c 1  -f  "test.txt"  -i 0  -r 3  -t 3  -sx  192.168.16.100:1812 auth testing123<br>     
+<br> 
+&nbsp;&nbsp;&nbsp; where attribute/value pairs from test.txt is:<br>     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; User-Name = "testeap"<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EAP-MD5-Password = "111111"<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EAP-Code = Response<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EAP-Id = 210<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EAP-Type-Identity = "testeap"<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Message-Authenticator = 0x00<br>     
+&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+<p>&nbsp;&nbsp;&nbsp;<b>2.A sample session that queries the remote server for a   
+EAP Access-Request</b><br>  
+<br> 
+&nbsp;&nbsp;&nbsp; &quot;C:\Program Files\RadUtils\RadiusTest\radeapclient.exe&quot; -c 1    
+-i 0  -r 3  -t 3  -sx  192.168.16.100:1812 auth testing123<br>    
+<br> 
+&nbsp;&nbsp;&nbsp;       where attribute/value pairs read from stdin.<br>   
+&nbsp;&nbsp;&nbsp; <img border="0" src="images/Comman_Tool2.gif" width="644" height="180"></p>   
+<p>&nbsp;&nbsp;&nbsp; After you have input attribute/value pairs, you must input   
+CTRL+Z (standard input EOF) to end the attribute/value pairs input, and press   
+ENTER to run radeapclient.</p> 
+<p>　</p> 
+<p>　</p> 
+<p>　</p> 
+ 
+</body> 
+ 
+</html> 

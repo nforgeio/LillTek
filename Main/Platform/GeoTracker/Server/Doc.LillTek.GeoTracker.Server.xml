@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.GeoTracker.Server</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.GeoTracker.Server">
+            <summary>
+                Server side implementation of the LillTek GeoTracker platform.  See <see cref="T:LillTek.GeoTracker.Server.OverviewDoc" />
+                for more information.
+            </summary>
+        </member>
+    </members>
+</doc>

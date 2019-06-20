@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.LowLevel</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.LowLevel">
+			<summary>
+			Implements low-level functionaliity missing from the .NET
+			framework such as cross process thread synchronization mechanisms,
+			cross process shared memory, and watchdog timers.
+			</summary>
+		</member>
+	</members>
+</doc>

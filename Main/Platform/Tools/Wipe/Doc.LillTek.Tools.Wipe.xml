@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.Wipe</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.Wipe">
+			<summary>
+			A tool that overwrites a file before deleting it.  See <see cref="T:LillTek.Tools.Wipe.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

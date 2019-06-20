@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15260180-F909-4AC6-A047-31EB60735F0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Common.Test</RootNamespace>
+    <AssemblyName>LillTek.Common.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>UnitTestKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <NoWarn>618</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise />
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_ArgCollection.cs" />
+    <Compile Include="_AsyncAutoResetEvent.cs" />
+    <Compile Include="_AsyncManualResetEvent.cs" />
+    <Compile Include="_AsyncMutex.cs" />
+    <Compile Include="_AsyncReaderWriterLock.cs" />
+    <Compile Include="_AsyncTimer.cs" />
+    <Compile Include="_Bits.cs" />
+    <Compile Include="_Block.cs" />
+    <Compile Include="_BlockArray.cs" />
+    <Compile Include="_BlockStream.cs" />
+    <Compile Include="_CommandLine.cs" />
+    <Compile Include="_Config.cs" />
+    <Compile Include="_ConfigRewriter.cs" />
+    <Compile Include="_CsvReader.cs" />
+    <Compile Include="_CsvTableReader.cs" />
+    <Compile Include="_CsvTableWriter.cs" />
+    <Compile Include="_CsvWriter.cs" />
+    <Compile Include="_DoubleList.cs" />
+    <Compile Include="_ElapsedTimer.cs" />
+    <Compile Include="_EnhancedBlockStream.cs" />
+    <Compile Include="_EnhancedMemoryStream.cs" />
+    <Compile Include="_EnhancedStream.cs" />
+    <Compile Include="_EnvironmentVars.cs" />
+    <Compile Include="_Extensions.cs" />
+    <Compile Include="_FileInfoList.cs" />
+    <Compile Include="_FlightRecorder.cs" />
+    <Compile Include="_GatedInvoker.cs" />
+    <Compile Include="_GatedTimer.cs" />
+    <Compile Include="_GenericResult.cs" />
+    <Compile Include="_GeoCircle.cs" />
+    <Compile Include="_GeoCompositeRegion.cs" />
+    <Compile Include="_GeoCoordinate.cs" />
+    <Compile Include="_GeoFix.cs" />
+    <Compile Include="_GeoHelper.cs" />
+    <Compile Include="_GeoPolygon.cs" />
+    <Compile Include="_GeoRectangle.cs" />
+    <Compile Include="_Helper.cs" />
+    <Compile Include="_MacroProcessor.cs" />
+    <Compile Include="_Matrix2D.cs" />
+    <Compile Include="_NetTrace.cs" />
+    <Compile Include="_NetTracePacket.cs" />
+    <Compile Include="_NetworkBinding.cs" />
+    <Compile Include="_OsVersion.cs" />
+    <Compile Include="_ParallelActions.cs" />
+    <Compile Include="_PolledTimer.cs" />
+    <Compile Include="_ProcessLimiter.cs" />
+    <Compile Include="_PropertyChangeMap.cs" />
+    <Compile Include="_ReadOnlyDictionary.cs" />
+    <Compile Include="_RecurringTimer.cs" />
+    <Compile Include="_RegKey.cs" />
+    <Compile Include="_RingBuffer.cs" />
+    <Compile Include="_Serialize.cs" />
+    <Compile Include="_SerializedActionQueue.cs" />
+    <Compile Include="_StackArray.cs" />
+    <Compile Include="_SysTime.cs" />
+    <Compile Include="_TextGrid.cs" />
+    <Compile Include="_TextLog.cs" />
+    <Compile Include="_TextProperties.cs" />
+    <Compile Include="_TextTable.cs" />
+    <Compile Include="_TimedLock.cs" />
+    <Compile Include="_TimeOfDay.cs" />
+    <Compile Include="_TriState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Testing\Testing\LillTek.Testing.csproj">
+      <Project>{ec64bbae-af97-44f8-8c52-eae63dc72f16}</Project>
+      <Name>LillTek.Testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Win32\LillTek.Win32.csproj">
+      <Project>{3a2dd65a-8521-46a3-874f-e8fa5c2bc763}</Project>
+      <Name>LillTek.Win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnitTestKey.snk" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

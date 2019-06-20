@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.DBPackage</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.DBPackage">
+			<summary>
+			Database installation package creation and installation tool.
+			<see cref="T:LillTek.Tools.DBPackage.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

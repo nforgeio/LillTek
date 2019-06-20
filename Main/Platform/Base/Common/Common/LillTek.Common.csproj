@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{171D812A-5258-4E94-91FD-A67DE0203C98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Common</RootNamespace>
+    <AssemblyName>LillTek.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\LillTek.Common.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\LillTek.Common.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Debug\LillTek.Common.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Release\LillTek.Common.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\BoolAction.cs" />
+    <Compile Include="Actions\MethodArgXInvoker.cs" />
+    <Compile Include="Actions\ParseAction.cs" />
+    <Compile Include="Async\AsyncResult.cs" />
+    <Compile Include="Async\AsyncResultGeneric.cs" />
+    <Compile Include="Async\AsyncTracker.cs" />
+    <Compile Include="Async\IAsyncResultDiagnostics.cs" />
+    <Compile Include="Async\IAsyncResultOwner.cs" />
+    <Compile Include="Async\QueuedAsyncResult.cs" />
+    <Compile Include="Collection\ArgCollection.cs" />
+    <Compile Include="Collection\ArgCollectionType.cs" />
+    <Compile Include="Collection\Bits.cs" />
+    <Compile Include="Collection\Block.cs" />
+    <Compile Include="Collection\BlockArray.cs" />
+    <Compile Include="Collection\ClientStateCollection.cs" />
+    <Compile Include="Collection\DoubleList.cs" />
+    <Compile Include="Collection\FileInfoList.cs" />
+    <Compile Include="Collection\IDLElement.cs" />
+    <Compile Include="Collection\ISizedItem.cs" />
+    <Compile Include="Collection\ItemPool.cs" />
+    <Compile Include="Collection\ReadOnlyDictionary.cs" />
+    <Compile Include="Collection\StackArray.cs" />
+    <Compile Include="Config\Config.cs" />
+    <Compile Include="Config\ConfigException.cs" />
+    <Compile Include="Config\ConfigFormatException.cs" />
+    <Compile Include="Config\ConfigRewriter.cs" />
+    <Compile Include="Config\CpuPlatform.cs" />
+    <Compile Include="Config\EnvironmentVars.cs" />
+    <Compile Include="Config\IConfigProvider.cs" />
+    <Compile Include="Config\OsVersion.cs" />
+    <Compile Include="Config\RegKey.cs" />
+    <Compile Include="Csv\CsvReader.cs" />
+    <Compile Include="Csv\CsvTableReader.cs" />
+    <Compile Include="Csv\CsvTableWriter.cs" />
+    <Compile Include="Csv\CsvWriter.cs" />
+    <Compile Include="Diagnostics\CallStack.cs" />
+    <Compile Include="Diagnostics\CompositeSysLogProvider.cs" />
+    <Compile Include="Diagnostics\ConsoleSysLogProvider.cs" />
+    <Compile Include="Diagnostics\Covenant.cs" />
+    <Compile Include="Diagnostics\DebugSysLogProvider.cs" />
+    <Compile Include="Diagnostics\FileSysLogProvider.cs" />
+    <Compile Include="Diagnostics\FlightEvent.cs" />
+    <Compile Include="Diagnostics\FlightRecorder.cs" />
+    <Compile Include="Diagnostics\FlightRecorderSettings.cs" />
+    <Compile Include="Diagnostics\ICustomExceptionLogger.cs" />
+    <Compile Include="Diagnostics\IFlightEventInfo.cs" />
+    <Compile Include="Diagnostics\ISysLogEntryExtension.cs" />
+    <Compile Include="Diagnostics\ISysLogProvider.cs" />
+    <Compile Include="Diagnostics\NativeSysLogProvider.cs" />
+    <Compile Include="Diagnostics\NetTrace.cs" />
+    <Compile Include="Diagnostics\NetTracePacket.cs" />
+    <Compile Include="Diagnostics\NetTraceSink.cs" />
+    <Compile Include="Diagnostics\StringSysLogEntryExtension.cs" />
+    <Compile Include="Diagnostics\SysLog.cs" />
+    <Compile Include="Diagnostics\SysLogEntry.cs" />
+    <Compile Include="Diagnostics\SysLogEntryFormat.cs" />
+    <Compile Include="Diagnostics\SysLogEntryType.cs" />
+    <Compile Include="Diagnostics\SysLogLevel.cs" />
+    <Compile Include="Diagnostics\SysLogProvider.cs" />
+    <Compile Include="Diagnostics\TextLog.cs" />
+    <Compile Include="Exception\CancelException.cs" />
+    <Compile Include="Exception\DeadlockException.cs" />
+    <Compile Include="Exception\ExpiredTicketException.cs" />
+    <Compile Include="Exception\NotAvailableException.cs" />
+    <Compile Include="Exception\RemoteException.cs" />
+    <Compile Include="Exception\RiaException.cs" />
+    <Compile Include="Exception\UndisposedLockException.cs" />
+    <Compile Include="Exception\VersionException.cs" />
+    <Compile Include="Extensions\ArrayExtensions.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\ImageExtensions.cs" />
+    <Compile Include="Extensions\LinqExtensions.cs" />
+    <Compile Include="Extensions\RegexExtensions.cs" />
+    <Compile Include="Extensions\SystemExtensions.cs" />
+    <Compile Include="GeoLocation\GeoCircle.cs" />
+    <Compile Include="GeoLocation\GeoCompositeRegion.cs" />
+    <Compile Include="GeoLocation\GeoCoordinate.cs" />
+    <Compile Include="GeoLocation\GeoFix.cs" />
+    <Compile Include="GeoLocation\GeoFixChangedArgs.cs" />
+    <Compile Include="GeoLocation\GeoFixField.cs" />
+    <Compile Include="GeoLocation\GeoFixSource.cs" />
+    <Compile Include="GeoLocation\GeoFixTechnology.cs" />
+    <Compile Include="GeoLocation\GeoHelper.cs" />
+    <Compile Include="GeoLocation\GeoPolygon.cs" />
+    <Compile Include="GeoLocation\GeoRectangle.cs" />
+    <Compile Include="GeoLocation\GeoRegion.cs" />
+    <Compile Include="GeoLocation\IGeoFixSource.cs" />
+    <Compile Include="Helper\Assertion.cs" />
+    <Compile Include="Helper\AwsInstanceInfo.cs" />
+    <Compile Include="Helper\CommandLine.cs" />
+    <Compile Include="Helper\Compress.cs" />
+    <Compile Include="Helper\EventHandlerParameters.cs" />
+    <Compile Include="Helper\ExecuteResult.cs" />
+    <Compile Include="Helper\FolderCleaner.cs" />
+    <Compile Include="Helper\Helper.cs" />
+    <Compile Include="Helper\Helper.HttpUtility.cs" />
+    <Compile Include="Helper\HexDumpOption.cs" />
+    <Compile Include="Helper\IParseable.cs" />
+    <Compile Include="Helper\MacroProcessor.cs" />
+    <Compile Include="Helper\NotifyPropertyChanged.cs" />
+    <Compile Include="Helper\Serialize.cs" />
+    <Compile Include="Helper\Stub.cs" />
+    <Compile Include="Interfaces\ICancelable.cs" />
+    <Compile Include="Interfaces\IDomainEntity.cs" />
+    <Compile Include="Interfaces\ILockable.cs" />
+    <Compile Include="Interfaces\IPropertyChange.cs" />
+    <Compile Include="Interfaces\ITransactionContext.cs" />
+    <Compile Include="Misc\CustomAttribute.cs" />
+    <Compile Include="Misc\LifecycleManager.cs" />
+    <Compile Include="Misc\Matrix2D.cs" />
+    <Compile Include="Misc\NameValue.cs" />
+    <Compile Include="Misc\PostalAddress.cs" />
+    <Compile Include="Misc\PropertyChangeMap.cs" />
+    <Compile Include="Collection\RingBuffer.cs" />
+    <Compile Include="Misc\TextGrid.cs" />
+    <Compile Include="Misc\TextProperties.cs" />
+    <Compile Include="Misc\TextTable.cs" />
+    <Compile Include="Misc\TriState.cs" />
+    <Compile Include="Misc\TSQLPPAttribute.cs" />
+    <Compile Include="Misc\WeakEventListener.cs" />
+    <Compile Include="Network\Credentials.cs" />
+    <Compile Include="Network\GenericResult.cs" />
+    <Compile Include="Network\MulticastGroup.cs" />
+    <Compile Include="Network\NetFailMode.cs" />
+    <Compile Include="Network\NetworkBinding.cs" />
+    <Compile Include="Network\NetworkConfig.cs" />
+    <Compile Include="Network\NetworkPort.cs" />
+    <Compile Include="Network\NetworkStatus.cs" />
+    <Compile Include="Network\RealmFormat.cs" />
+    <Compile Include="Network\SecurityTokenStatus.cs" />
+    <Compile Include="Network\SmtpCredentials.cs" />
+    <Compile Include="Network\TcpConst.cs" />
+    <Compile Include="Network\UserStateBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stream\BlockStream.cs" />
+    <Compile Include="Stream\EnhancedBlockStream.cs" />
+    <Compile Include="Stream\EnhancedFileStream.cs" />
+    <Compile Include="Stream\EnhancedMemoryStream.cs" />
+    <Compile Include="Stream\EnhancedStream.cs" />
+    <Compile Include="Stream\StreamDelegates.cs" />
+    <Compile Include="System\ICloneable2.cs" />
+    <Compile Include="Tasks\AsyncAutoResetEvent.cs" />
+    <Compile Include="Tasks\AsyncManualResetEvent.cs" />
+    <Compile Include="Tasks\AsyncMutex.cs" />
+    <Compile Include="Tasks\AsyncReaderWriterLock.cs" />
+    <Compile Include="Threading\GatedInvoker.cs" />
+    <Compile Include="Threading\OneTimeEvent.cs" />
+    <Compile Include="Threading\ParallelActions.cs" />
+    <Compile Include="Threading\ProcessLimiter.cs" />
+    <Compile Include="Threading\ProcessLimits.cs" />
+    <Compile Include="Threading\SerializedActionQueue.cs" />
+    <Compile Include="Threading\TimedLock.cs" />
+    <Compile Include="Threading\TimedSyncRoot.cs" />
+    <Compile Include="Time\AsyncTimer.cs" />
+    <Compile Include="Time\ElapsedTimer.cs" />
+    <Compile Include="Time\GatedTimer.cs" />
+    <Compile Include="Time\HiResTimer.cs" />
+    <Compile Include="Time\PolledTimer.cs" />
+    <Compile Include="Time\RecurringTimer.cs" />
+    <Compile Include="Time\RecurringTimerType.cs" />
+    <Compile Include="Time\SysTime.cs" />
+    <Compile Include="Time\TimeOfDay.cs" />
+    <Compile Include="Time\TimeZoneConverter.cs" />
+    <Compile Include="Time\UnixTime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc.LillTek.Common.xml" />
+    <None Include="PlatformKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Win32\LillTek.Win32.csproj">
+      <Project>{3a2dd65a-8521-46a3-874f-e8fa5c2bc763}</Project>
+      <Name>LillTek.Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

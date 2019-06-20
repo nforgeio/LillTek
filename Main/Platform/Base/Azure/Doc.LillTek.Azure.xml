@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.Azure</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.Azure">
+            <summary>
+                Windows Azure related utilities.
+            </summary>
+        </member>
+    </members>
+</doc>

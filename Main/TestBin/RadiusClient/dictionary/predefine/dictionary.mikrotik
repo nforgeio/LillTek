@@ -1,0 +1,11 @@
+#	http://www.mikrotik.com
+#
+#	
+
+VENDOR	Mikrotik	14988
+
+ATTRIBUTE	Mikrotik-Recv-Limit		1	integer	Mikrotik
+ATTRIBUTE	Mikrotik-Xmit-Limit		2	integer	Mikrotik
+
+# this attribute is unused
+ATTRIBUTE	Mikrotik-Group		3	string	Mikrotik

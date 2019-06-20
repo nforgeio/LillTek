@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Net.Mail</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Net.Mail">
+			<summary>
+			Email related classes.
+			</summary>
+		</member>
+	</members>
+</doc>

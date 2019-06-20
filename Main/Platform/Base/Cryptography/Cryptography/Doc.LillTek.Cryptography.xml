@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Cryptography</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Cryptography">
+			<summary>
+			Implements some additional wrappers on the .NET cryptographic classes
+			as well as implements some new functionality like HMAC hashers.
+			</summary>
+		</member>
+	</members>
+</doc>

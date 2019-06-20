@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.HeartbeatService</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.HeartbeatService">
+			<summary>
+				Implements a Windows service that periodically checks the health of one or more websites.
+                See <see cref="T:LillTek.Datacenter.HeartbeatService.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

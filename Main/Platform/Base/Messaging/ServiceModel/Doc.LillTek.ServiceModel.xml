@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.ServiceModel</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.ServiceModel">
+			<summary>
+          Extends the .NET Framework Windows Communication Foundation
+          with custom message transports based on LillTek Messaging.
+          See <see cref="T:LillTek.ServiceModel.OverviewDoc" />
+          for more information.
+      </summary>
+		</member>
+	</members>
+</doc>

@@ -1,0 +1,21 @@
+#dictionary.harbour
+#
+#Version: 2.0
+# 
+
+#
+#Harbour Vendor-ID
+#
+VENDOR		Harbour		8212
+#
+#Uplink ACL Bandwidth£¬integer£¬64Kbps
+#
+ATTRIBUTE	Harbour-Uplink-ACL-Bandwidth	1	integer	        Harbour	
+#
+#downlink ACL Bandwidth£¬integer£¬64Kbps
+#
+ATTRIBUTE	Harbour-downlink-ACL-Bandwidth	2	integer	        Harbour	
+ATTRIBUTE	Harbour-Intra-ACL-Vid           3	integer 	Harbour
+ATTRIBUTE	Harbour-Extra-ACL-Vid           4       integer 	Harbour
+ATTRIBUTE	Harbour-Uplink-ACL-Priority     5	integer 	Harbour
+ATTRIBUTE	Harbour-downlink-ACL-Priority   6	integer 	Harbour

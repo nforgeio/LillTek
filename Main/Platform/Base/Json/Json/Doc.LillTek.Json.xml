@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Json</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Json">
+			<summary>
+			Implements classes for parsing and generating serialized objects compatible
+			with the JSON standard.  This is currently a thin wrapper over the 
+		    NewtonSoft Json.NET class library but may eventually be ported to a
+		    native implementation.
+			</summary>
+		</member>
+	</members>
+</doc>

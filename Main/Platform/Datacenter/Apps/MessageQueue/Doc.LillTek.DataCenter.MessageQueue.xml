@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.AppStore</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.MessageQueue">
+			<summary>
+                Implements a message queuing service that stores and forwards
+                messages between application instances.
+                See <see cref="T:LillTek.Datacenter.MessageQueue.OverviewDoc" />
+                for more information.
+            </summary>
+		</member>
+	</members>
+</doc>

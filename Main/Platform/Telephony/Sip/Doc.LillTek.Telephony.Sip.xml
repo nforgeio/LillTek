@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Telephony.Sip</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Telephony.Sip">
+			<summary>
+				A .NET implemention of the SIP protocol as defined by 
+                <a href="http://www.ietf.org/rfc/rfc3261.txt?number=3261">RFC 3261</a>.
+			</summary>
+		</member>
+	</members>
+</doc>

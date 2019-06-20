@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.AppStore</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.AppStore">
+			<summary>
+				Implements a centralized or caching application package store.  
+				See <see cref="T:LillTek.Datacenter.AppStore.OverviewDoc" /> 
+				for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

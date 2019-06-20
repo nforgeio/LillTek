@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.RouterService</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.RouterService">
+			<summary>
+				Hosts a root or hub router as a Windows Service.  See <see cref="T:LillTek.Datacenter.RouterService.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

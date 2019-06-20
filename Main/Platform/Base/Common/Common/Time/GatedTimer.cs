@@ -1,0 +1,155 @@
+//-----------------------------------------------------------------------------
+// FILE:        GatedTimer.cs
+// CONTRIBUTOR: Jeff Lill
+// COPYRIGHT:   Copyright (c) 2005-2015 by Jeffrey Lill.  All rights reserved.
+// DESCRIPTION: Implements a timer that allows only one thread at a time to process timer events.
+
+using System;
+using System.Threading;
+
+namespace LillTek.Common
+{
+    /// <summary>
+    /// Implements a timer that allows only one thread at a time to process timer events.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// This is necessary to because the System.Timer class will continue firing
+    /// thread handlers even if a long-running thread is still handling an earlier
+    /// timer event.
+    /// </para>
+    /// <note>
+    /// Any exceptions thrown by timer callback will be logged to the <see cref="SysLog" />.
+    /// </note>
+    /// </remarks>
+    public sealed class GatedTimer : IDisposable
+    {
+        private object          syncLock = new object();
+        private Timer           timer;          // The underlying timer
+        private TimeSpan        dueTime;        // Time to wait before firing the first event
+        private TimeSpan        period;         // Time to wait between firing events
+        private TimerCallback   callback;       // The timer event handler
+        private bool            inCallback;     // True if we're processing a callback
+
+        /// <summary>
+        /// Initializes and starts the timer.
+        /// </summary>
+        /// <param name="callback">The callback to be called when the timer fires.</param>
+        /// <param name="state">Application state.</param>
+        /// <param name="period">Time to wait between firing events.</param>
+        public GatedTimer(TimerCallback callback, object state, TimeSpan period)
+            : this(callback, state, period, period)
+        {
+        }
+
+        /// <summary>
+        /// Initializes and starts the timer.
+        /// </summary>
+        /// <param name="callback">The callback to be called when the timer fires.</param>
+        /// <param name="state">Application state.</param>
+        /// <param name="dueTime">Time to wait before firing the first event.</param>
+        /// <param name="period">Time to wait between firing events.</param>
+        public GatedTimer(TimerCallback callback, object state, TimeSpan dueTime, TimeSpan period)
+        {
+            // The .NET framework doesn't like really long timespans so set
+            // 1 day instead.
+
+            var oneDay = TimeSpan.FromDays(1);
+
+            if (dueTime > oneDay)
+                dueTime = oneDay;
+
+            if (period > oneDay)
+                period = oneDay;
+
+            this.dueTime    = dueTime;
+            this.period     = period;
+            this.callback   = callback;
+            this.inCallback = false;
+            this.timer      = new Timer(new TimerCallback(OnTimer), state, dueTime, period);
+        }
+
+        /// <summary>
+        /// Finalizer.
+        /// </summary>
+        ~GatedTimer()
+        {
+            Dispose();
+        }
+
+        /// <summary>
+        /// Releases all resources associated with the timer.
+        /// </summary>
+        public void Dispose()
+        {
+            lock (syncLock)
+            {
+                if (timer != null)
+                {
+                    timer.Dispose();
+                    timer = null;
+                }
+
+                GC.SuppressFinalize(this);
+            }
+        }
+
+        /// <summary>
+        /// Modifies the timer.
+        /// </summary>
+        /// <param name="dueTime">Time to wait before firing the first event.</param>
+        /// <param name="period">Time to wait between firing events.</param>
+        public void Change(TimeSpan dueTime, TimeSpan period)
+        {
+            lock (syncLock)
+            {
+                this.dueTime = dueTime;
+                this.period = period;
+
+                if (!inCallback)
+                    timer.Change(dueTime, period);
+            }
+        }
+
+        /// <summary>
+        /// Handles the timer dispatch.
+        /// </summary>
+        /// <param name="state"></param>
+        private void OnTimer(object state)
+        {
+            lock (syncLock)
+            {
+                // Ignore timer events if we're already processing one or if the
+                // timer has been disposed.
+
+                if (inCallback || timer == null)
+                    return;
+
+                // Disable the timer and indicate that we're processing
+                // the callback
+
+                timer.Change(Timeout.Infinite, Timeout.Infinite);
+                inCallback = true;
+            }
+
+            try
+            {
+                callback(state);
+            }
+            catch (Exception e)
+            {
+                SysLog.LogException(e);
+            }
+
+            lock (syncLock)
+            {
+                inCallback = false;
+
+                // If the timer hasn't been disposed then reenable it.
+
+                if (timer != null)
+                    timer.Change(period, period);
+            }
+        }
+    }
+}

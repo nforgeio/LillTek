@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.Telephony</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.Telephony">
+            <summary>
+                Root namespace for the LillTek Telephony platform including <b>NeonSwitch</b>.
+                See <see cref="N:LillTek.Telephony.Common" /> for descriptions of common code
+                available for both the client and server sides of telephony applications.  Please
+                visit the documentation for the <b>LillTek.Telephony.NeonSwitch</b> namespace for
+                a comprehensive overview of the LillTek Platform telephony capabilities.
+            </summary>
+        </member>
+        <member name="N:LillTek.Telephony.Common">
+            <summary>
+                Common library for the LillTek Telephony platform including <b>NeonSwitch</b>. 
+                See the documentation for the <b>LillTek.Telephony.NeonSwitch</b> namespace for
+                a more comprehensive overview of the LillTek Platform telephony capabilities.
+            </summary>
+        </member>
+    </members>
+</doc>

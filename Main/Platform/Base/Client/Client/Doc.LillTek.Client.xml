@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Client</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Client">
+			<summary>
+			Basic classes useful for Windows Forms applications.
+			</summary>
+		</member>
+	</members>
+</doc>

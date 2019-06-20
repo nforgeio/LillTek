@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.Vegomatic</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.Vegomatic">
+			<summary>
+			It slices, it dices, it make jullienne fries!  This tool performs
+			various random tasks.  See <see cref="T:LillTek.Tools.Vegomatic.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

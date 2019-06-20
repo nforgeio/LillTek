@@ -1,0 +1,9 @@
+User-Name = testeap
+EAP-MD5-Password = 111111
+NAS-IP-Address = 192.168.16.128
+EAP-Code = Response
+EAP-Id = 200
+EAP-Type-Identity = testeap
+Message-Authenticator = 0x00
+NAS-Port = 0
+

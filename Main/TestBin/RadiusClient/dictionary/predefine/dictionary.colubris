@@ -1,0 +1,9 @@
+#	dictionary.colubris 
+#	Colubris dictionary 
+#      
+
+VENDOR          Colubris                8744
+#
+#       Vendor-specific attributes
+#
+ATTRIBUTE       Colubris-AVPair         0       string          Colubris

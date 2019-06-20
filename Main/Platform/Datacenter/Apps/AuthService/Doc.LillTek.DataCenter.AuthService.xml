@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.AuthService</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.AuthService">
+			<summary>
+				Implements an extensible authentication hub service that is capable of unifying access to
+			    multiple authentication sources.  See <see cref="T:LillTek.Datacenter.AuthService.OverviewDoc" /> 
+				for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

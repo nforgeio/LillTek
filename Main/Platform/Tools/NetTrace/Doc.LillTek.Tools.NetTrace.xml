@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.NetTrace</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.NetTrace">
+			<summary>
+			The NetTrace Console tool displays trace packets broadcast over the network
+			by applications using the <see cref="T:LillTek.Common.NetTrace"/> class.
+			</summary>
+		</member>
+	</members>
+</doc>

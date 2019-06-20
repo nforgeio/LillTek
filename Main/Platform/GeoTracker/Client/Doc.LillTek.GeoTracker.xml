@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.GeoTracker</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.GeoTracker">
+            <summary>
+                Client and common GeoTracker class library.
+            </summary>
+        </member>
+        <member name="N:LillTek.GeoTracker.Msgs">
+            <summary>
+                GeoTracker related LillTek message implementations.
+            </summary>
+        </member>
+    </members>
+</doc>

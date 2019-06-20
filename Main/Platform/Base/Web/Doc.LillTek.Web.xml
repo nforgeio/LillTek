@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Web</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Web">
+			<summary>
+			Implements classes useful for implementing ASP.NET applications.
+			</summary>
+		</member>
+	</members>
+</doc>

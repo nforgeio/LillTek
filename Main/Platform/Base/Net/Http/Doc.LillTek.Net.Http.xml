@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Net.Http</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Net.Http">
+			<summary>
+			Implements light weight, high performance, client and server HTTP classes.
+			</summary>
+		</member>
+	</members>
+</doc>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter">
+			<summary>
+			Includes the implementations of the client side of data center services
+			as well as classes common to both the client and server sides of these
+			services.
+			</summary>
+		</member>
+		<member name="N:LillTek.Datacenter.DBDefs">
+			<summary>
+			Defines internal constants and enumerations to be used for databases
+			by the LillTek data center service implementations.  These are defined
+			here rather than in the <b>LillTek.Datacenter.Server</b> assembly so that
+			database packages using these definitions can be build and packed into this
+			assembly as resources.
+			</summary>
+		</member>
+        <member name="N:LillTek.Datacenter.ServerManagement">
+            <summary>
+            Includes the classes and types used to implement the <b>Server Manager</b> service
+            as well as to access this service from other applications.
+            </summary>
+        </member>
+        <member name="N:LillTek.Datacenter.Msgs">
+			<exclude />		  
+		</member>
+        <member name="N:LillTek.Datacenter.Msgs.AppStore">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Datacenter.Msgs.AuthService">
+			<exclude />
+		</member>
+		<member name="N:LillTek.Datacenter.Msgs.ReliableMessenger">
+			<exclude />
+		</member>
+		<member name="N:LillTek.Datacenter.Msgs.SentinelService">
+			<exclude />
+		</member>
+	</members>
+</doc>

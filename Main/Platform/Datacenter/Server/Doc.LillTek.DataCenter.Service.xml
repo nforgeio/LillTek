@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.Server</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.Server">
+			<summary>
+			Provides the implementations of the data center service endpoints.
+			</summary>
+		</member>
+	</members>
+</doc>

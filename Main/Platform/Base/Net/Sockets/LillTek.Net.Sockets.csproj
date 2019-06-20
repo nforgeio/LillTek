@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10503A0B-576C-4D6A-A7B7-326D4BC2E0DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Net.Sockets</RootNamespace>
+    <AssemblyName>LillTek.Net.Sockets</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\LillTek.Net.Sockets.xml</DocumentationFile>
+    <NoWarn>618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\LillTek.Net.Sockets.xml</DocumentationFile>
+    <NoWarn>618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Debug\LillTek.Net.Sockets.xml</DocumentationFile>
+    <NoWarn>618</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Release\LillTek.Net.Sockets.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>618</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientAccessPolicyProtocol.cs" />
+    <Compile Include="Dns\A_RR.cs" />
+    <Compile Include="Dns\CNAME_RR.cs" />
+    <Compile Include="Dns\DnsException.cs" />
+    <Compile Include="Dns\DnsFlag.cs" />
+    <Compile Include="Dns\DnsMessage.cs" />
+    <Compile Include="Dns\DnsOpcode.cs" />
+    <Compile Include="Dns\DnsQClass.cs" />
+    <Compile Include="Dns\DnsQType.cs" />
+    <Compile Include="Dns\DnsRequest.cs" />
+    <Compile Include="Dns\DnsResolver.cs" />
+    <Compile Include="Dns\DnsResponse.cs" />
+    <Compile Include="Dns\DnsRR.cs" />
+    <Compile Include="Dns\DnsRRType.cs" />
+    <Compile Include="Dns\DnsServer.cs" />
+    <Compile Include="Dns\DnsServerSettings.cs" />
+    <Compile Include="Dns\MX_RR.cs" />
+    <Compile Include="Dns\NAK_RR.cs" />
+    <Compile Include="Dns\NS_RR.cs" />
+    <Compile Include="Dns\SOA_RR.cs" />
+    <Compile Include="Dns\EnhancedDns.cs" />
+    <Compile Include="EnhancedSocket.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="INetIOProvider.cs" />
+    <Compile Include="IPFilter.cs" />
+    <Compile Include="IPFilterItem.cs" />
+    <Compile Include="LiteSocket.cs" />
+    <Compile Include="NetHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocketClosedException.cs" />
+    <Compile Include="SocketCloseReason.cs" />
+    <Compile Include="SocketListener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PlatformKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Win32\LillTek.Win32.csproj">
+      <Project>{3a2dd65a-8521-46a3-874f-e8fa5c2bc763}</Project>
+      <Name>LillTek.Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc.LillTek.Net.Sockets.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

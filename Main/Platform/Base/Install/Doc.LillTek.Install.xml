@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Install</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Install">
+			<summary>
+			Implements useful installation functions such as <see cref="T:LillTek.Install.InstallTools"/> which
+			exposes additional functionality for use by application installers as well as
+			<see cref="T:LillTek.Install.Package"/> which provides the capability to read/write Zip style
+			file archives.
+			</summary>
+		</member>
+	</members>
+</doc>

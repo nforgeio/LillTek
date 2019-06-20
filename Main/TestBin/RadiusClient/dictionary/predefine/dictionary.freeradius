@@ -1,0 +1,11 @@
+#	The FreeRADIUS Vendor-Specific dictionary.
+#
+#
+
+VENDOR		FreeRADIUS	11344
+
+BEGIN-VENDOR FreeRADIUS
+
+ATTRIBUTE	FreeRADIUS-Proxied-To		1	ipaddr
+
+END-VENDOR FreeRADIUS

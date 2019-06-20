@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Data.Install</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Data.Install">
+			<summary>
+			Implements the installation and upgrade of databases by applying
+			LillTek database packages.
+			</summary>
+		</member>
+	</members>
+</doc>

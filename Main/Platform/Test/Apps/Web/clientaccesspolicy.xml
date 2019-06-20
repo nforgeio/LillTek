@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<access-policy>
+    <cross-domain-access>
+        <allow-from http-request-headers="*">
+            <domain uri="*" />
+            <domain uri="http://*" />
+            <domain uri="file:///" />
+        </allow-from>
+        <grant-to>
+            <resource path="/" include-subpaths="true" />
+            <socket-resource port="4502-4534" protocol="tcp" />
+        </grant-to>
+    </cross-domain-access>
+</access-policy>

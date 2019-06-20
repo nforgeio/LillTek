@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.ConfigService</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.ConfigService">
+			<summary>
+			Implements a centralized service for distributing configuration information
+			for within a data center.  See <see cref="T:LillTek.Datacenter.ConfigService.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

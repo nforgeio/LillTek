@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Datacenter.BroadcastServer</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Datacenter.BroadcastServer">
+			<summary>
+				Implements a UDP broadcast service for use on networks that don't support UDP multicast or broadcast.  See <see cref="T:LillTek.Datacenter.BroadcastServer.OverviewDoc" /> 
+				for more information.
+			</summary>
+		</member>
+	</members>
+</doc>

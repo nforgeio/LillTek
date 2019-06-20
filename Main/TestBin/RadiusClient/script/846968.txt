@@ -1,0 +1,12 @@
+User-Name = test1
+Acct-Status-Type = Start
+Acct-Session-Id = 0001
+
+User-Name = test1
+Acct-Status-Type = Alive
+Acct-Session-Id = 0001
+
+User-Name = test1
+Acct-Status-Type = Stop
+Acct-Session-Id = 0001
+

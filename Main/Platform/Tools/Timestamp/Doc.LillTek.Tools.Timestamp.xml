@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.Timestamp</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.Timestamp">
+			<summary>
+			Utility that modifies a file name with a timestamp.
+			</summary>
+		</member>
+	</members>
+</doc>

@@ -1,0 +1,43 @@
+//-----------------------------------------------------------------------------
+// Realms.txt
+//
+// This file maps authentication realms to an IAuthenticationExtension implementation as
+// well as the auguments necessary for the extension to function.  The mappings are specified 
+// one per line in the file.  The format for each mapping is:
+// 
+//          <realm>$$<extension typeref>$$<args>$$<query>
+//
+// where <realm> identifies the authentication realm, <extension typeref>
+// specifies a type implementing IAuthenticationExtension> formatted as:
+//
+//          <full type name>:<assembly path>
+//
+// <args> are the provider arguments and <query> is the optional provider query
+// string.  Note the use of "$$" as field separators.
+//
+// Note that environment variables embedded in the mapping lines will be
+// expanded before the mapping is loaded.  In addition to environment variables
+// created by the parent process, the following built-in variables are also
+// available:
+//
+// $(SystemRoot)                Path to the Windows root directory.
+// $(SystemDirectory)           Path to the Windows system files directory
+// $(Temp)                      Path to a temporary directory
+// $(Tmp)
+// $(AppPath)                   Directory containing the application's main executable
+// $(WIN32)                     Defined for WIN32 operating systems (Windows/XP, Windows/Server,...)
+// $(WINCE)                     Defined for Windows/CE
+// $(OS)                        The operating system name (Platform Name)
+// $(Guid)                      A globally unique identifier
+// $(MachineName)               The computer's name.
+// $(LillTek.DC.CloudEP)        The default LillTek data center discovery multicast endpoint
+// $(LillTek.DC.CloudGroup)     The default LillTek data center discovery multicast group
+// $(LillTek.DC.CloudPort)      The default LillTek data center discovery multicast port
+// $(LillTek.DC.RootPort)       The default LillTek data center root router port number
+// $(LillTek.DC.DefHubName)     The default LillTek data center hub router name
+//
+// The settings below configure a FileAuthenticationExtension for the
+// empty realm that queries against the unencrypted Accounts.txt file holding 
+// the account credentials.  This configuration is not suitable for production.
+
+$$LillTek.Datacenter.Server.FileAuthenticationExtension:LillTek.Datacenter.Server.dll$$path=$(AppPath)/accounts.txt;reload=yes;maxCacheTime=5m$$

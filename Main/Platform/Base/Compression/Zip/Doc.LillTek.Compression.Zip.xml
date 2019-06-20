@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.Compression</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.Compression">
+            <summary>
+                Compression utility classes.
+            </summary>
+        </member>
+        <member name="N:LillTek.Compression.Zip">
+            <summary>
+				Implements a ZIP file reader/writer (a very minor modification of <a href="http://www.icsharpcode.net/OpenSource/SharpZipLib/">SharpZipLib</a>).
+			</summary>
+        </member>
+        <member name="N:LillTek.Compression.Zip.Compression">
+			<exclude />
+        </member>
+        <member name="N:LillTek.Compression.Zip.Compression.Streams">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Compression.BZip2">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Compression.Checksums">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Compression.Core">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Compression.Encryption">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Compression.GZip">
+            <exclude />
+        </member>
+        <member name="N:LillTek.Compression.Tar">
+            <exclude />
+        </member>
+    </members>
+</doc>

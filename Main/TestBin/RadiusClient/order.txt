@@ -1,0 +1,39 @@
+Radius Test Registration details.
+
+The price for a single copy is US $29.95.
+
+All registering information located at http://www.radutils.com/buy_now.htm
+
+PAYMENT METHODS
+
+    Available ordering options: Credit Card, FAX Ordering,
+    Postal Mail, Phone, Purchase Order.Secure Payments assured.
+
+    RadUtils Inc. has selected RegSoft.com Inc.
+    to process credit card orders. 
+
+Secure Order URL (RegSoft.com)
+http://www.regsoft.net/purchase.php3?productid=67691
+
+    Sometimes you may have some problems with secure
+    registration pages, please try to use unsecure page
+    instead:
+
+Non Secure Order URL (RegSoft.com)
+http://www.regsoft.net/purchase_nonsecure.php3?productid=67691
+
+PRODUCTS PRICING
+    Number of licenses: Price per unit: 
+    1..4                $29.95 US 
+    5..9                $24.95 US 
+    10..19              $22.95 US 
+    20+                 $20.95 US 
+
+    Our products are licensing on per computer basis,
+    not per network, per site or per company.
+
+*** Support ***
+    E-mail: support@radutils.com
+    WWW: http://www.radutils.com
+
+This document was last saved on 06-06-2004

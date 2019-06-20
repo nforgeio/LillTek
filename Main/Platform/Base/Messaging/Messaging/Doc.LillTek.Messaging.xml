@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Messaging</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Messaging">
+			<summary>
+			A scalable high performance logical messaging infrastructure.  See <see cref="T:LillTek.Messaging.OverviewDoc" />
+			for more information.
+			</summary>
+		</member>
+        <member name="N:LillTek.Messaging.Queuing">
+            <summary>
+                Implements LillTek Message Queuing (LMQ).  See <see cref="T:LillTek.Messaging.Queuing.OverviewDoc" />
+                for more information.
+            </summary>
+        </member>
+        <member name="N:LillTek.Messaging.Internal">
+			<summary>
+			Internal LillTek implementation.
+			</summary>
+		</member>
+	</members>
+</doc>

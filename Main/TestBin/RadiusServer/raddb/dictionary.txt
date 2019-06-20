@@ -1,0 +1,130 @@
+#
+#	This file contains dictionary translations for parsing
+#	requests and generating responses.  All transactions are
+#	composed of Attribute/Value Pairs.  The value of each attribute
+#	is specified as one of 4 data types.  Valid data types are:
+#
+#	string - 0-253 octets
+#	ipaddr - 4 octets in network byte order
+#	integer - 32 bit value in big endian order (high byte first)
+#	date - 32 bit value in big endian order - seconds since
+#					00:00:00 GMT,  Jan.  1,  1970
+#
+#	Enumerated values are stored in the user file with dictionary
+#	VALUE translations for easy administration.
+#
+#	Example:
+#
+#	ATTRIBUTE	  VALUE
+#	---------------   -----
+#	Framed-Protocol = PPP
+#	7		= 1	(integer encoding)
+#
+ATTRIBUTE	User-Name		1	string
+ATTRIBUTE	User-Password		2	string
+ATTRIBUTE	CHAP-Password		3	string
+ATTRIBUTE	NAS-IP-Address(l)	4	ipaddr
+ATTRIBUTE	NAS-Port(l)		5	integer
+ATTRIBUTE	User-Service-Type	6	integer
+ATTRIBUTE	Framed-Protocol		7	integer
+ATTRIBUTE	Framed-IP-Address(l)	8	ipaddr
+ATTRIBUTE	Framed-IP-Netmask(l)	9	ipaddr
+ATTRIBUTE	Framed-Routing		10	integer
+ATTRIBUTE	Framed-Filter-Id	11	string
+ATTRIBUTE	Framed-MTU		12	integer
+ATTRIBUTE	Framed-Compression	13	integer
+ATTRIBUTE	Login-Host		14	ipaddr
+ATTRIBUTE	Login-Service		15	integer
+ATTRIBUTE	Login-TCP-Port		16	integer
+ATTRIBUTE	Old-Password		17	string
+ATTRIBUTE	Port-Message		18	string
+ATTRIBUTE	Dialback-No		19	string
+ATTRIBUTE	Dialback-Name		20	string
+ATTRIBUTE	Expiration		21	date
+ATTRIBUTE	Framed-Route		22	string
+ATTRIBUTE	Framed-IPX-Network	23	ipaddr
+ATTRIBUTE	Challenge-State		24	string
+ATTRIBUTE       Class(l)		25	string
+ATTRIBUTE	ActivCard(vs)		26	string
+ATTRIBUTE	Session-Timeout(l)	27	integer
+ATTRIBUTE	Idle-Timeout(l)		28	integer
+ATTRIBUTE	Terminate-Action(l)	29	integer
+ATTRIBUTE	Called-Station-Id(l)	30	string
+ATTRIBUTE	Calling-Station-Id(l)	31	string
+ATTRIBUTE	NAS-Identifier(l)	32	string
+ATTRIBUTE	Proxy-State(l)		33	string
+ATTRIBUTE	Login-LAT-Service(l)	34	string
+ATTRIBUTE	Login-LAT-Node(l)	35	string
+ATTRIBUTE	Login-LAT-Group(l)	36	string
+ATTRIBUTE	Framed-AppleTalk-Link(l)	37	integer
+ATTRIBUTE	Framed-AppleTalk-Network(l)	38	integer
+ATTRIBUTE	Framed-AppleTalk-Zone(l)	39	string
+ATTRIBUTE	Acct-Status-Type	40	integer
+ATTRIBUTE	Acct-Delay-Time		41	integer
+ATTRIBUTE	Acct-Session-Id		44	string
+ATTRIBUTE	Acct-Authentic		45	integer
+ATTRIBUTE	Acct-Session-Time	46	integer
+ATTRIBUTE	CHAP-Challenge(l)	60	string
+
+ATTRIBUTE	NAS-Port-Type		61	integer
+ATTRIBUTE	Port-Limit(l)		62	integer
+ATTRIBUTE	Login-LAT-Port(l)	63	string
+
+
+#
+#	Integer Translationsradiusd
+#
+
+#	User Types
+
+VALUE		User-Service-Type	Login-User		1
+VALUE		User-Service-Type	Framed-User		2
+VALUE		User-Service-Type	Dialback-Login-User	3
+VALUE		User-Service-Type	Dialback-Framed-User	4
+VALUE		User-Service-Type	Outbound-User		5
+VALUE		User-Service-Type	Shell-User		6
+
+#	Framed Protocols
+
+VALUE		Framed-Protocol		PPP			1
+VALUE		Framed-Protocol		SLIP			2
+
+#	Framed Routing Values
+
+VALUE		Framed-Routing		None			0
+VALUE		Framed-Routing		Broadcast		1
+VALUE		Framed-Routing		Listen			2
+VALUE		Framed-Routing		Broadcast-Listen	3
+
+#	Framed Compression Types
+
+VALUE		Framed-Compression	None			0
+VALUE		Framed-Compression	Van-Jacobsen-TCP-IP	1
+
+#	Login Services
+
+VALUE		Login-Service		Telnet			0
+VALUE		Login-Service		Rlogin			1
+VALUE		Login-Service		TCP-Clear		2
+VALUE		Login-Service		PortMaster		3
+
+#	Status Types
+
+VALUE		Acct-Status-Type	Start			1
+VALUE		Acct-Status-Type	Stop			2
+
+#	Authentication Types
+
+VALUE		Acct-Authentic		None			0
+VALUE		Acct-Authentic		RADIUS			1
+VALUE		Acct-Authentic		Local			2
+
+#
+# The following values are implementation and site dependent
+# and not transmitted as part of the protocol
+#
+
+#	Configuration Values
+
+VALUE		Server-Config		Password-Expiration	30
+VALUE		Server-Config		Password-Warning	5

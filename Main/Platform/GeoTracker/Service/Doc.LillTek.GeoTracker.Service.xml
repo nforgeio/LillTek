@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+    <assembly>
+        <name>LillTek.GeoTracker.Service</name>
+    </assembly>
+    <members>
+        <member name="N:LillTek.GeoTracker.Service">
+            <summary>
+                The LillTek GeoTracker application service.
+                See <see cref="T:LillTek.GeoTracker.Service.OverviewDoc" /> for more information.
+            </summary>
+        </member>
+    </members>
+</doc>

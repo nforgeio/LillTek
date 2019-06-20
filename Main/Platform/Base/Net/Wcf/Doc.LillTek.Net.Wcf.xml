@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Net.Wcf</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Net.Wcf">
+			<summary>
+			Extends the .NET Framework Windows Communication Foundation with classes
+			useful for implementing LillTek Platform applications and services.
+			</summary>
+		</member>
+	</members>
+</doc>

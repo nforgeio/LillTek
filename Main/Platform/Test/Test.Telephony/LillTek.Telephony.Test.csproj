@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B3BD14A-7F9D-405A-B7E5-8BF56964C7A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Telephony.Test</RootNamespace>
+    <AssemblyName>LillTek.Telephony.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>UnitTestKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Speech, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Speech Platform SDK\Assembly\Microsoft.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="NeonSwitchCore\_PhraseCache.cs" />
+    <Compile Include="NeonSwitchCore\_SpeechEngine.cs" />
+    <Compile Include="NeonSwitchCore\_SpeechEngineSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sip\_Invite.cs" />
+    <Compile Include="Sip\_Request.cs" />
+    <Compile Include="Sip\_SdpPayload.cs" />
+    <Compile Include="Sip\_SipAuthenticateValue.cs" />
+    <Compile Include="Sip\_SipAuthorizationValue.cs" />
+    <Compile Include="Sip\_SipB2BUserAgent.cs" />
+    <Compile Include="Sip\_SipBaseTimers.cs" />
+    <Compile Include="Sip\_SipBasicCore.cs" />
+    <Compile Include="Sip\_SipContactValue.cs" />
+    <Compile Include="Sip\_SipCoreSettings.cs" />
+    <Compile Include="Sip\_SipCSeqValue.cs" />
+    <Compile Include="Sip\_SipDialog.cs" />
+    <Compile Include="Sip\_SipHeader.cs" />
+    <Compile Include="Sip\_SipHeaderCollection.cs" />
+    <Compile Include="Sip\_SipHelper.cs" />
+    <Compile Include="Sip\_SipMaxForwardsValue.cs" />
+    <Compile Include="Sip\_SipMssGateway.cs" />
+    <Compile Include="Sip\_SipRequest.cs" />
+    <Compile Include="Sip\_SipResponse.cs" />
+    <Compile Include="Sip\_SipTcpTransport.cs" />
+    <Compile Include="Sip\_SipTransportSettings.cs" />
+    <Compile Include="Sip\_SipUdpTransport.cs" />
+    <Compile Include="Sip\_SipUri.cs" />
+    <Compile Include="Sip\_SipValue.cs" />
+    <Compile Include="Sip\_SipViaValue.cs" />
+    <Compile Include="Sip\_Transactions.cs" />
+    <Compile Include="Telephony\_ChannelVariableCollection.cs" />
+    <Compile Include="Telephony\_DialedEndpoint.cs" />
+    <Compile Include="Telephony\_Phrase.cs" />
+    <Compile Include="Telephony\_SwitchConnection.cs" />
+    <Compile Include="Telephony\_SwitchEventCodeSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnitTestKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Cryptography\Cryptography\LillTek.Cryptography.csproj">
+      <Project>{845744e0-268e-482b-adcd-1c334e1f2d37}</Project>
+      <Name>LillTek.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{10503a0b-576c-4d6a-a7b7-326d4bc2e0dd}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Testing\Testing\LillTek.Testing.csproj">
+      <Project>{ec64bbae-af97-44f8-8c52-eae63dc72f16}</Project>
+      <Name>LillTek.Testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Telephony\NeonSwitchCore\LillTek.Telephony.NeonSwitchCore.csproj">
+      <Project>{2db595af-9ba8-4832-b75a-af81c441535e}</Project>
+      <Name>LillTek.Telephony.NeonSwitchCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Telephony\NeonSwitch\LillTek.Telephony.NeonSwitch.csproj">
+      <Project>{8d554758-7340-4024-b072-f14304382ecc}</Project>
+      <Name>LillTek.Telephony.NeonSwitch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Telephony\Sip\LillTek.Telephony.Sip.csproj">
+      <Project>{5a189f47-67cb-4e79-85c6-5530782128bd}</Project>
+      <Name>LillTek.Telephony.Sip</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Telephony\Telephony\LillTek.Telephony.csproj">
+      <Project>{01cb31af-d833-4cd4-8053-8bc05ff0be69}</Project>
+      <Name>LillTek.Telephony</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

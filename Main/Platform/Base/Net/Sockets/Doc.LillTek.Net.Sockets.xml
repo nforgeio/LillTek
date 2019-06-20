@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Net.Sockets</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Net.Sockets">
+			<summary>
+			Extended socket and DNS related classes.
+			</summary>
+		</member>
+	</members>
+</doc>

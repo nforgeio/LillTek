@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Advanced</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Advanced">
+			<summary>
+			Implements less commonly used general purpose classes.
+			</summary>
+		</member>
+	</members>
+</doc>

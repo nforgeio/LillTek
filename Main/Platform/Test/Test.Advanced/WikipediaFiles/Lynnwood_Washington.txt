@@ -1,0 +1,220 @@
+  <page>
+    <title>Lynnwood, Washington</title>
+    <id>138213</id>
+    <revision>
+      <id>421566368</id>
+      <timestamp>2011-03-30T23:40:34Z</timestamp>
+      <contributor>
+        <username>L5gcw0b</username>
+        <id>14294239</id>
+      </contributor>
+      <minor />
+      <comment>/* Neighborhood parks */</comment>
+      <text xml:space="preserve">{{redirect|Lynnwood}}
+
+{{Infobox settlement
+|official_name            = City of Lynnwood
+|settlement_type          = [[City]]
+|image_skyline            = Lynnwoodwelcome.jpg
+|imagesize                = 200px
+|image_caption            =
+|image_seal               = Lynnwood Logo.png
+|image_map = Snohomish_County_Washington_Incorporated_and_Unincorporated_areas_Lynnwood_Highlighted.svg
+|mapsize                  = 150px
+|map_caption              = Location of Lynnwood, Washington
+|image_map1               =
+|mapsize1                 =
+|map_caption1             =
+map_caption1             =
+|coordinates_region       = US-WA
+|subdivision_type         = [[List of countries|Country]]
+|subdivision_type1        = [[US state|State]]
+|subdivision_type2        = [[List of counties in Washington|County]]
+|subdivision_name         = [[United States]]
+|subdivision_name1        = [[Washington (U.S. state)|Washington]]
+|subdivision_name2        = [[Snohomish County, Washington|Snohomish]]
+|government_type          =
+|leader_title             = [[Mayor]]
+|leader_name              = Don Gough
+|established_date         =
+|area_magnitude           =
+|area_total_km2           = 19.8
+|area_land_km2            = 19.8
+|area_water_km2           = 0.01
+|population_as_of         = [[2010 United States Census|2010]]
+|population_total         = 35,836
+|population_density_km2   = 1710.5
+|population_blank1_title  = [[Demonym]]
+|population_blank1        = Lynnwoodian
+|timezone                 = [[Pacific Standard Time|PST]]
+|utc_offset               = -8
+|timezone_DST             = [[Pacific Daylight Time|PDT]]
+|utc_offset_DST           = -7
+|latitude =
+|longitude =
+|coordinates_display      = 1
+|latd = 47 |latm = 49 |lats = 40 |latNS = N
+|longd = 122 |longm = 18 |longs = 19 |longEW = W
+|website                  = [http://www.ci.lynnwood.wa.us www.ci.lynnwood.wa.us]
+|area_total_sq_mi         = 7.7
+|area_land_sq_mi          = 7.6
+|area_water_sq_mi         = 0.0
+|elevation_m              = 167-182
+|elevation_ft             = 350-600
+|postal_code_type         = [[ZIP code]]s
+|postal_code              = 98036, 98037, 98046, 98087
+|area_code                = [[Area code 425|425]]
+|blank_name               = [[Federal Information Processing Standard|FIPS code]]
+|blank_info               = 53-40840{{GR|2}}
+|blank1_name              = [[Geographic Names Information System|GNIS]] feature ID
+|blank1_info              = 1512414{{GR|3}}
+|footnotes                =
+}}
+
+'''Lynnwood''' is a city in [[Snohomish County, Washington|Snohomish County]], [[Washington (U.S. state)|Washington]], [[United States]]. The population was 35,836 at the [[2010 United States Census|2010 census]], making it the fourth largest in Snohomish County and twenty-ninth largest in Washington State. The city is an indefinable mix of urban, suburban, small city, crossroads and bedroom community to many professionals who work in [[Seattle]]. Lynnwood is known to be the &quot;hub city&quot; of south [[Snohomish County]] because of all the retail shopping. Straddling the junction between [[Interstate 5 (Washington)|Interstate 5]] and the north end of [[Interstate 405 (Washington)|Interstate 405]] in Washington, it is the final tangle of population on the north end of &quot;greater Seattle&quot; before one continues on to other places: [[Everett, Washington|Everett]], [[Bellingham, Washington|Bellingham]], or [[Vancouver, BC]]. Its climate is wet and cool, wetter than that of Seattle. The center of the town at 44th Avenue West and 196th Southwest has the usual American panoply of small businesses, [[strip mall]]s, and retail stores. Outside the commercial center of Lynnwood, to the east and north, lie [[Alderwood Mall]], houses, and portions of the green belt.
+
+==History==
+Lynnwood was officially incorporated on April 23, 1959, from a larger unincorporated area called [[Alderwood Manor]]. The area was originally platted, developed, and sold as {{convert|1|acre|m2|adj=on}} lots designed for raising chickens. Even today you can see many of the original 80 year old homes that were the chicken ranches,&lt;ref&gt;{{cite book |last=Satterfield |first=Archie |authorlink= |coauthors= |title=Edmonds, The First Century |year=1990 |publisher=City of Edmonds |location=Edmonds, WA |isbn=0-9625484-0-5 }}&lt;/ref&gt; and old buildings. [[Image:Mtlyn.jpg|thumb|left|Former [[Masonic Temple (Alderwood Manor, Washington)|Masonic Temple]] built in 1919 still stands today near 36th Ave W and 196th St Sw in Lynnwood.]]
+
+The name &quot;Lynnwood&quot; comes from a developer from [[Seattle]] who planned to build something at [[Washington State Route 99|Highway 99]] and Alderwood Road (now 196th ST SW). He named the building &quot;Lynn&quot; for his wife and &quot;wood&quot; for Alderwood. Many other stores around took the name Lynnwood and were known as the Lynnwood Business District.
+
+The initial center of the incorporated city was the intersection of [[Washington State Route 99|State Route 99]] (Highway 99) and [[Washington State Route 524|State Route 524]] (196th Street SW). When [[Interstate 5 (Washington)|I-5]] was built, the exit onto 44th Avenue West became the main Lynnwood exit. At that time, the city zoned the area East of 48th W, south of 194th SW, and west of the new freeway for commercial development, and the current city center area was born, with the construction of the [[Fred Meyer]] store, a new hotel called the Landmark (now [[La Quinta Inns &amp; Suites]]) on 200th and 44th, and other commercial developments.
+
+With the planned construction of [[Interstate 405 (Washington)|I-405]] bringing more people by the city, developers built the [[Alderwood Mall]], effectively moving the main commercial area even farther east.
+
+==Geography==
+Lynnwood is located at {{coord|47.827868|-122.305391|type:city_region:US|format=dms|display=inline}} (47.827868, -122.305391).{{GR|1}}
+
+According to the [[United States Census Bureau]], the city has a total area of 7.7&amp;nbsp;square miles (19.8&amp;nbsp;km&lt;sup&gt;2&lt;/sup&gt;), of which, 7.6&amp;nbsp;square miles (19.8&amp;nbsp;km&lt;sup&gt;2&lt;/sup&gt;) of it is land and 0.04&amp;nbsp;square miles (0.1&amp;nbsp;km&lt;sup&gt;2&lt;/sup&gt;) of it (0.26%) is water.
+
+Natural features within Lynnwood include Scriber Lake, Hall Lake, and [[Swamp Creek (Washington)|Swamp Creek]].
+
+==Demographics==
+{{USCensusPop
+|1960= 7207
+|1970= 16919
+|1980= 22641
+|1990= 28637
+|2000= 33847
+|2010= 35836
+}}
+[[Image:LynnwoodWA196thSTandHwy99.JPG|thumb|left|Highway 99 and 196th ST SW, one of the busiest intersections in Lynnwood.]]
+As of the [[census]]{{GR|2}} of 2000, there were 33,847 people, 13,328 households, and 8,330 families residing in the city. The [[population density]] was 4,431.2 people per square mile (1,710.5/km&lt;sup&gt;2&lt;/sup&gt;). There were 13,808 housing units at an average density of 1,807.7/sq&amp;nbsp;mi (697.8/km&lt;sup&gt;2&lt;/sup&gt;). The racial makeup of the city was 74.27% [[White (U.S. Census)|White]], 3.28% [[African American (U.S. Census)|African American]], 1.02% [[Native American (U.S. Census)|Native American]], 13.87% [[Asian (U.S. Census)|Asian]], 0.40% [[Pacific Islander (U.S. Census)|Pacific Islander]], 2.80% from [[Race (United States Census)|other races]], and 4.35% from two or more races. [[Hispanic (U.S. Census)|Hispanic]] or [[Latino (U.S. Census)|Latino]] of any race were 6.96% of the population.
+
+There were 13,328 households out of which 32.1% had children under the age of 18 living with them, 46.3% were [[Marriage|married couples]] living together, 11.5% had a female householder with no husband present, and 37.5% were non-families. 29.3% of all households were made up of individuals and 9.4% had someone living alone who was 65 years of age or older. The average household size was 2.50 and the average family size was 3.13.
+
+In the city the population was spread out with 24.4% under the age of 18, 10.4% from 18 to 24, 32.1% from 25 to 44, 21.3% from 45 to 64, and 11.8% who were 65 years of age or older. The median age was 35 years. For every 100 females there were 95.0 males. For every 100 females age 18 and over, there were 92.0 males.
+
+The median income for a household in the city was $42,814, and the median income for a family was $51,825. Males had a median income of $37,395 versus $30,070 for females. The [[per capita income]] for the city was $19,971. About 6.2% of families and 9.5% of the population were below the [[poverty line]], including 9.8% of those under age 18 and 12.2% of those age 65 or over.
+
+==Education==
+[[Image:EdmondsCCSnoqualmie-Hall.jpg|thumb|right|upright|Snoqualmie Hall, a building shared by Edmonds Community College and Central Washington University, 2007]]
+
+* [[Central Washington University]]- Lynnwood offers bachelor's degrees in Accounting, Business Administration, Elementary Education,
+Food Service Management, Social Sciences, Information Technology and Administrative Management, Law and Justice, Mathematics: Teaching Secondary,
+Safety and Health Management as well as a master's degree in Professional Accountancy all located on the Edmonds Community College campus.
+
+* [[Edmonds Community College]] established in 1967 is a two-year public college with a {{convert|50|acre|m2|sing=on}} campus in Lynnwood. It offers the first two years of a four-year degree, bachelor’s degree completion via local and online university partnerships, career-training degrees and certificates in business, technology or human services, as well as college credit in high school.
+
+* High Schools: [[Lynnwood High School]], [[Meadowdale High School]], and [[Scriber Lake High School]].
+
+* Middle Schools: [[Alderwood Middle School]], Meadowdale Middle School, and College Place Middle School.
+
+* Elementary Schools: Beverly Elementary, Lynnwood Elementary, Oak Heights Elementary, Cedar Valley Community School, College Place Elementary, Seaview Elementary, Spruce Elementary, Meadowdale Elementary, Hilltop Elementary, Hazelwood Elementary, Martha Lake Elementary, and Lynndale Elementary.
+
+==Landmarks==
+[[Image:Lynnwood.jpg|thumb|left|Overlooking [[Alderwood Mall]] on the intersection of 188th and 36th.]]
+Other than the Alderwood Mall and the City Center, there are few notable city landmarks.
+
+The Pine Cone Cafe on 188th SW and Highway 99 was open for decades.  It resembled greatly [[Beth's Cafe]] about fifteen miles (24&amp;nbsp;km) south on 99 in Seattle and was historically a big draw for Lynnwood's now long gone biker culture.  The interior was like a rail car with tables on each side of a central aisle.  In the rear were two very playable pinball machines.  Many teenagers came to the restaurant just to play pinball during the mid-1970s.  In more recent times the Pine Cone was very popular among counter-culture teenagers in general, and seniors as well.  No longer a restaurant, it is currently a smoke shop named &quot;Crown Smoke.&quot; Jimbos, a burger restaurant that closed down in 2006 due to excavation was a well known burger restaurant for families to go out and eat.
+
+On 164th St. SW and Highway 99 lies Keeler's Corner, an old-fashioned gas station long out of service (not to be confused with Keeler's Corner Apartments, which is across the street). The Pantry Cafe on Lincoln and Highway 99 was burned down in 2004, but before the accident its legacy was certainly considerable. Most locals are familiar with the House of Clocks, an old-fashioned clock store, on 156th and Highway 99. A little farther south on Highway 99 was the Sno-King Drive-In which opened in 1946 and closed in 1986. Now a [[Value Village]] occupies the site of the former drive-in theatre. The local bowling and roller skating center, Lynnwood Bowl &amp; Skate (formerly Lynnwood Lanes and Lynnwood Roll-A-Way), on 200th St. SW and Highway 99 opened for business in the 1950s and still operates today.
+
+==Parks==
+''See Also: [http://www.ci.lynnwood.wa.us/Content/Community.aspx?id=106 City of Lynnwood Parks &amp; Recreation Homepage]
+
+===Neighborhood parks===
+* Daleway Park
+* Gold Park
+* [http://www1.co.snohomish.wa.us/Departments/Parks/Park_Information/Park_Directory/Regional_Parks/Meadowdale.htm Meadowdale Park]
+* N. Lynnwood Neighborhood Park
+* Pioneer Park
+* Scriber Creek Park
+* South Lynnwood Park
+* Spruce Park
+
+===Community parks===
+* Lynndale Park, with [[Skate Park]]
+[[Image:Lynnwoodsign.jpg|thumb|right|A sign at Heritage Park about the Interurban Trolley.]]
+* Lynnwood Athletic Complex
+* Meadowdale Playfields
+* [[Scriber Lake Park]] Twenty-two acre of wetlands south of Wilcox Park.
+* Wilcox Park, formerly Flag Park.
+
+===Mini parks===
+* Veterans Park, park south of Library honoring local veterans.
+* Maple Mini Park
+* Mini Park at Sprague's Pond
+
+===Facilities===
+* Golf Course
+* Heritage Park, shows historic buildings of the Lynnwood, Washington area formerly called [[Alderwood Manor]].
+* Recreation Center
+* Senior Center
+
+===Trails===
+* Golf Course Trail
+* Interurban Trail, former site of Interurban Trolley tracks between [[Seattle, Washington|Seattle]] and [[Everett, Washington|Everett]] (1910–1939).
+* Mesika Trail, trail runs along west border of Lynnwood Civic Center campus.
+* Scriber Creek Trail, trail runs along Scriber Creek wetlands near Lynnwood Transit Center.
+
+===Open space===
+* Lund's Gulch
+
+==Notable natives==
+* [[Randy Couture]]
+* [[Tom McGrath (animator)|Tom McGrath]]
+* [[Layne Staley]]
+* [[Paul Kenneth Keller]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{Commons category|Lynnwood, Washington}}
+* [http://www.ci.lynnwood.wa.us/ City of Lynnwood]
+* {{dmoz|Regional/North_America/United_States/Washington/Localities/L/Lynnwood/}}
+
+{{Geographic location
+|Northwest = [[Mukilteo, Washington|Mukilteo]]
+|North     = [[Everett, Washington|Everett]]
+|Northeast = [[Mill Creek, Washington|Mill Creek]]
+|West      = [[Edmonds, Washington|Edmonds]]
+|Centre    = Lynnwood
+|East      = [[Bothell, Washington|Bothell]]
+|Southwest = [[Mountlake Terrace, Washington|Mountlake Terrace]]
+|South     = [[Brier, Washington|Brier]]
+|}}
+
+{{Snohomish County, Washington}}
+{{Washington}}
+
+[[Category:Cities in Washington (state)]]
+[[Category:Populated places in Snohomish County, Washington]]
+[[Category:Cities in the Seattle metropolitan area]]
+
+[[ar:لينوود، واشنطن]]
+[[bg:Линуд]]
+[[ca:Lynnwood]]
+[[de:Lynnwood]]
+[[es:Lynnwood]]
+[[fr:Lynnwood (Washington)]]
+[[ht:Lynnwood, Washington]]
+[[nl:Lynnwood]]
+[[pl:Lynnwood]]
+[[pt:Lynnwood (Washington)]]
+[[ru:Линвуд (Вашингтон)]]
+[[vi:Lynnwood, Washington]]
+[[vo:Lynnwood]]</text>
+    </revision>
+  </page>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4950D33D-9C59-440D-A653-B05F169F59A5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Tools.Vegomatic</RootNamespace>
+    <AssemblyName>_vegomatic</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WINFULL</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthCommand.cs" />
+    <Compile Include="AwsCommand.cs" />
+    <Compile Include="CryptoCommand.cs" />
+    <Compile Include="EventLogCommand.cs" />
+    <Compile Include="FileCommand.cs" />
+    <Compile Include="HelpMungeCommand.cs" />
+    <Compile Include="HttpCommand.cs" />
+    <Compile Include="IisCommand.cs" />
+    <Compile Include="IniCommand.cs" />
+    <Compile Include="Linq2SqlCommand.cs" />
+    <Compile Include="MemoryCommand.cs" />
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="NetCommand.cs" />
+    <Compile Include="PackCommand.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SilverlightCommand.cs" />
+    <Compile Include="SourceCommand.cs" />
+    <Compile Include="SvnCommand.cs" />
+    <Compile Include="TextCommand.cs" />
+    <Compile Include="TFCommand.cs" />
+    <Compile Include="TimeZoneCommand.cs" />
+    <Compile Include="TSQLCommand.cs" />
+    <Compile Include="UnzipCommand.cs" />
+    <Compile Include="WebCommand.cs" />
+    <Compile Include="ZipCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Advanced\LillTek.Advanced.csproj">
+      <Project>{287b533d-814d-4dca-87eb-fcf2af711e07}</Project>
+      <Name>LillTek.Advanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Compression\Zip\LillTek.Compression.Zip.csproj">
+      <Project>{3fb5bcde-5e77-4c19-b47e-9e01a1f24d22}</Project>
+      <Name>LillTek.Compression.Zip</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Cryptography\Cryptography\LillTek.Cryptography.csproj">
+      <Project>{845744e0-268e-482b-adcd-1c334e1f2d37}</Project>
+      <Name>LillTek.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Data\Data\LillTek.Data.csproj">
+      <Project>{9339eb11-8c21-41e5-b744-05b445f81dff}</Project>
+      <Name>LillTek.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Messaging\Messaging\LillTek.Messaging.csproj">
+      <Project>{06264f71-36f3-42e0-80af-857ed7b2cb86}</Project>
+      <Name>LillTek.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Radius\LillTek.Net.Radius.csproj">
+      <Project>{4002e59b-4594-45fa-960c-42a6ee147571}</Project>
+      <Name>LillTek.Net.Radius</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{10503a0b-576c-4d6a-a7b7-326d4bc2e0dd}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Win32\LillTek.Win32.csproj">
+      <Project>{3a2dd65a-8521-46a3-874f-e8fa5c2bc763}</Project>
+      <Name>LillTek.Win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Datacenter\Datacenter\LillTek.Datacenter.csproj">
+      <Project>{0dd2754a-d7b2-4cfe-8b72-ce3c819ace27}</Project>
+      <Name>LillTek.Datacenter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc.LillTek.Tools.Vegomatic.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>@echo on
+rem Use ILMerge to create a single executable that includes all of the referenced assemblies.
+
+if exist $(TargetDir)vegomatic.exe del $(TargetDir)vegomatic.exe
+
+rem $todo(jeff.lill): 
+rem I'm getting a weird error from limerge.exe when that class library PDBs are out-of-date relative
+rem  to the DLL.  I'm just going to temporarily rename  the PDBs and restore them below as a work-around.
+
+del $(TargetDir)*._pdb
+ren $(TargetDir)*.pdb *._pdb
+
+ilmerge /targetplatform:v4,$(DOTNETPATH) /closed /out:$(TargetDir)vegomatic.exe $(TargetDir)_vegomatic.exe  $(TargetDir)LillTek.Advanced.dll $(TargetDir)LillTek.Common.dll $(TargetDir)LillTek.Compression.Zip.dll $(TargetDir)LillTek.Const.dll $(TargetDir)LillTek.Cryptography.dll $(TargetDir)LillTek.Data.dll  $(TargetDir)LillTek.DataCenter.dll $(TargetDir)LillTek.Client.dll $(TargetDir)LillTek.LowLevel.dll $(TargetDir)LillTek.Messaging.dll $(TargetDir)LillTek.Net.Radius.dll $(TargetDir)LillTek.Net.Sockets.dll $(TargetDir)LillTek.Net.Wcf.dll $(TargetDir)LillTek.Service.dll $(TargetDir)LillTek.ServiceModel.dll $(TargetDir)LillTek.Win32.dll $(TargetDir)LillTek.Xml.dll
+
+rem Restore the PDBs
+
+ren $(TargetDir)*._pdb *.pdb
+
+rem Copy the tool to the build folder
+
+if not exist $(LT_BUILD) mkdir $(LT_BUILD)
+copy /y $(TargetDir)vegomatic.exe $(LT_BUILD)
+if exist $(TargetDir)vegomatic.pdb copy /y $(TargetDir)vegomatic.pdb $(LT_BUILD)
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

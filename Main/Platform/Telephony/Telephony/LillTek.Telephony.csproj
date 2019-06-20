@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01CB31AF-D833-4CD4-8053-8BC05FF0BE69}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LillTek.Telephony</RootNamespace>
+    <AssemblyName>LillTek.Telephony</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Debug\LillTek.Telephony.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>WINFULL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Release\LillTek.Telephony.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PlatformKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINFULL</DefineConstants>
+    <DocumentationFile>bin\Debug\LillTek.Telephony.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>WINFULL</DefineConstants>
+    <DocumentationFile>bin\Release\LillTek.Telephony.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeSWITCH.Managed">
+      <HintPath>..\..\..\External\FreeSWITCH\Lib\FreeSWITCH.Managed.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Api\ChannelVariableCollection.cs" />
+    <Compile Include="Common\Api\DialedEndpoint.cs" />
+    <Compile Include="Common\Api\DialedEndpointList.cs" />
+    <Compile Include="Common\Enum\CallDirection.cs" />
+    <Compile Include="Common\Enum\CallLeg.cs" />
+    <Compile Include="Common\Enum\ChannelState.cs" />
+    <Compile Include="Common\Connection\SwitchEventCodeSet.cs" />
+    <Compile Include="Common\Enum\DtmfType.cs" />
+    <Compile Include="Common\Misc\Dtmf.cs" />
+    <Compile Include="Common\Misc\TelephoneTone.cs" />
+    <Compile Include="Common\NamespaceDoc.cs" />
+    <Compile Include="Common\Enum\SwitchHangupReason.cs" />
+    <Compile Include="Common\Connection\SwitchCommandReceivedArgs.cs" />
+    <Compile Include="Common\Connection\SwitchInboundConnectionArgs.cs" />
+    <Compile Include="Common\Connection\SwitchJobCompletedArgs.cs" />
+    <Compile Include="Common\Connection\CommandDisposition.cs" />
+    <Compile Include="Common\Misc\SwitchHelper.cs" />
+    <Compile Include="Common\Misc\SwitchHelper.Enum.cs" />
+    <Compile Include="Common\Connection\SwitchLogEntryReceivedArgs.cs" />
+    <Compile Include="Common\Connection\SwitchDisconnectArgs.cs" />
+    <Compile Include="Common\Connection\SwitchEventReceivedArgs.cs" />
+    <Compile Include="Common\Misc\SwitchException.cs" />
+    <Compile Include="Common\Enum\SwitchLogLevel.cs" />
+    <Compile Include="Common\Connection\SwitchPacket.cs" />
+    <Compile Include="Common\Enum\SwitchEventCode.cs" />
+    <Compile Include="Common\Connection\SwitchPacketType.cs" />
+    <Compile Include="Common\Speech\Phrase.cs" />
+    <Compile Include="Common\Speech\PhraseType.cs" />
+    <Compile Include="Common\Speech\TtsEncoding.cs" />
+    <Compile Include="Common\Speech\TtsSampleRate.cs" />
+    <Compile Include="NamepaceDoc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\Connection\SwitchConnection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Advanced\LillTek.Advanced.csproj">
+      <Project>{287b533d-814d-4dca-87eb-fcf2af711e07}</Project>
+      <Name>LillTek.Advanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Common\Common\LillTek.Common.csproj">
+      <Project>{171d812a-5258-4e94-91fd-a67de0203c98}</Project>
+      <Name>LillTek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Const\Const\LillTek.Const.csproj">
+      <Project>{0a4752ad-591d-4557-b8a1-d84bf6a010ce}</Project>
+      <Name>LillTek.Const</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Messaging\Messaging\LillTek.Messaging.csproj">
+      <Project>{06264F71-36F3-42E0-80AF-857ED7B2CB86}</Project>
+      <Name>LillTek.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Base\Net\Sockets\LillTek.Net.Sockets.csproj">
+      <Project>{10503a0b-576c-4d6a-a7b7-326d4bc2e0dd}</Project>
+      <Name>LillTek.Net.Sockets</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc.LillTek.Telephony.xml" />
+    <None Include="PlatformKey.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>REM Copy the build outputs to the NeonSwitch folder.
+
+if $(ConfigurationName)==Release goto setReleaseVars
+
+set NEONSWITCH_MOD=$(NEONSWITCH_DEBUGMOD)
+goto varsSet
+
+:setReleaseVars
+
+set NEONSWITCH_MOD=$(NEONSWITCH_RELEASEMOD)
+
+:varsSet
+
+vegomatic file createpath %25NEONSWITCH_MOD%25\managed\NeonSwitch
+copy $(TargetDir)*.dll %25NEONSWITCH_MOD%25\managed\NeonSwitch
+copy $(TargetDir)*.pdb %25NEONSWITCH_MOD%25\managed\NeonSwitch
+
+:done
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

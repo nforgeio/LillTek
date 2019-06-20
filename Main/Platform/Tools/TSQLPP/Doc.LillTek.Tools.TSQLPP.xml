@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+	<assembly>
+		<name>LillTek.Tools.TSQLPP</name>
+	</assembly>
+	<members>
+		<member name="N:LillTek.Tools.TSQLPP">
+			<summary>
+			The T-SQL script preprocessor implements macro substitution, constant
+			imports from assemblies, and a simple nested transaction syntax.
+			<see cref="T:LillTek.Tools.TSQLPP.OverviewDoc" /> for more information.
+			</summary>
+		</member>
+	</members>
+</doc>
